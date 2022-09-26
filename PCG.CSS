@@ -1,0 +1,652 @@
+/*Diseño principal de la Página*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+video{
+    height: 1080px;
+    width: 1920px;
+}
+
+/* Resolución de la Página */
+
+@media (max-width: 960px){
+    .Desktop-Header{
+        display: none;
+    }
+    .Tablet-Header{
+        display: none;
+    }
+    .Desktop-Main{
+        display: none;
+    }
+    .Tablet-Main{
+        display: none;
+    }
+    .Desktop-Footer{
+        display: none;
+    }
+    .Tablet-Footer{
+        display: none;
+    }
+}
+
+@media (min-width: 961px) and (max-width: 1280px){
+    .Desktop-Header{
+        display: none;
+    }
+    .Móvil-Header{
+        display: none;
+    }
+    .Desktop-Main{
+        display: none;
+    }
+    .Móvil-Main{
+        display: none;
+    }
+    .Desktop-Footer{
+        display: none;
+    }
+    .Móvil-Footer{
+        display: none;
+    }
+}
+
+@media (min-width: 1281px){
+    .Tablet-Header{
+        display: none;
+    }
+    .Móvil-Header{
+        display: none;
+    }
+    .Tablet-Main{
+        display: none;
+    }
+    .Móvil-Main{
+        display: none;
+    }
+    .Tablet-Footer{
+        display: none;
+    }
+    .Móvil-Footer{
+        display: none;
+    }
+}
+
+/*Resolución en React*/
+
+@media (min-width: 1281px){
+    .Tablet-Header-React{
+        display: none;
+    }
+    .Móvil-Header-React{
+        display: none;
+    }
+}
+
+/* Encabezado (Desktop-PC) */
+
+.header{
+    text-align: center;
+}
+
+.Desktop-Header video{
+    height: 100%;
+    width: 100%;
+}
+
+.Logotipo-Desktop{
+    position: absolute;
+    top: 5px;
+}
+
+/* Nombre Completo (PC-Desktop) */
+
+.NombreCompleto-Desktop{
+    position: absolute;
+    top: 135px;
+    color: red;
+    font-size: 40px;
+}
+
+/* Desarrollo Web (Que hago) [PC] */
+
+.LoQueCreoQueSoyYLoQueMeFalta-PC{
+    position: absolute;
+    top: 180px;
+    font-size: 40px;
+    color: blue
+}
+
+/* Mi GitHub (PC-Desktop) */
+
+.GitHub-Desktop{
+    position: absolute;
+    top: 370px;
+    font-size: 40px;
+}
+
+.GitHub-Desktop a{
+    text-decoration: none;
+}
+
+/* (PC-Desktop) */
+
+.TítuloDeLoQueSé-Desktop{
+    position: absolute;
+    top: 475px;
+    font-size: 30px;
+}
+
+/* Un tanto de lo que sé (PC-Desktop) */
+
+.LoQueSé-Desktop{
+    display: flex;
+    position: absolute;
+    top: 550px;
+    font-size: 28px;
+}
+
+.HTML5-Desktop b{
+    color: orangered;
+}
+
+.HTML5-Desktop img{
+    height: 100px;
+    width: 82px;
+}
+
+.CSS3-Desktop{
+    margin-left: 32px;
+}
+
+.CSS3-Desktop b{
+    color: rgb(0, 140, 255);
+    margin-left: 10px;
+}
+
+.CSS3-Desktop img{
+    height: 100px;
+    width: 82px;
+}
+
+.JavaScript-Desktop{
+    margin-left: 32px;
+}
+
+.JavaScript-Desktop b{
+    color: yellowgreen;
+}
+
+.JavaScript-Desktop img{
+    height: 100px;
+    width: 165px;
+}
+
+.Python-Desktop{
+    margin-left: 32px;
+}
+
+.Python-Desktop b{
+    color: green;
+}
+
+.Python-Desktop img{
+    height: 100px;
+    width: 100px;
+}
+
+/* Los FrameWorks que sé */
+
+#FrameWorks-Desktop{
+    position: absolute;
+    top: 800px;
+    margin-left: 235px;
+    font-size: 40px;
+}
+
+.FrameWorks-Desktop{
+    display: flex;
+    position: absolute;
+    top: 855px;
+}
+
+.FrameWorks-Desktop b{
+    font-size: 38px;
+}
+
+.GSAP-Desktop b{
+    margin-left: 40px;
+    font-size: 35px;
+    color: greenyellow;
+}
+
+.AngularJS-Desktop{
+    margin-left: 40px;
+}
+
+.AngularJS-Desktop b{
+    font-size: 40px;
+    color: red;
+}
+
+.SASS-Desktop{
+    margin-left: 40px;
+}
+
+.SASS-Desktop b{
+    font-size: 40px;
+    margin-left: 75px;
+    color: rgb(255, 128, 149);
+}
+
+#GSAP-Desktop{
+    height: 184px;
+}
+
+#SASS-Desktop{
+    height: 180px;
+}
+
+/* Developer */
+
+.Developer-Desktop{
+    position: absolute;
+    top: 820px;
+    margin-left: 900px;
+}
+
+.Developer-Desktop b{
+    color: rgb(255, 142, 3);
+    font-size: 40px;
+}
+
+.Developer-Desktop img{
+    height: 170px;
+    width: 215px;
+}
+
+/* Mi Nivel de Inglés */
+
+.Inglés-Desktop{
+    position: absolute;
+    top: 805px;
+    margin-left: 1350px;
+}
+
+.Inglés-Desktop b{
+    font-size: 30px;
+    color: tomato;
+}
+
+/* Tablet */
+/* Tablet - Encabezado */
+/* Logotipo */
+
+.Logotipo-Tablet{
+    position: absolute;
+    top: 5px;
+}
+
+/* Nombre Completo para la Tablet */
+
+.NombreCompleto-Tablet{
+    position: absolute;
+    top: 135px;
+    color: red;
+    font-size: 38px;
+}
+
+/*  */
+
+.LoQueCreoQueSoyYLoQueMeFalta-Tab{
+    position: absolute;
+    top: 180px;
+    font-size: 25px;
+    color: blue;
+}
+
+.GitHub-Tablet{
+    position: absolute;
+    top: 308px;
+    font-size: 32px;
+}
+
+.GitHub-Tablet a{
+    text-decoration: none;
+}
+
+.TítuloDeLoQueSé-Tablet{
+    position: absolute;
+    top: 475px;
+    font-size: 32px;
+}
+
+.LoQueSé-Tablet{
+    display: flex;
+    position: absolute;
+    top: 550px;
+    font-size: 30px;
+}
+
+.HTML5-Tablet b{
+    color: orangered;
+}
+
+.HTML5-Tablet img{
+    height: 100px;
+    width: 82px;
+}
+
+.CSS3-Tablet{
+    margin-left: 32px;
+}
+
+.CSS3-Tablet b{
+    color: rgb(0, 140, 255);
+    margin-left: 10px;
+}
+
+.CSS3-Tablet img{
+    height: 100px;
+    width: 82px;
+}
+
+.JavaScript-Tablet{
+    margin-left: 32px;
+}
+
+.JavaScript-Tablet b{
+    color: yellowgreen;
+}
+
+.JavaScript-Tablet img{
+    height: 100px;
+    width: 165px;
+}
+
+.Python-Tablet{
+    margin-left: 32px;
+}
+
+.Python-Tablet b{
+    color: green;
+}
+
+.Python-Tablet img{
+    height: 100px;
+    width: 100px;
+}
+
+#FrameWorks-Tablet{
+    position: absolute;
+    top: 700px;
+    margin-left: 232px;
+    font-size: 40px;
+}
+
+.FrameWorks-Tablet{
+    display: flex;
+    position: absolute;
+    top: 855px;
+}
+
+.FrameWorks-Tablet b{
+    font-size: 38px;
+}
+
+.GSAP-Tablet b{
+    margin-left: 40px;
+    font-size: 35px;
+    color: greenyellow;
+}
+
+.AngularJS-Tablet{
+    margin-left: 40px;
+}
+
+.AngularJS-Tablet b{
+    font-size: 40px;
+    color: red;
+}
+
+.SASS-Tablet{
+    margin-left: 40px;
+}
+
+.SASS-Tablet b{
+    font-size: 40px;
+    margin-left: 75px;
+    color: rgb(255, 128, 149);
+}
+
+#GSAP-Tablet{
+    height: 184px;
+}
+
+#SASS-Tablet{
+    height: 180px;
+}
+
+/*  */
+
+.Developer-Tablet{
+    position: absolute;
+    top: 830px;
+    margin-left: 900px;
+}
+
+.Developer-Tablet b{
+    color: rgb(255, 142, 3);
+    font-size: 37px;
+}
+
+.Developer-Tablet img{
+    height: 170px;
+    width: 215px;
+}
+
+/*  */
+
+.Inglés-Tablet b{
+    position: absolute;
+    top: 850px;
+    margin-left: 1250px;
+    font-size: 25px;
+    color: tomato;
+}
+
+.Inglés-Tablet img{
+    position: absolute;
+    top: 850px;
+    margin-left: 1425px;
+}
+
+/* Móvil */
+
+/* Vídeos */
+
+.Móvil-Header video{
+    height: 100%;
+    width: 100%;
+}
+
+/* Logotipo - Móvil */
+
+.Logotipo-Móvil{
+    position: absolute;
+    top: -1px;
+}
+
+.Logotipo-Móvil img{
+    width: 35px;
+}
+
+/* Mi Nombre - Móvil */
+
+.NombreCompleto-Móvil{
+    position: absolute;
+    top: 32.5px;
+}
+
+.NombreCompleto-Móvil b{
+    font-size: 10px;
+    color: red;
+}
+
+/* Lo que considero llevo bien */
+
+.LoQueCreoQueSoyYLoQueMeFalta-Mov{
+    position: absolute;
+    top: 45px;
+}
+
+.LoQueCreoQueSoyYLoQueMeFalta-Mov em{
+    font-size: 7px;
+    color: blue;
+}
+
+/*  */
+
+.GitHub-Móvil{
+    position: absolute;
+    top: 115px;
+}
+
+.GitHub-Móvil a{
+    font-size: 8px;
+    text-decoration: none;
+    color: white;
+}
+
+/*  */
+
+.TítuloDeLoQueSé-Móvil{
+    position: absolute;
+    top: 148px;
+}
+
+.TítuloDeLoQueSé-Móvil b{
+    font-size: 6px;
+}
+
+/* Todas las Tecnologías que sé */
+
+.LoQueSé-Móvil{
+    display: flex;
+    position: absolute;
+    top: 161px;
+}
+
+.HTML-Móvil b{
+    font-size: 7px;
+    color: orangered;
+}
+
+.HTML-Móvil img{
+    height: 23px;
+    width: 17px;
+}
+
+.CSS-Móvil{
+    margin-left: 5px;
+}
+
+.CSS-Móvil b{
+    font-size: 7px;
+    color: rgb(0, 140, 255);
+    margin-left: 2.5px;
+}
+
+.CSS-Móvil img{
+    height: 23px;
+}
+
+.JavaScript-Móvil{
+    margin-left: 5px;
+}
+
+.JavaScript-Móvil b{
+    font-size: 7px;
+    color: yellowgreen;
+}
+
+.JavaScript-Móvil img{
+    height: 23px;
+    width: 40px;
+}
+
+.Python-Móvil{
+    margin-left: 10px;
+}
+
+.Python-Móvil b{
+    font-size: 7px;
+    color: green;
+}
+
+.Python-Móvil img{
+    height: 23px;
+}
+
+.FrameWorks-Móvil{
+    display: flex;
+    position: absolute;
+    top: 130px;
+    margin-left: 235px;
+}
+
+.GSAP-Móvil em{
+    font-size: 9px;
+    color: yellowgreen;
+}
+
+.GSAP-Móvil img{
+    height: 28px;
+}
+
+.AngularJS-Móvil{
+    margin-left: 10px;
+}
+
+.AngularJS-Móvil em{
+    font-size: 9px;
+    color: red;
+}
+
+.AngularJS-Móvil img{
+    height: 28px;
+}
+
+.SASS-Móvil{
+    margin-left: 10px;
+}
+
+.SASS-Móvil em{
+    font-size: 9px;
+    color: deeppink;
+}
+
+.SASS-Móvil img{
+    height: 28px;
+}
+
+.Developer-Móvil{
+    position: absolute;
+    top: 140px;
+    margin-left: 135px;
+}
+
+.Developer-Móvil em{
+    font-size: 7px;
+    color: orange;
+}
+
+.Developer-Móvil img{
+    height: 28px;
+}
