@@ -1,0 +1,225 @@
+/* Responsive Design */
+
+@media(max-width: 575px){
+
+    /* Pantallas Pequeñas */
+
+    .Navegación-SobreMí{
+        display: none;
+    }
+
+}
+
+@media(min-width: 576px) and (max-width: 768px){
+
+    /* Pantallas Medianas */
+
+    .Navegación-SobreMí{
+        display: flex;
+        align-items: center;
+
+        .Lista-SobreMí{
+
+            li{
+                list-style: none;
+            }
+
+            a{
+                color: white;
+                text-decoration: none;
+            }
+
+            li:hover{
+                transform: scale(1.2);
+                transition: 2s;
+                cursor: pointer;
+            }
+
+            a:hover{
+                color: aqua;
+            }
+
+        }
+
+        .Lista-Habilidades{
+            margin-left: 0.3cm;
+
+            li{
+                list-style: none;
+            }
+
+            a{
+                color: white;
+                text-decoration: none;
+            }
+
+            li:hover{
+                transform: scale(1.2);
+                transition: 2s;
+                cursor: pointer;
+            }
+
+            a:hover{
+                color: aqua;
+            }
+
+        }
+
+        .Lista-Proyectos{
+            margin-left: 0.3cm;
+
+            li{
+                list-style: none;
+            }
+
+            a{
+                color: white;
+                text-decoration: none;
+            }
+
+            li:hover{
+                transform: scale(1.2);
+                transition: 2s;
+                cursor: pointer;
+            }
+
+            a:hover{
+                color: aqua;
+            }
+
+        }
+
+        .Lista-Contacto{
+            margin-left: 0.3cm;
+
+            li{
+                list-style: none;
+            }
+
+            a{
+                color: white;
+                text-decoration: none;
+            }
+
+            li:hover{
+                transform: scale(1.2);
+                transition: 2s;
+                cursor: pointer;
+            }
+
+            a:hover{
+                color: aqua;
+            }
+
+        }
+
+    }
+
+}
+
+@media(min-width: 769px){
+
+    /* Pantallas Grandes */
+
+    .Navegación-SobreMí{
+        display: flex;
+        align-items: center;
+
+        .Lista-SobreMí{
+
+            li{
+                list-style: none;
+            }
+
+            a{
+                color: white;
+                text-decoration: none;
+            }
+
+            li:hover{
+                transform: scale(1.2);
+                transition: 2s;
+                cursor: pointer;
+            }
+
+            a:hover{
+                color: aqua;
+            }
+
+        }
+
+        .Lista-Habilidades{
+            margin-left: 0.5cm;
+
+            li{
+                list-style: none;
+            }
+
+            a{
+                color: white;
+                text-decoration: none;
+            }
+
+            li:hover{
+                transform: scale(1.2);
+                transition: 2s;
+                cursor: pointer;
+            }
+
+            a:hover{
+                color: aqua;
+            }
+
+        }
+
+        .Lista-Proyectos{
+            margin-left: 0.5cm;
+
+            li{
+                list-style: none;
+            }
+
+            a{
+                color: white;
+                text-decoration: none;
+            }
+
+            li:hover{
+                transform: scale(1.2);
+                transition: 2s;
+                cursor: pointer;
+            }
+
+            a:hover{
+                color: aqua;
+            }
+
+        }
+
+        .Lista-Contacto{
+            margin-left: 0.5cm;
+
+            li{
+                list-style: none;
+            }
+
+            a{
+                color: white;
+                text-decoration: none;
+            }
+
+            li:hover{
+                transform: scale(1.2);
+                transition: 2s;
+                cursor: pointer;
+            }
+
+            a:hover{
+                color: aqua;
+            }
+
+        }
+
+    }
+
+}

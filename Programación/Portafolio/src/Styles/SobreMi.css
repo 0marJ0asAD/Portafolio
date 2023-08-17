@@ -1,0 +1,954 @@
+@charset "UTF-8";
+/* Responsive Design */
+@media (max-width: 575px) {
+  /* Pantallas Pequeñas */
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .Imagen-FotoDePerfil img {
+    height: 45vw;
+    width: 45vw;
+    border-radius: 100%;
+    border: 1.5vw solid red;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .FotosRedes-RS {
+    display: flex;
+    align-items: center;
+    margin-top: -10vw;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .FotosRedes-RS .LinkedIn-RS {
+    background-color: white;
+    border-radius: 100%;
+    padding: 1vw;
+    margin-top: -10vw;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .FotosRedes-RS .LinkedIn-RS img {
+    height: 10vw;
+    width: 10vw;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .FotosRedes-RS .LinkedIn-RS:hover {
+    background-color: aqua;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .FotosRedes-RS .GitHub-RS {
+    background-color: white;
+    border-radius: 100%;
+    padding: 1vw;
+    margin-left: 5vw;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .FotosRedes-RS .GitHub-RS img {
+    height: 10vw;
+    width: 10vw;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .FotosRedes-RS .GitHub-RS:hover {
+    background-color: gray;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .FotosRedes-RS .WhatsApp-RS {
+    margin-top: -10vw;
+    background-color: white;
+    border-radius: 100%;
+    padding: 1vw;
+    margin-left: 5vw;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .FotosRedes-RS .WhatsApp-RS img {
+    height: 10vw;
+    width: 10vw;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .FotosRedes-RS .WhatsApp-RS:hover {
+    background-color: greenyellow;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .Botón-Contrátame button {
+    padding: 7px;
+    font-size: 6vw;
+    border-radius: 75px;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .Botón-Contrátame button:hover {
+    background-color: orange;
+  }
+  .Menu-SobreMí .SobreMí-Título {
+    text-align: center;
+    padding: 2.5vw;
+  }
+  .Menu-SobreMí .SobreMí-Título h1 {
+    font-size: 7vw;
+  }
+  .Menu-SobreMí .SobreMí-Título h1:hover {
+    color: rgb(225, 0, 255);
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Descripción {
+    text-align: center;
+    padding: 2.5vw;
+  }
+  .Menu-SobreMí .SobreMí-Descripción em {
+    font-size: 5vw;
+  }
+  .Menu-SobreMí .SobreMí-Descripción em:hover {
+    color: yellow;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2.5vw;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Nombre-Columna1 {
+    display: flex;
+    align-items: center;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Nombre-Columna1 b {
+    font-size: 4.5vw;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Nombre-Columna1 em {
+    font-size: 4.5vw;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Nombre-Columna1 b:hover {
+    color: red;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Nombre-Columna1 em:hover {
+    color: yellow;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Grado-Columna1 {
+    display: flex;
+    align-items: center;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Grado-Columna1 b {
+    font-size: 4.5vw;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Grado-Columna1 em {
+    font-size: 4.5vw;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Grado-Columna1 b:hover {
+    color: red;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Grado-Columna1 em:hover {
+    color: yellow;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Edad-Columna1 {
+    display: flex;
+    align-items: center;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Edad-Columna1 b {
+    font-size: 4.5vw;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Edad-Columna1 em {
+    font-size: 4.5vw;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Edad-Columna1 b:hover {
+    color: red;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Edad-Columna1 em:hover {
+    color: yellow;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2.5vw;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Ubicación-Columna2 {
+    display: flex;
+    align-items: center;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Ubicación-Columna2 b {
+    font-size: 4.5vw;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Ubicación-Columna2 em {
+    font-size: 4.5vw;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Ubicación-Columna2 b:hover {
+    color: red;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Ubicación-Columna2 em:hover {
+    color: yellow;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Teléfono-Columna2 {
+    display: flex;
+    align-items: center;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Teléfono-Columna2 b {
+    font-size: 4.5vw;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Teléfono-Columna2 a {
+    font-size: 4.5vw;
+    text-decoration: none;
+    color: black;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Teléfono-Columna2 b:hover {
+    color: red;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Teléfono-Columna2 a:hover {
+    color: yellow;
+    transition: 2s;
+    cursor: pointer;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Correo-Columna2 {
+    display: flex;
+    align-items: center;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Correo-Columna2 b {
+    font-size: 4.5vw;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Correo-Columna2 b:hover {
+    color: red;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Correo-Columna2 a {
+    font-size: 4.5vw;
+    text-decoration: none;
+    color: black;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Correo-Columna2 a:hover {
+    color: yellow;
+    transition: 2s;
+    cursor: pointer;
+  }
+  .Menu-SobreMí .Educación-SobreMí {
+    padding: 5vw;
+  }
+  .Menu-SobreMí .Educación-SobreMí .Educación-Texto {
+    padding: 3vw;
+  }
+  .Menu-SobreMí .Educación-SobreMí .Educación-Texto h1 {
+    text-align: center;
+    font-size: 5vw;
+  }
+  .Menu-SobreMí .Educación-SobreMí .Educación-Texto h1:hover {
+    color: rgb(225, 0, 255);
+    transition: 2s;
+  }
+  .Menu-SobreMí .Educación-SobreMí .ConalepCMC-Educación {
+    padding: 3vw;
+  }
+  .Menu-SobreMí .Educación-SobreMí .ConalepCMC-Educación h1 {
+    text-align: left;
+    font-size: 4vw;
+  }
+  .Menu-SobreMí .Educación-SobreMí .ConalepCMC-Educación em {
+    text-align: center;
+    font-size: 4vw;
+  }
+  .Menu-SobreMí .Educación-SobreMí .ConalepCMC-Educación h1:hover {
+    color: red;
+    transition: 2s;
+  }
+  .Menu-SobreMí .Educación-SobreMí .ConalepCMC-Educación em:hover {
+    color: yellow;
+    transition: 2s;
+  }
+  .Menu-SobreMí .Educación-SobreMí .EdC-Educación {
+    padding: 3vw;
+  }
+  .Menu-SobreMí .Educación-SobreMí .EdC-Educación h1 {
+    text-align: left;
+    font-size: 4.3vw;
+  }
+  .Menu-SobreMí .Educación-SobreMí .EdC-Educación em {
+    text-align: center;
+    font-size: 4vw;
+  }
+  .Menu-SobreMí .Educación-SobreMí .EdC-Educación h1:hover {
+    color: red;
+    transition: 2s;
+  }
+  .Menu-SobreMí .Educación-SobreMí .EdC-Educación em:hover {
+    color: yellow;
+    transition: 2s;
+  }
+  .Menu-SobreMí .Experiencia-SobreMi {
+    padding: 5vw;
+  }
+  .Menu-SobreMí .Experiencia-SobreMi .Experiencia-Texto {
+    padding: 3vw;
+  }
+  .Menu-SobreMí .Experiencia-SobreMi .Experiencia-Texto h1 {
+    text-align: center;
+    font-size: 5vw;
+  }
+  .Menu-SobreMí .Experiencia-SobreMi .Experiencia-Texto h1:hover {
+    color: rgb(225, 0, 255);
+    transition: 2s;
+  }
+  .Menu-SobreMí .Experiencia-SobreMi .ServicioyPracticas-Experiencia {
+    padding: 3vw;
+  }
+  .Menu-SobreMí .Experiencia-SobreMi .ServicioyPracticas-Experiencia h1 {
+    text-align: left;
+    font-size: 4.3vw;
+  }
+  .Menu-SobreMí .Experiencia-SobreMi .ServicioyPracticas-Experiencia em {
+    text-align: center;
+    font-size: 4vw;
+  }
+  .Menu-SobreMí .Experiencia-SobreMi .ServicioyPracticas-Experiencia h1:hover {
+    color: red;
+    transition: 2s;
+  }
+  .Menu-SobreMí .Experiencia-SobreMi .ServicioyPracticas-Experiencia em:hover {
+    color: yellow;
+    transition: 2s;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  /* Pantallas Medianas */
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .Imagen-FotoDePerfil img {
+    height: 175px;
+    width: 175px;
+    border-radius: 100%;
+    border: 3px solid red;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .FotosRedes-RS {
+    display: flex;
+    align-items: center;
+    margin-top: -25px;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .FotosRedes-RS .LinkedIn-RS {
+    background-color: white;
+    border-radius: 75px;
+    padding: 5px;
+    margin-top: -0.5cm;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .FotosRedes-RS .LinkedIn-RS img {
+    height: 25px;
+    width: 25px;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .FotosRedes-RS .LinkedIn-RS:hover {
+    background-color: aqua;
+    transform: scale(1.1);
+    transition: 2s;
+    cursor: pointer;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .FotosRedes-RS .GitHub-RS {
+    background-color: white;
+    border-radius: 75px;
+    padding: 5px;
+    margin-left: 0.5em;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .FotosRedes-RS .GitHub-RS img {
+    height: 25px;
+    width: 25px;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .FotosRedes-RS .GitHub-RS:hover {
+    background-color: gray;
+    transform: scale(1.1);
+    transition: 2s;
+    cursor: pointer;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .FotosRedes-RS .WhatsApp-RS {
+    background-color: white;
+    border-radius: 75px;
+    padding: 5px;
+    margin-top: -0.4cm;
+    margin-left: 0.5em;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .FotosRedes-RS .WhatsApp-RS img {
+    height: 25px;
+    width: 25px;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .FotosRedes-RS .WhatsApp-RS:hover {
+    background-color: greenyellow;
+    transform: scale(1.1);
+    transition: 2s;
+    cursor: pointer;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .Botón-Contrátame button {
+    padding: 7px;
+    font-size: 20px;
+    border-radius: 75px;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .Botón-Contrátame button:hover {
+    background-color: orange;
+    color: white;
+    transform: scale(1.1);
+    transition: 2s;
+    cursor: pointer;
+  }
+  .Menu-SobreMí .SobreMí-Título {
+    text-align: center;
+    padding: 10px;
+  }
+  .Menu-SobreMí .SobreMí-Título h1 {
+    font-size: 30px;
+  }
+  .Menu-SobreMí .SobreMí-Título h1:hover {
+    color: rgb(225, 0, 255);
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Descripción {
+    text-align: center;
+    padding: 5px;
+  }
+  .Menu-SobreMí .SobreMí-Descripción em {
+    font-size: 20px;
+  }
+  .Menu-SobreMí .SobreMí-Descripción em:hover {
+    color: yellow;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Nombre-Columna1 {
+    display: flex;
+    align-items: center;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Nombre-Columna1 b {
+    font-size: 15px;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Nombre-Columna1 em {
+    font-size: 15px;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Nombre-Columna1 b:hover {
+    color: red;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Nombre-Columna1 em:hover {
+    color: yellow;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Grado-Columna1 {
+    display: flex;
+    align-items: center;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Grado-Columna1 b {
+    font-size: 15px;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Grado-Columna1 em {
+    font-size: 15px;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Grado-Columna1 b:hover {
+    color: red;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Grado-Columna1 em:hover {
+    color: yellow;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Edad-Columna1 {
+    display: flex;
+    align-items: center;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Edad-Columna1 b {
+    font-size: 15px;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Edad-Columna1 em {
+    font-size: 15px;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Edad-Columna1 b:hover {
+    color: red;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Edad-Columna1 em:hover {
+    color: yellow;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Ubicación-Columna2 {
+    display: flex;
+    align-items: center;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Ubicación-Columna2 b {
+    font-size: 15px;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Ubicación-Columna2 em {
+    font-size: 15px;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Ubicación-Columna2 b:hover {
+    color: red;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Ubicación-Columna2 em:hover {
+    color: yellow;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Teléfono-Columna2 {
+    display: flex;
+    align-items: center;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Teléfono-Columna2 b {
+    font-size: 15px;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Teléfono-Columna2 b:hover {
+    color: red;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Teléfono-Columna2 a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Teléfono-Columna2 a:hover {
+    color: yellow;
+    transition: 2s;
+    cursor: pointer;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Correo-Columna2 {
+    display: flex;
+    align-items: center;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Correo-Columna2 b {
+    font-size: 15px;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Correo-Columna2 b:hover {
+    color: red;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Correo-Columna2 a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Correo-Columna2 a:hover {
+    color: yellow;
+    transition: 2s;
+    cursor: pointer;
+  }
+  .Menu-SobreMí .Educación-SobreMí {
+    padding: 15px;
+  }
+  .Menu-SobreMí .Educación-SobreMí .Educación-Texto {
+    text-align: center;
+    padding: 10px;
+  }
+  .Menu-SobreMí .Educación-SobreMí .Educación-Texto h1 {
+    font-size: 30px;
+  }
+  .Menu-SobreMí .Educación-SobreMí .Educación-Texto h1:hover {
+    color: rgb(225, 0, 255);
+    transition: 2s;
+  }
+  .Menu-SobreMí .Educación-SobreMí .ConalepCMC-Educación {
+    padding: 10px;
+  }
+  .Menu-SobreMí .Educación-SobreMí .ConalepCMC-Educación h1 {
+    text-align: left;
+    font-size: 20px;
+  }
+  .Menu-SobreMí .Educación-SobreMí .ConalepCMC-Educación em {
+    text-align: center;
+    font-size: 15px;
+  }
+  .Menu-SobreMí .Educación-SobreMí .ConalepCMC-Educación h1:hover {
+    color: red;
+    transition: 2s;
+  }
+  .Menu-SobreMí .Educación-SobreMí .ConalepCMC-Educación em:hover {
+    color: yellow;
+    transition: 2s;
+  }
+  .Menu-SobreMí .Educación-SobreMí .EdC-Educación {
+    padding: 10px;
+  }
+  .Menu-SobreMí .Educación-SobreMí .EdC-Educación h1 {
+    text-align: left;
+    font-size: 20px;
+  }
+  .Menu-SobreMí .Educación-SobreMí .EdC-Educación em {
+    text-align: center;
+    font-size: 15px;
+  }
+  .Menu-SobreMí .Educación-SobreMí .EdC-Educación h1:hover {
+    color: red;
+    transition: 2s;
+  }
+  .Menu-SobreMí .Educación-SobreMí .EdC-Educación em:hover {
+    color: yellow;
+    transition: 2s;
+  }
+  .Menu-SobreMí .Experiencia-SobreMi {
+    padding: 15px;
+  }
+  .Menu-SobreMí .Experiencia-SobreMi .Experiencia-Texto {
+    padding: 10px;
+  }
+  .Menu-SobreMí .Experiencia-SobreMi .Experiencia-Texto h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .Menu-SobreMí .Experiencia-SobreMi .Experiencia-Texto h1:hover {
+    color: rgb(225, 0, 255);
+    transition: 2s;
+  }
+  .Menu-SobreMí .Experiencia-SobreMi .ServicioyPracticas-Experiencia {
+    padding: 10px;
+  }
+  .Menu-SobreMí .Experiencia-SobreMi .ServicioyPracticas-Experiencia h1 {
+    text-align: left;
+    font-size: 20px;
+  }
+  .Menu-SobreMí .Experiencia-SobreMi .ServicioyPracticas-Experiencia em {
+    text-align: center;
+    font-size: 15px;
+  }
+  .Menu-SobreMí .Experiencia-SobreMi .ServicioyPracticas-Experiencia h1:hover {
+    color: red;
+    transition: 2s;
+  }
+  .Menu-SobreMí .Experiencia-SobreMi .ServicioyPracticas-Experiencia em:hover {
+    color: yellow;
+    transition: 2s;
+  }
+}
+@media (min-width: 769px) {
+  /* Pantallas Grandes */
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .Imagen-FotoDePerfil img {
+    height: 175px;
+    width: 175px;
+    border-radius: 100%;
+    border: 3px solid red;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .FotosRedes-RS {
+    display: flex;
+    align-items: center;
+    margin-top: -25px;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .FotosRedes-RS .LinkedIn-RS {
+    background-color: white;
+    border-radius: 75px;
+    padding: 5px;
+    margin-top: -0.5cm;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .FotosRedes-RS .LinkedIn-RS img {
+    height: 25px;
+    width: 25px;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .FotosRedes-RS .LinkedIn-RS:hover {
+    background-color: aqua;
+    transform: scale(1.1);
+    transition: 2s;
+    cursor: pointer;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .FotosRedes-RS .GitHub-RS {
+    background-color: white;
+    border-radius: 75px;
+    padding: 5px;
+    margin-left: 0.5em;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .FotosRedes-RS .GitHub-RS img {
+    height: 25px;
+    width: 25px;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .FotosRedes-RS .GitHub-RS:hover {
+    background-color: gray;
+    transform: scale(1.1);
+    transition: 2s;
+    cursor: pointer;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .FotosRedes-RS .WhatsApp-RS {
+    background-color: white;
+    border-radius: 75px;
+    padding: 5px;
+    margin-top: -0.4cm;
+    margin-left: 0.5em;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .FotosRedes-RS .WhatsApp-RS img {
+    height: 25px;
+    width: 25px;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .FotosRedes-RS .WhatsApp-RS:hover {
+    background-color: greenyellow;
+    transform: scale(1.1);
+    transition: 2s;
+    cursor: pointer;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .Botón-Contrátame button {
+    padding: 7px;
+    font-size: 20px;
+    border-radius: 75px;
+  }
+  .Menu-SobreMí .SobreMí-FotoDePerfilRSyBotónContrato .Botón-Contrátame button:hover {
+    background-color: orange;
+    color: white;
+    transform: scale(1.1);
+    transition: 2s;
+    cursor: pointer;
+  }
+  .Menu-SobreMí .SobreMí-Título {
+    text-align: center;
+    padding: 10px;
+  }
+  .Menu-SobreMí .SobreMí-Título h1 {
+    font-size: 30px;
+  }
+  .Menu-SobreMí .SobreMí-Título h1:hover {
+    color: rgb(225, 0, 255);
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Descripción {
+    text-align: center;
+    padding: 5px;
+  }
+  .Menu-SobreMí .SobreMí-Descripción em {
+    font-size: 20px;
+  }
+  .Menu-SobreMí .SobreMí-Descripción em:hover {
+    color: yellow;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Nombre-Columna1 {
+    display: flex;
+    align-items: center;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Nombre-Columna1 b {
+    font-size: 15px;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Nombre-Columna1 em {
+    font-size: 15px;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Nombre-Columna1 b:hover {
+    color: red;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Nombre-Columna1 em:hover {
+    color: yellow;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Grado-Columna1 {
+    display: flex;
+    align-items: center;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Grado-Columna1 b {
+    font-size: 15px;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Grado-Columna1 em {
+    font-size: 15px;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Grado-Columna1 b:hover {
+    color: red;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Grado-Columna1 em:hover {
+    color: yellow;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Edad-Columna1 {
+    display: flex;
+    align-items: center;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Edad-Columna1 b {
+    font-size: 15px;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Edad-Columna1 em {
+    font-size: 15px;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Edad-Columna1 b:hover {
+    color: red;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna1 .Edad-Columna1 em:hover {
+    color: yellow;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Ubicación-Columna2 {
+    display: flex;
+    align-items: center;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Ubicación-Columna2 b {
+    font-size: 15px;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Ubicación-Columna2 em {
+    font-size: 15px;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Ubicación-Columna2 b:hover {
+    color: red;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Ubicación-Columna2 em:hover {
+    color: yellow;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Teléfono-Columna2 {
+    display: flex;
+    align-items: center;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Teléfono-Columna2 b {
+    font-size: 15px;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Teléfono-Columna2 b:hover {
+    color: red;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Teléfono-Columna2 a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Teléfono-Columna2 a:hover {
+    color: yellow;
+    transition: 2s;
+    cursor: pointer;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Correo-Columna2 {
+    display: flex;
+    align-items: center;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Correo-Columna2 b {
+    font-size: 15px;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Correo-Columna2 b:hover {
+    color: red;
+    transition: 2s;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Correo-Columna2 a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+  }
+  .Menu-SobreMí .SobreMí-Columna1-Columna2 .SobreMí-Columna2 .Correo-Columna2 a:hover {
+    color: yellow;
+    transition: 2s;
+    cursor: pointer;
+  }
+  .Menu-SobreMí .Educación-SobreMí {
+    padding: 15px;
+  }
+  .Menu-SobreMí .Educación-SobreMí .Educación-Texto {
+    text-align: center;
+    padding: 10px;
+  }
+  .Menu-SobreMí .Educación-SobreMí .Educación-Texto h1 {
+    font-size: 30px;
+  }
+  .Menu-SobreMí .Educación-SobreMí .Educación-Texto h1:hover {
+    color: rgb(225, 0, 255);
+    transition: 2s;
+  }
+  .Menu-SobreMí .Educación-SobreMí .ConalepCMC-Educación {
+    padding: 10px;
+  }
+  .Menu-SobreMí .Educación-SobreMí .ConalepCMC-Educación h1 {
+    text-align: left;
+    font-size: 20px;
+  }
+  .Menu-SobreMí .Educación-SobreMí .ConalepCMC-Educación em {
+    text-align: center;
+    font-size: 15px;
+  }
+  .Menu-SobreMí .Educación-SobreMí .ConalepCMC-Educación h1:hover {
+    color: red;
+    transition: 2s;
+  }
+  .Menu-SobreMí .Educación-SobreMí .ConalepCMC-Educación em:hover {
+    color: yellow;
+    transition: 2s;
+  }
+  .Menu-SobreMí .Educación-SobreMí .EdC-Educación {
+    padding: 10px;
+  }
+  .Menu-SobreMí .Educación-SobreMí .EdC-Educación h1 {
+    text-align: left;
+    font-size: 20px;
+  }
+  .Menu-SobreMí .Educación-SobreMí .EdC-Educación em {
+    text-align: center;
+    font-size: 15px;
+  }
+  .Menu-SobreMí .Educación-SobreMí .EdC-Educación h1:hover {
+    color: red;
+    transition: 2s;
+  }
+  .Menu-SobreMí .Educación-SobreMí .EdC-Educación em:hover {
+    color: yellow;
+    transition: 2s;
+  }
+  .Menu-SobreMí .Experiencia-SobreMi {
+    padding: 15px;
+  }
+  .Menu-SobreMí .Experiencia-SobreMi .Experiencia-Texto {
+    padding: 10px;
+  }
+  .Menu-SobreMí .Experiencia-SobreMi .Experiencia-Texto h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .Menu-SobreMí .Experiencia-SobreMi .Experiencia-Texto h1:hover {
+    color: rgb(225, 0, 255);
+    transition: 2s;
+  }
+  .Menu-SobreMí .Experiencia-SobreMi .ServicioyPracticas-Experiencia {
+    padding: 10px;
+  }
+  .Menu-SobreMí .Experiencia-SobreMi .ServicioyPracticas-Experiencia h1 {
+    text-align: left;
+    font-size: 20px;
+  }
+  .Menu-SobreMí .Experiencia-SobreMi .ServicioyPracticas-Experiencia em {
+    text-align: center;
+    font-size: 15px;
+  }
+  .Menu-SobreMí .Experiencia-SobreMi .ServicioyPracticas-Experiencia h1:hover {
+    color: red;
+    transition: 2s;
+  }
+  .Menu-SobreMí .Experiencia-SobreMi .ServicioyPracticas-Experiencia em:hover {
+    color: yellow;
+    transition: 2s;
+  }
+}
+
+/*# sourceMappingURL=SobreMi.css.map */

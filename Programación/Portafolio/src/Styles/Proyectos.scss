@@ -1,0 +1,277 @@
+/* Responsive Design */
+
+@media(max-width: 575px){
+
+    /* Pantallas Pequeñas */
+
+    .Menu-Proyectos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 5vw;
+
+        .Menu-ProyectosTexto{
+            padding: 5vw;
+
+            h1{
+                font-size: 5vw;
+            }
+
+            h1:hover{
+                color: rgb(225, 0, 255);
+                transition: 2s;
+            }
+
+        }
+
+        .Proyectos-Menu{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .Menu-ProyectoUno{
+                padding: 5vw;
+
+                img{
+                    height: 60vw;
+                    width: 65vw;
+                }
+
+            }
+
+            .Menu-ProyectoDos{
+                padding: 5vw;
+
+                img{
+                    height: 60vw;
+                    width: 65vw;
+                }
+
+            }
+
+            .Menu-ProyectoTres{
+                padding: 5vw;
+
+                img{
+                    height: 60vw;
+                    width: 65vw;
+                }
+
+            }
+    
+            .Menu-ProyectoCuatro{
+                padding: 5vw;
+
+                img{
+                    height: 60vw;
+                    width: 65vw;
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+@media(min-width: 576px) and (max-width: 768px){
+
+    /* Pantallas Medianas */
+
+    .Menu-Proyectos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+
+        .Menu-ProyectosTexto{
+            padding: 20px;
+
+            h1{
+                font-size: 30px;
+            }
+
+            h1:hover{
+                color: rgb(225, 0, 255);
+                transition: 2s;
+            }
+
+        }
+
+        .Proyectos-Menu{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .Menu-ProyectoUno{
+                padding: 20px;
+    
+                img{
+                    height: 375px;
+                    width: 400px;
+                }
+    
+                img:hover{
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+    
+            }
+    
+            .Menu-ProyectoDos{
+                padding: 20px;
+    
+                img{
+                    height: 375px;
+                    width: 400px;
+                }
+    
+                img:hover{
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+    
+            }
+    
+            .Menu-ProyectoTres{
+                padding: 20px;
+    
+                img{
+                    height: 375px;
+                    width: 400px;
+                }
+    
+                img:hover{
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+    
+            }
+    
+            .Menu-ProyectoCuatro{
+                padding: 20px;
+    
+                img{
+                    height: 375px;
+                    width: 400px;
+                }
+    
+                img:hover{
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+    
+            }
+
+        }
+
+    }
+
+}
+
+@media(min-width:769px){
+
+    /* Pantallas Grandes */
+
+    .Menu-Proyectos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+
+        .Menu-ProyectosTexto{
+            padding: 20px;
+
+            h1{
+                font-size: 30px;
+            }
+
+            h1:hover{
+                color: rgb(225, 0, 255);
+                transition: 2s;
+            }
+
+        }
+
+        .Proyectos-Menu{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .Menu-ProyectoUno{
+                padding: 20px;
+
+                img{
+                    height: 475px;
+                    width: 500px;
+                }
+
+                img:hover{
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+            }
+
+            .Menu-ProyectoDos{
+                padding: 20px;
+
+                img{
+                    height: 475px;
+                    width: 500px;
+                }
+
+                img:hover{
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+            }
+
+            .Menu-ProyectoTres{
+                padding: 20px;
+
+                img{
+                    height: 475px;
+                    width: 500px;
+                }
+
+                img:hover{
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+            }
+
+            .Menu-ProyectoCuatro{
+                padding: 20px;
+
+                img{
+                    height: 475px;
+                    width: 500px;
+                }
+
+                img:hover{
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+    
+            }
+
+        }
+
+    }
+
+}

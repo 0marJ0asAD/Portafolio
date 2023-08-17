@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/* Responsive Design */
+@media (max-width: 575px) {
+  /* Pantallas Pequeñas */
+  .Navegación-SobreMí {
+    display: none;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  /* Pantallas Medianas */
+  .Navegación-SobreMí {
+    display: flex;
+    align-items: center;
+  }
+  .Navegación-SobreMí .Lista-SobreMí li {
+    list-style: none;
+  }
+  .Navegación-SobreMí .Lista-SobreMí a {
+    color: white;
+    text-decoration: none;
+  }
+  .Navegación-SobreMí .Lista-SobreMí li:hover {
+    transform: scale(1.2);
+    transition: 2s;
+    cursor: pointer;
+  }
+  .Navegación-SobreMí .Lista-SobreMí a:hover {
+    color: aqua;
+  }
+  .Navegación-SobreMí .Lista-Habilidades {
+    margin-left: 0.3cm;
+  }
+  .Navegación-SobreMí .Lista-Habilidades li {
+    list-style: none;
+  }
+  .Navegación-SobreMí .Lista-Habilidades a {
+    color: white;
+    text-decoration: none;
+  }
+  .Navegación-SobreMí .Lista-Habilidades li:hover {
+    transform: scale(1.2);
+    transition: 2s;
+    cursor: pointer;
+  }
+  .Navegación-SobreMí .Lista-Habilidades a:hover {
+    color: aqua;
+  }
+  .Navegación-SobreMí .Lista-Proyectos {
+    margin-left: 0.3cm;
+  }
+  .Navegación-SobreMí .Lista-Proyectos li {
+    list-style: none;
+  }
+  .Navegación-SobreMí .Lista-Proyectos a {
+    color: white;
+    text-decoration: none;
+  }
+  .Navegación-SobreMí .Lista-Proyectos li:hover {
+    transform: scale(1.2);
+    transition: 2s;
+    cursor: pointer;
+  }
+  .Navegación-SobreMí .Lista-Proyectos a:hover {
+    color: aqua;
+  }
+  .Navegación-SobreMí .Lista-Contacto {
+    margin-left: 0.3cm;
+  }
+  .Navegación-SobreMí .Lista-Contacto li {
+    list-style: none;
+  }
+  .Navegación-SobreMí .Lista-Contacto a {
+    color: white;
+    text-decoration: none;
+  }
+  .Navegación-SobreMí .Lista-Contacto li:hover {
+    transform: scale(1.2);
+    transition: 2s;
+    cursor: pointer;
+  }
+  .Navegación-SobreMí .Lista-Contacto a:hover {
+    color: aqua;
+  }
+}
+@media (min-width: 769px) {
+  /* Pantallas Grandes */
+  .Navegación-SobreMí {
+    display: flex;
+    align-items: center;
+  }
+  .Navegación-SobreMí .Lista-SobreMí li {
+    list-style: none;
+  }
+  .Navegación-SobreMí .Lista-SobreMí a {
+    color: white;
+    text-decoration: none;
+  }
+  .Navegación-SobreMí .Lista-SobreMí li:hover {
+    transform: scale(1.2);
+    transition: 2s;
+    cursor: pointer;
+  }
+  .Navegación-SobreMí .Lista-SobreMí a:hover {
+    color: aqua;
+  }
+  .Navegación-SobreMí .Lista-Habilidades {
+    margin-left: 0.5cm;
+  }
+  .Navegación-SobreMí .Lista-Habilidades li {
+    list-style: none;
+  }
+  .Navegación-SobreMí .Lista-Habilidades a {
+    color: white;
+    text-decoration: none;
+  }
+  .Navegación-SobreMí .Lista-Habilidades li:hover {
+    transform: scale(1.2);
+    transition: 2s;
+    cursor: pointer;
+  }
+  .Navegación-SobreMí .Lista-Habilidades a:hover {
+    color: aqua;
+  }
+  .Navegación-SobreMí .Lista-Proyectos {
+    margin-left: 0.5cm;
+  }
+  .Navegación-SobreMí .Lista-Proyectos li {
+    list-style: none;
+  }
+  .Navegación-SobreMí .Lista-Proyectos a {
+    color: white;
+    text-decoration: none;
+  }
+  .Navegación-SobreMí .Lista-Proyectos li:hover {
+    transform: scale(1.2);
+    transition: 2s;
+    cursor: pointer;
+  }
+  .Navegación-SobreMí .Lista-Proyectos a:hover {
+    color: aqua;
+  }
+  .Navegación-SobreMí .Lista-Contacto {
+    margin-left: 0.5cm;
+  }
+  .Navegación-SobreMí .Lista-Contacto li {
+    list-style: none;
+  }
+  .Navegación-SobreMí .Lista-Contacto a {
+    color: white;
+    text-decoration: none;
+  }
+  .Navegación-SobreMí .Lista-Contacto li:hover {
+    transform: scale(1.2);
+    transition: 2s;
+    cursor: pointer;
+  }
+  .Navegación-SobreMí .Lista-Contacto a:hover {
+    color: aqua;
+  }
+}
+
+/*# sourceMappingURL=Navegacion.css.map */

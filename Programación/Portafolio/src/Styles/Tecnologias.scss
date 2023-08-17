@@ -1,0 +1,1369 @@
+/* Responsive Design */
+
+@media(max-width: 575px){
+
+    /* Pantallas Pequeñas */
+
+    .Menu-Tecnologías{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 5vw;
+
+        .Tecnologías-Título{
+            padding: 5vw;
+
+            h1{
+                font-size: 5vw;
+                text-align: center;
+            }
+
+            h1:hover{
+                color: rgb(225, 0, 255);
+                transition: 2s;
+            }
+
+        }
+
+        .Tecnologías-Parte1{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .HTML5{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 2.5vw;
+                background-color: white;
+                border-radius: 75px;
+                border: 0.8vw solid orange;
+
+                b{
+                    font-size: 3.5vw;
+                    color: orange;
+                }
+
+                img{
+                    height: 15vw;
+                    width: 15vw;
+                }
+
+            }
+
+            .HTML5:hover{
+                background-color: orange;
+                transition: 2s;
+                border: 0.8vw solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+            .CSS3{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 2.5vw;
+                background-color: white;
+                border-radius: 75px;
+                border: 0.8vw solid blue;
+
+                b{
+                    font-size: 3.5vw;
+                    color: blue;
+                }
+
+                img{
+                    height: 15vw;
+                    width: 15vw;
+                }
+
+            }
+
+            .CSS3:hover{
+                background-color: blue;
+                transition: 2s;
+                border: 0.8vw solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+            .SASS-SCSS{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 2.5vw;
+                background-color: white;
+                border-radius: 75px;
+                border: 0.8vw solid rgb(255, 163, 217);
+
+                b{
+                    font-size: 3.5vw;
+                    color: rgb(255, 163, 217);
+                }
+
+                img{
+                    height: 15vw;
+                    width: 15vw;
+                }
+
+            }
+
+            .SASS-SCSS:hover{
+                background-color: rgb(255, 163, 217);
+                transition: 2s;
+                border: 0.8vw solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+            .JavaScript-JS{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 2.5vw;
+                background-color: white;
+                border-radius: 75px;
+                border: 0.8vw solid rgb(192, 173, 0);
+
+                b{
+                    font-size: 3.5vw;
+                    color: rgb(192, 173, 0);
+                }
+
+                img{
+                    height: 15vw;
+                    width: 15vw;
+                }
+
+            }
+
+            .JavaScript-JS:hover{
+                background-color: rgb(192, 173, 0);
+                transition: 2s;
+                border: 0.8vw solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+        }
+
+        .Tecnologías-Parte2{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .GSAP{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 2.5vw;
+                background-color: white;
+                border-radius: 75px;
+                border: 0.8vw solid greenyellow;
+
+                b{
+                    font-size: 3.5vw;
+                    color: greenyellow;
+                }
+
+                img{
+                    height: 15vw;
+                    width: 15vw;
+                }
+
+            }
+
+            .GSAP:hover{
+                background-color: greenyellow;
+                transition: 2s;
+                border: 0.8vw solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+            .React-JS{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 2.5vw;
+                background-color: white;
+                border-radius: 75px;
+                border: 0.8vw solid aqua;
+
+                b{
+                    font-size: 3.5vw;
+                    color: aqua;
+                }
+
+                img{
+                    height: 15vw;
+                    width: 15vw;
+                }
+
+            }
+
+            .React-JS:hover{
+                background-color: aqua;
+                transition: 2s;
+                border: 0.8vw solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+            .Node-JS{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 2.5vw;
+                background-color: white;
+                border-radius: 75px;
+                border: 0.8vw solid green;
+
+                b{
+                    font-size: 3.5vw;
+                    color: green;
+                }
+
+                img{
+                    height: 15vw;
+                    width: 15vw;
+                }
+
+            }
+
+            .Node-JS:hover{
+                background-color: green;
+                transition: 2s;
+                border: 0.8vw solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+            .PHP{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 2.5vw;
+                background-color: white;
+                border-radius: 75px;
+                border: 0.8vw solid purple;
+
+                b{
+                    font-size: 3.5vw;
+                    color: purple;
+                }
+
+                img{
+                    height: 15vw;
+                    width: 15vw;
+                }
+
+            }
+
+            .PHP:hover{
+                background-color: purple;
+                transition: 2s;
+                border: 0.8vw solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+        }
+
+        .Tecnologías-Parte3{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .SQL{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 2.5vw;
+                background-color: white;
+                border-radius: 75px;
+                border: 0.8vw solid rgb(204, 0, 255);
+
+                b{
+                    font-size: 3.5vw;
+                    color: rgb(204, 0, 255);
+                }
+
+                img{
+                    height: 10vw;
+                    width: 15vw;
+                }
+
+            }
+
+            .SQL:hover{
+                background-color: rgb(204, 0, 255);
+                transition: 2s;
+                border: 0.8vw solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+            .Python{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 2.5vw;
+                background-color: white;
+                border-radius: 75px;
+                border: 0.8vw solid aquamarine;
+
+                b{
+                    font-size: 3.5vw;
+                    color: aquamarine;
+                }
+
+                img{
+                    height: 15vw;
+                    width: 15vw;
+                }
+
+            }
+
+            .Python:hover{
+                background-color: aquamarine;
+                transition: 2s;
+                border: 0.8vw solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+            .Git{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 2.5vw;
+                background-color: white;
+                border-radius: 75px;
+                border: 0.8vw solid orangered;
+
+                b{
+                    font-size: 3.5vw;
+                    color: orangered;
+                }
+
+                img{
+                    height: 15vw;
+                    width: 15vw;
+                }
+
+            }
+
+            .Git:hover{
+                background-color: orangered;
+                transition: 2s;
+                border: 0.8vw solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+            .GitHub{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 2.5vw;
+                background-color: white;
+                border-radius: 75px;
+                border: 0.8vw solid gray;
+
+                b{
+                    font-size: 3.5vw;
+                    color: gray;
+                }
+
+                img{
+                    height: 15vw;
+                    width: 15vw;
+                }
+
+            }
+
+            .GitHub:hover{
+                background-color: gray;
+                transition: 2s;
+                border: 0.8vw solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+        }
+        
+    }
+
+}
+
+@media(min-width: 576px) and (max-width: 768px){
+
+    /* Pantallas Medianas */
+
+    .Menu-Tecnologías{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+
+        .Tecnologías-Título{
+            padding: 10px;
+
+            h1{
+                font-size: 30px;
+                text-align: center;
+            }
+
+            h1:hover{
+                color: rgb(225, 0, 255);
+                transition: 2s;
+            }
+
+        }
+
+        .Tecnologías-Parte1{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 20px;
+
+            .HTML5{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 15px;
+                background-color: white;
+                border-radius: 75px;
+                border: 2px solid orange;
+
+                b{
+                    font-size: 20px;
+                    color: orange;
+                }
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                }
+
+            }
+
+            .HTML5:hover{
+                background-color: orange;
+                transform: scale(1.1);
+                transition: 2s;
+                border: 2px solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+            .CSS3{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 15px;
+                background-color: white;
+                border-radius: 75px;
+                border: 2px solid blue;
+
+                b{
+                    font-size: 20px;
+                    color: blue;
+                }
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                }
+
+            }
+
+            .CSS3:hover{
+                background-color: blue;
+                transform: scale(1.1);
+                transition: 2s;
+                border: 2px solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+            .SASS-SCSS{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 15px;
+                background-color: white;
+                border-radius: 75px;
+                border: 2px solid rgb(255, 163, 217);
+
+                b{
+                    font-size: 20px;
+                    color: rgb(255, 163, 217);
+                }
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                }
+
+            }
+
+            .SASS-SCSS:hover{
+                background-color: rgb(255, 163, 217);
+                transform: scale(1.1);
+                transition: 2s;
+                border: 2px solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+            .JavaScript-JS{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 15px;
+                background-color: white;
+                border-radius: 75px;
+                border: 2px solid rgb(192, 173, 0);
+
+                b{
+                    font-size: 20px;
+                    color: rgb(192, 173, 0);
+                }
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                }
+
+            }
+
+            .JavaScript-JS:hover{
+                background-color: rgb(192, 173, 0);
+                transform: scale(1.1);
+                transition: 2s;
+                border: 2px solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+        }
+
+        .Tecnologías-Parte2{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 20px;
+
+            .GSAP{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 15px;
+                background-color: white;
+                border-radius: 75px;
+                border: 2px solid greenyellow;
+
+                b{
+                    font-size: 20px;
+                    color: greenyellow;
+                }
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                }
+
+            }
+
+            .GSAP:hover{
+                background-color: greenyellow;
+                transform: scale(1.1);
+                transition: 2s;
+                border: 2px solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+            .React-JS{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 15px;
+                background-color: white;
+                border-radius: 75px;
+                border: 2px solid aqua;
+
+                b{
+                    font-size: 20px;
+                    color: aqua;
+                }
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                }
+
+            }
+
+            .React-JS:hover{
+                background-color: aqua;
+                transform: scale(1.1);
+                transition: 2s;
+                border: 2px solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+            .Node-JS{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 15px;
+                background-color: white;
+                border-radius: 75px;
+                border: 2px solid green;
+
+                b{
+                    font-size: 20px;
+                    color: green;
+                }
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                }
+
+            }
+
+            .Node-JS:hover{
+                background-color: green;
+                transform: scale(1.1);
+                transition: 2s;
+                border: 2px solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+            .PHP{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 15px;
+                background-color: white;
+                border-radius: 75px;
+                border: 2px solid purple;
+
+                b{
+                    font-size: 20px;
+                    color: purple;
+                }
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                }
+
+            }
+
+            .PHP:hover{
+                background-color: purple;
+                transform: scale(1.1);
+                transition: 2s;
+                border: 2px solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+        }
+
+        .Tecnologías-Parte3{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 20px;
+
+            .SQL{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 15px;
+                background-color: white;
+                border-radius: 75px;
+                border: 2px solid rgb(204, 0, 255);
+
+                b{
+                    font-size: 20px;
+                    color: rgb(204, 0, 255);
+                }
+
+                img{
+                    height: 50px;
+                    width: 75px;
+                }
+
+            }
+
+            .SQL:hover{
+                background-color: rgb(204, 0, 255);
+                transform: scale(1.1);
+                transition: 2s;
+                border: 2px solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+            .Python{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 15px;
+                background-color: white;
+                border-radius: 75px;
+                border: 2px solid aquamarine;
+
+                b{
+                    font-size: 20px;
+                    color: aquamarine;
+                }
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                }
+
+            }
+
+            .Python:hover{
+                background-color: aquamarine;
+                transform: scale(1.1);
+                transition: 2s;
+                border: 2px solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+            .Git{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 15px;
+                background-color: white;
+                border-radius: 75px;
+                border: 2px solid orangered;
+
+                b{
+                    font-size: 20px;
+                    color: orangered;
+                }
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                }
+
+            }
+            
+            .Git:hover{
+                background-color: orangered;
+                transform: scale(1.1);
+                transition: 2s;
+                border: 2px solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+            .GitHub{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 15px;
+                background-color: white;
+                border-radius: 75px;
+                border: 2px solid gray;
+
+                b{
+                    font-size: 20px;
+                    color: gray;
+                }
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                }
+
+            }
+
+            .GitHub:hover{
+                background-color: gray;
+                transform: scale(1.1);
+                transition: 2s;
+                border: 2px solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+@media(min-width:769px){
+
+    /* Pantallas Grandes */
+
+    .Menu-Tecnologías{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+
+        .Tecnologías-Título{
+            padding: 10px;
+
+            h1{
+                font-size: 30px;
+                text-align: center;
+            }
+
+            h1:hover{
+                color: rgb(225, 0, 255);
+                transition: 2s;
+            }
+
+        }
+
+        .Tecnologías-Parte1{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .HTML5{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 15px;
+                background-color: white;
+                border-radius: 75px;
+                border: 2px solid orange;
+
+                b{
+                    font-size: 20px;
+                    color: orange;
+                }
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                }
+
+            }
+
+            .HTML5:hover{
+                background-color: orange;
+                transform: scale(1.2);
+                transition: 2s;
+                border: 2px solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+            .CSS3{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 15px;
+                background-color: white;
+                border-radius: 75px;
+                border: 2px solid blue;
+
+                b{
+                    font-size: 20px;
+                    color: blue;
+                }
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                }
+
+            }
+
+            .CSS3:hover{
+                background-color: blue;
+                transform: scale(1.2);
+                transition: 2s;
+                border: 2px solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+            .SASS-SCSS{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 15px;
+                background-color: white;
+                border-radius: 75px;
+                border: 2px solid rgb(255, 163, 217);
+
+                b{
+                    font-size: 20px;
+                    color: rgb(255, 163, 217);
+                }
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                }
+
+            }
+
+            .SASS-SCSS:hover{
+                background-color: rgb(255, 163, 217);
+                transform: scale(1.2);
+                transition: 2s;
+                border: 2px solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+            .JavaScript-JS{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 15px;
+                background-color: white;
+                border-radius: 75px;
+                border: 2px solid rgb(192, 173, 0);
+
+                b{
+                    font-size: 20px;
+                    color: rgb(192, 173, 0);
+                }
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                }
+
+            }
+
+            .JavaScript-JS:hover{
+                background-color: rgb(192, 173, 0);
+                transform: scale(1.2);
+                transition: 2s;
+                border: 2px solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+        }
+
+        .Tecnologías-Parte2{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .GSAP{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 15px;
+                background-color: white;
+                border-radius: 75px;
+                border: 2px solid greenyellow;
+
+                b{
+                    font-size: 20px;
+                    color: greenyellow;
+                }
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                }
+
+            }
+
+            .GSAP:hover{
+                background-color: greenyellow;
+                transform: scale(1.2);
+                transition: 2s;
+                border: 2px solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+            .React-JS{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 15px;
+                background-color: white;
+                border-radius: 75px;
+                border: 2px solid aqua;
+
+                b{
+                    font-size: 20px;
+                    color: aqua;
+                }
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                }
+
+            }
+
+            .React-JS:hover{
+                background-color: aqua;
+                transform: scale(1.2);
+                transition: 2s;
+                border: 2px solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+            .Node-JS{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 15px;
+                background-color: white;
+                border-radius: 75px;
+                border: 2px solid green;
+
+                b{
+                    font-size: 20px;
+                    color: green;
+                }
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                }
+
+            }
+
+            .Node-JS:hover{
+                background-color: green;
+                transform: scale(1.2);
+                transition: 2s;
+                border: 2px solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+            .PHP{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 15px;
+                background-color: white;
+                border-radius: 75px;
+                border: 2px solid purple;
+
+                b{
+                    font-size: 20px;
+                    color: purple;
+                }
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                }
+
+            }
+
+            .PHP:hover{
+                background-color: purple;
+                transform: scale(1.2);
+                transition: 2s;
+                border: 2px solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+        }
+
+        .Tecnologías-Parte3{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .SQL{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 15px;
+                background-color: white;
+                border-radius: 75px;
+                border: 2px solid rgb(204, 0, 255);
+
+                b{
+                    font-size: 20px;
+                    color: rgb(204, 0, 255);
+                }
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                }
+
+            }
+
+            .SQL:hover{
+                background-color: rgb(204, 0, 255);
+                transform: scale(1.2);
+                transition: 2s;
+                border: 2px solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+            .Python{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 15px;
+                background-color: white;
+                border-radius: 75px;
+                border: 2px solid aquamarine;
+
+                b{
+                    font-size: 20px;
+                    color: aquamarine;
+                }
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                }
+
+            }
+
+            .Python:hover{
+                background-color: aquamarine;
+                transform: scale(1.2);
+                transition: 2s;
+                border: 2px solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+            .Git{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 15px;
+                background-color: white;
+                border-radius: 75px;
+                border: 2px solid orangered;
+
+                b{
+                    font-size: 20px;
+                    color: orangered;
+                }
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                }
+
+            }
+            
+            .Git:hover{
+                background-color: orangered;
+                transform: scale(1.2);
+                transition: 2s;
+                border: 2px solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+            .GitHub{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 15px;
+                background-color: white;
+                border-radius: 75px;
+                border: 2px solid gray;
+
+                b{
+                    font-size: 20px;
+                    color: gray;
+                }
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                }
+
+            }
+
+            .GitHub:hover{
+                background-color: gray;
+                transform: scale(1.2);
+                transition: 2s;
+                border: 2px solid white;
+
+                b{
+                    color: white;
+                    transition: 2s;
+                }
+
+            }
+
+        }
+
+    }
+
+}

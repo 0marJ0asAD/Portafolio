@@ -1,0 +1,1293 @@
+/* Responsive Design */
+
+@media(max-width: 575px){
+
+    /* Pantallas Pequeñas */
+
+    .Menu-SobreMí{
+
+        .SobreMí-FotoDePerfilRSyBotónContrato{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .Imagen-FotoDePerfil{
+
+                img{
+                    height: 45vw;
+                    width: 45vw;
+                    border-radius: 100%;
+                    border: 1.5vw solid red;
+                }
+
+            }
+
+            .FotosRedes-RS{
+                display: flex;
+                align-items: center;
+                margin-top: -10vw;
+
+                .LinkedIn-RS{
+                    background-color: white;
+                    border-radius: 100%;
+                    padding: 1vw;
+                    margin-top: -10vw;
+
+                    img{
+                        height: 10vw;
+                        width: 10vw;
+                    }
+
+                }
+
+                .LinkedIn-RS:hover{
+                    background-color: aqua;
+                    transition: 2s;
+                }
+
+                .GitHub-RS{
+                    background-color: white;
+                    border-radius: 100%;
+                    padding: 1vw;
+                    margin-left: 5vw;
+
+                    img{
+                        height: 10vw;
+                        width: 10vw;
+                    }
+
+                }
+
+                .GitHub-RS:hover{
+                    background-color: gray;
+                    transition: 2s;
+                }
+
+                .WhatsApp-RS{
+                    margin-top: -10vw;
+                    background-color: white;
+                    border-radius: 100%;
+                    padding: 1vw;
+                    margin-left: 5vw;
+
+                    img{
+                        height: 10vw;
+                        width: 10vw;
+                    }
+
+                }
+
+                .WhatsApp-RS:hover{
+                    background-color: greenyellow;
+                    transition: 2s;
+                }
+
+            }
+
+            .Botón-Contrátame{
+
+                button{
+                    padding: 7px;
+                    font-size: 6vw;
+                    border-radius: 75px;
+                }
+
+                button:hover{
+                    background-color: orange;
+                }
+
+            }
+
+        }
+
+        .SobreMí-Título{
+            text-align: center;
+            padding: 2.5vw;
+
+            h1{
+                font-size: 7vw;
+            }
+
+            h1:hover{
+                color: rgb(225, 0, 255);
+                transition: 2s;
+            }
+
+        }
+
+        .SobreMí-Descripción{
+            text-align: center;
+            padding: 2.5vw;
+
+            em{
+                font-size: 5vw;
+            }
+
+            em:hover{
+                color: yellow;
+                transition: 2s;
+            }
+
+        }
+
+        .SobreMí-Columna1-Columna2{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+
+            .SobreMí-Columna1{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 2.5vw;
+
+                .Nombre-Columna1{
+                    display: flex;
+                    align-items: center;
+
+                    b{
+                        font-size: 4.5vw;
+                    }
+
+                    em{
+                        font-size: 4.5vw;
+                    }
+
+                    b:hover{
+                        color: red;
+                        transition: 2s;
+                    }
+
+                    em:hover{
+                        color: yellow;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Grado-Columna1{
+                    display: flex;
+                    align-items: center;
+
+                    b{
+                        font-size: 4.5vw;
+                    }
+
+                    em{
+                        font-size: 4.5vw;
+                    }
+
+                    b:hover{
+                        color: red;
+                        transition: 2s;
+                    }
+
+                    em:hover{
+                        color: yellow;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Edad-Columna1{
+                    display: flex;
+                    align-items: center;
+
+                    b{
+                        font-size: 4.5vw;
+                    }
+
+                    em{
+                        font-size: 4.5vw;
+                    }
+
+                    b:hover{
+                        color: red;
+                        transition: 2s;
+                    }
+
+                    em:hover{
+                        color: yellow;
+                        transition: 2s;
+                    }
+
+                }
+
+            }
+
+            .SobreMí-Columna2{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 2.5vw;
+
+                .Ubicación-Columna2{
+                    display: flex;
+                    align-items: center;
+
+                    b{
+                        font-size: 4.5vw;
+                    }
+
+                    em{
+                        font-size: 4.5vw;
+                    }
+
+                    b:hover{
+                        color: red;
+                        transition: 2s;
+                    }
+
+                    em:hover{
+                        color: yellow;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Teléfono-Columna2{
+                    display: flex;
+                    align-items: center;
+
+                    b{
+                        font-size: 4.5vw;
+                    }
+
+                    a{
+                        font-size: 4.5vw;
+                        text-decoration: none;
+                        color: black;
+                    }
+
+                    b:hover{
+                        color: red;
+                        transition: 2s;
+                    }
+
+                    a:hover{
+                        color: yellow;
+                        transition: 2s;
+                        cursor: pointer;
+                    }
+
+                }
+
+                .Correo-Columna2{
+                    display: flex;
+                    align-items: center;
+
+                    b{
+                        font-size: 4.5vw;
+                    }
+
+                    b:hover{
+                        color: red;
+                        transition: 2s;
+                    }
+
+                    a{
+                        font-size: 4.5vw;
+                        text-decoration: none;
+                        color: black;
+                    }
+
+                    a:hover{
+                        color: yellow;
+                        transition: 2s;
+                        cursor: pointer;
+                    }
+
+                }
+
+            }
+
+        }
+
+        .Educación-SobreMí{
+            padding: 5vw;
+
+            .Educación-Texto{
+                padding: 3vw;
+
+                h1{
+                    text-align: center;
+                    font-size: 5vw;
+                }
+
+                h1:hover{
+                    color: rgb(225, 0, 255);
+                    transition: 2s;
+                }
+
+            }
+
+            .ConalepCMC-Educación{
+                padding: 3vw;
+
+                h1{
+                    text-align: left;
+                    font-size: 4vw;
+                }
+
+                em{
+                    text-align: center;
+                    font-size: 4vw;
+                }
+
+                h1:hover{
+                    color: red;
+                    transition: 2s;
+                }
+
+                em:hover{
+                    color: yellow;
+                    transition: 2s;
+                }
+
+            }
+
+            .EdC-Educación{
+                padding: 3vw;
+
+                h1{
+                    text-align: left;
+                    font-size: 4.3vw;
+                }
+
+                em{
+                    text-align: center;
+                    font-size: 4vw;
+                }
+
+                h1:hover{
+                    color: red;
+                    transition: 2s;
+                }
+
+                em:hover{
+                    color: yellow;
+                    transition: 2s;
+                }
+
+            }
+
+        }
+
+        .Experiencia-SobreMi{
+            padding: 5vw;
+
+            .Experiencia-Texto{
+                padding: 3vw;
+
+                h1{
+                    text-align: center;
+                    font-size: 5vw;
+                }
+
+                h1:hover{
+                    color: rgb(225, 0, 255);
+                    transition: 2s;
+                }
+
+            }
+
+            .ServicioyPracticas-Experiencia{
+                padding: 3vw;
+
+                h1{
+                    text-align: left;
+                    font-size: 4.3vw;
+                }
+
+                em{
+                    text-align: center;
+                    font-size: 4vw;
+                }
+
+                h1:hover{
+                    color: red;
+                    transition: 2s;
+                }
+
+                em:hover{
+                    color: yellow;
+                    transition: 2s;
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+@media(min-width: 576px) and (max-width: 768px){
+
+    /* Pantallas Medianas */
+
+    .Menu-SobreMí{
+
+        .SobreMí-FotoDePerfilRSyBotónContrato{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .Imagen-FotoDePerfil{
+
+                img{
+                    height: 175px;
+                    width: 175px;
+                    border-radius: 100%;
+                    border: 3px solid red;
+                }
+
+            }
+
+            .FotosRedes-RS{
+                display: flex;
+                align-items: center;
+                margin-top: -25px;
+
+                .LinkedIn-RS{
+                    background-color: white;
+                    border-radius: 75px;
+                    padding: 5px;
+                    margin-top: -0.5cm;
+
+                    img{
+                        height: 25px;
+                        width: 25px;
+                    }
+
+                }
+
+                .LinkedIn-RS:hover{
+                    background-color: aqua;
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+                .GitHub-RS{
+                    background-color: white;
+                    border-radius: 75px;
+                    padding: 5px;
+                    margin-left: 0.5em;
+
+                    img{
+                        height: 25px;
+                        width: 25px;
+                    }
+
+                }
+
+                .GitHub-RS:hover{
+                    background-color: gray;
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+                .WhatsApp-RS{
+                    background-color: white;
+                    border-radius: 75px;
+                    padding: 5px;
+                    margin-top: -0.4cm;
+                    margin-left: 0.5em;
+
+                    img{
+                        height: 25px;
+                        width: 25px;
+                    }
+
+                }
+
+                .WhatsApp-RS:hover{
+                    background-color: greenyellow;
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+            }
+
+            .Botón-Contrátame{
+
+                button{
+                    padding: 7px;
+                    font-size: 20px;
+                    border-radius: 75px;
+                }
+
+                button:hover{
+                    background-color: orange;
+                    color: white;
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+            }
+
+        }
+
+        .SobreMí-Título{
+            text-align: center;
+            padding: 10px;
+
+            h1{
+                font-size: 30px;
+            }
+
+            h1:hover{
+                color: rgb(225, 0, 255);
+                transition: 2s;
+            }
+
+        }
+
+        .SobreMí-Descripción{
+            text-align: center;
+            padding: 5px;
+
+            em{
+                font-size: 20px;
+            }
+
+            em:hover{
+                color: yellow;
+                transition: 2s;
+            }
+
+        }
+
+        .SobreMí-Columna1-Columna2{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+
+            .SobreMí-Columna1{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 10px;
+
+                .Nombre-Columna1{
+                    display: flex;
+                    align-items: center;
+
+                    b{
+                        font-size: 15px;
+                    }
+
+                    em{
+                        font-size: 15px;
+                    }
+
+                    b:hover{
+                        color: red;
+                        transition: 2s;
+                    }
+
+                    em:hover{
+                        color: yellow;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Grado-Columna1{
+                    display: flex;
+                    align-items: center;
+
+                    b{
+                        font-size: 15px;
+                    }
+
+                    em{
+                        font-size: 15px;
+                    }
+
+                    b:hover{
+                        color: red;
+                        transition: 2s;
+                    }
+
+                    em:hover{
+                        color: yellow;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Edad-Columna1{
+                    display: flex;
+                    align-items: center;
+
+                    b{
+                        font-size: 15px;
+                    }
+
+                    em{
+                        font-size: 15px;
+                    }
+
+                    b:hover{
+                        color: red;
+                        transition: 2s;
+                    }
+
+                    em:hover{
+                        color: yellow;
+                        transition: 2s;
+                    }
+
+                }
+
+            }
+
+            .SobreMí-Columna2{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 10px;
+
+                .Ubicación-Columna2{
+                    display: flex;
+                    align-items: center;
+
+                    b{
+                        font-size: 15px;
+                    }
+
+                    em{
+                        font-size: 15px;
+                    }
+
+                    b:hover{
+                        color: red;
+                        transition: 2s;
+                    }
+
+                    em:hover{
+                        color: yellow;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Teléfono-Columna2{
+                    display: flex;
+                    align-items: center;
+
+                    b{
+                        font-size: 15px;
+                    }
+
+                    b:hover{
+                        color: red;
+                        transition: 2s;
+                    }
+
+                    a{
+                        font-size: 15px;
+                        text-decoration: none;
+                        color: black;
+                    }
+
+                    a:hover{
+                        color: yellow;
+                        transition: 2s;
+                        cursor: pointer;
+                    }
+
+                }
+
+                .Correo-Columna2{
+                    display: flex;
+                    align-items: center;
+
+                    b{
+                        font-size: 15px;
+                    }
+
+                    b:hover{
+                        color: red;
+                        transition: 2s;
+                    }
+                    
+                    a{
+                        font-size: 15px;
+                        text-decoration: none;
+                        color: black;
+                    }
+
+                    a:hover{
+                        color: yellow;
+                        transition: 2s;
+                        cursor: pointer;
+                    }
+
+                }
+
+            }
+
+        }
+
+        .Educación-SobreMí{
+            padding: 15px;
+
+            .Educación-Texto{
+                text-align: center;
+                padding: 10px;
+
+                h1{
+                    font-size: 30px;
+                }
+
+                h1:hover{
+                    color: rgb(225, 0, 255);
+                    transition: 2s;
+                }
+
+            }
+
+            .ConalepCMC-Educación{
+                padding: 10px;
+
+                h1{
+                    text-align: left;
+                    font-size: 20px;
+                }
+
+                em{
+                    text-align: center;
+                    font-size: 15px;
+                }
+
+                h1:hover{
+                    color: red;
+                    transition: 2s;
+                }
+
+                em:hover{
+                    color: yellow;
+                    transition: 2s;
+                }
+
+            }
+
+            .EdC-Educación{
+                padding: 10px;
+
+                h1{
+                    text-align: left;
+                    font-size: 20px;
+                }
+
+                em{
+                    text-align: center;
+                    font-size: 15px;
+                }
+
+                h1:hover{
+                    color: red;
+                    transition: 2s;
+                }
+
+                em:hover{
+                    color: yellow;
+                    transition: 2s;
+                }
+
+            }
+
+        }
+
+        .Experiencia-SobreMi{
+            padding: 15px;
+
+            .Experiencia-Texto{
+                padding: 10px;
+
+                h1{
+                    text-align: center;
+                    font-size: 30px;
+                }
+
+                h1:hover{
+                    color: rgb(225, 0, 255);
+                    transition: 2s;
+                }
+
+            }
+
+            .ServicioyPracticas-Experiencia{
+                padding: 10px;
+
+                h1{
+                    text-align: left;
+                    font-size: 20px;
+                }
+
+                em{
+                    text-align: center;
+                    font-size: 15px;
+                }
+
+                h1:hover{
+                    color: red;
+                    transition: 2s;
+                }
+
+                em:hover{
+                    color: yellow;
+                    transition: 2s;
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+@media(min-width:769px){
+
+    /* Pantallas Grandes */
+
+    .Menu-SobreMí{
+
+        .SobreMí-FotoDePerfilRSyBotónContrato{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .Imagen-FotoDePerfil{
+
+                img{
+                    height: 175px;
+                    width: 175px;
+                    border-radius: 100%;
+                    border: 3px solid red;
+                }
+
+            }
+
+            .FotosRedes-RS{
+                display: flex;
+                align-items: center;
+                margin-top: -25px;
+
+                .LinkedIn-RS{
+                    background-color: white;
+                    border-radius: 75px;
+                    padding: 5px;
+                    margin-top: -0.5cm;
+
+                    img{
+                        height: 25px;
+                        width: 25px;
+                    }
+
+                }
+
+                .LinkedIn-RS:hover{
+                    background-color: aqua;
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+                .GitHub-RS{
+                    background-color: white;
+                    border-radius: 75px;
+                    padding: 5px;
+                    margin-left: 0.5em;
+
+                    img{
+                        height: 25px;
+                        width: 25px;
+                    }
+
+                }
+
+                .GitHub-RS:hover{
+                    background-color: gray;
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+                .WhatsApp-RS{
+                    background-color: white;
+                    border-radius: 75px;
+                    padding: 5px;
+                    margin-top: -0.4cm;
+                    margin-left: 0.5em;
+
+                    img{
+                        height: 25px;
+                        width: 25px;
+                    }
+
+                }
+
+                .WhatsApp-RS:hover{
+                    background-color: greenyellow;
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+            }
+
+            .Botón-Contrátame{
+
+                button{
+                    padding: 7px;
+                    font-size: 20px;
+                    border-radius: 75px;
+                }
+
+                button:hover{
+                    background-color: orange;
+                    color: white;
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+            }
+
+        }
+
+        .SobreMí-Título{
+            text-align: center;
+            padding: 10px;
+
+            h1{
+                font-size: 30px;
+            }
+
+            h1:hover{
+                color: rgb(225, 0, 255);
+                transition: 2s;
+            }
+
+        }
+
+        .SobreMí-Descripción{
+            text-align: center;
+            padding: 5px;
+
+            em{
+                font-size: 20px;
+            }
+
+            em:hover{
+                color: yellow;
+                transition: 2s;
+            }
+
+        }
+
+        .SobreMí-Columna1-Columna2{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+
+            .SobreMí-Columna1{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 10px;
+
+                .Nombre-Columna1{
+                    display: flex;
+                    align-items: center;
+
+                    b{
+                        font-size: 15px;
+                    }
+
+                    em{
+                        font-size: 15px;
+                    }
+
+                    b:hover{
+                        color: red;
+                        transition: 2s;
+                    }
+
+                    em:hover{
+                        color: yellow;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Grado-Columna1{
+                    display: flex;
+                    align-items: center;
+
+                    b{
+                        font-size: 15px;
+                    }
+
+                    em{
+                        font-size: 15px;
+                    }
+
+                    b:hover{
+                        color: red;
+                        transition: 2s;
+                    }
+
+                    em:hover{
+                        color: yellow;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Edad-Columna1{
+                    display: flex;
+                    align-items: center;
+
+                    b{
+                        font-size: 15px;
+                    }
+
+                    em{
+                        font-size: 15px;
+                    }
+
+                    b:hover{
+                        color: red;
+                        transition: 2s;
+                    }
+
+                    em:hover{
+                        color: yellow;
+                        transition: 2s;
+                    }
+
+                }
+
+            }
+
+            .SobreMí-Columna2{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 10px;
+
+                .Ubicación-Columna2{
+                    display: flex;
+                    align-items: center;
+
+                    b{
+                        font-size: 15px;
+                    }
+
+                    em{
+                        font-size: 15px;
+                    }
+
+                    b:hover{
+                        color: red;
+                        transition: 2s;
+                    }
+
+                    em:hover{
+                        color: yellow;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Teléfono-Columna2{
+                    display: flex;
+                    align-items: center;
+
+                    b{
+                        font-size: 15px;
+                    }
+                    
+                    b:hover{
+                        color: red;
+                        transition: 2s;
+                    }
+
+                    a{
+                        font-size: 15px;
+                        text-decoration: none;
+                        color: black;
+                    }
+
+                    a:hover{
+                        color: yellow;
+                        transition: 2s;
+                        cursor: pointer;
+                    }
+
+                }
+
+                .Correo-Columna2{
+                    display: flex;
+                    align-items: center;
+
+                    b{
+                        font-size: 15px;
+                    }
+
+                    b:hover{
+                        color: red;
+                        transition: 2s;
+                    }
+
+                    a{
+                        font-size: 15px;
+                        text-decoration: none;
+                        color: black;
+                    }
+
+                    a:hover{
+                        color: yellow;
+                        transition: 2s;
+                        cursor: pointer;
+                    }
+
+                }
+
+            }
+
+        }
+
+        .Educación-SobreMí{
+            padding: 15px;
+
+            .Educación-Texto{
+                text-align: center;
+                padding: 10px;
+
+                h1{
+                    font-size: 30px;
+                }
+
+                h1:hover{
+                    color: rgb(225, 0, 255);
+                    transition: 2s;
+                }
+
+            }
+
+            .ConalepCMC-Educación{
+                padding: 10px;
+
+                h1{
+                    text-align: left;
+                    font-size: 20px;
+                }
+
+                em{
+                    text-align: center;
+                    font-size: 15px;
+                }
+
+                h1:hover{
+                    color: red;
+                    transition: 2s;
+                }
+
+                em:hover{
+                    color: yellow;
+                    transition: 2s;
+                }
+
+            }
+
+            .EdC-Educación{
+                padding: 10px;
+
+                h1{
+                    text-align: left;
+                    font-size: 20px;
+                }
+
+                em{
+                    text-align: center;
+                    font-size: 15px;
+                }
+
+                h1:hover{
+                    color: red;
+                    transition: 2s;
+                }
+
+                em:hover{
+                    color: yellow;
+                    transition: 2s;
+                }
+
+            }
+
+        }
+
+        .Experiencia-SobreMi{
+            padding: 15px;
+
+            .Experiencia-Texto{
+                padding: 10px;
+
+                h1{
+                    text-align: center;
+                    font-size: 30px;
+                }
+
+                h1:hover{
+                    color: rgb(225, 0, 255);
+                    transition: 2s;
+                }
+
+            }
+
+            .ServicioyPracticas-Experiencia{
+                padding: 10px;
+
+                h1{
+                    text-align: left;
+                    font-size: 20px;
+                }
+
+                em{
+                    text-align: center;
+                    font-size: 15px;
+                }
+
+                h1:hover{
+                    color: red;
+                    transition: 2s;
+                }
+
+                em:hover{
+                    color: yellow;
+                    transition: 2s;
+                }
+
+            }
+
+        }
+
+    }
+
+}
