@@ -1,0 +1,208 @@
+/* Responsive Design */
+
+@media(max-width: 575px){
+
+    .Menu-Proyectos{
+        text-align: center;
+
+        .Proyectos-Texto{
+            text-align: center;
+            padding: 2.5vw;
+
+            h1{
+                font-size: 9vw;
+                color: white;
+            }
+
+        }
+
+        .Proyectos-Información{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .Proyecto1-Información{
+
+                img{
+                    height: 100vw;
+                    width: 90vw;
+                }
+
+            }
+
+            .Proyecto2-Información{
+
+                img{
+                    height: 100vw;
+                    width: 90vw;
+                }
+
+            }
+
+            .Proyecto3-Información{
+
+                img{
+                    height: 100vw;
+                    width: 90vw;
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+@media(min-width: 576px) and (max-width: 768px){
+
+    .Menu-Proyectos{
+        text-align: center;
+
+        .Proyectos-Texto{
+            text-align: center;
+            padding: 2.5vw;
+
+            h1{
+                font-size: 4vw;
+                color: white;
+            }
+
+        }
+
+        .Proyectos-Información{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .Proyecto1-Información{
+                padding: 2.5vw;
+
+                img{
+                    height: 50vw;
+                    width: 50vw;
+                }
+
+                img:hover{
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+            }
+
+            .Proyecto2-Información{
+                padding: 2.5vw;
+
+                img{
+                    height: 50vw;
+                    width: 50vw;
+                }
+
+                img:hover{
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+            }
+
+            .Proyecto3-Información{
+                padding: 2.5vw;
+
+                img{
+                    height: 50vw;
+                    width: 50vw;
+                }
+
+                img:hover{
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+@media(min-width: 769px){
+
+    .Menu-Proyectos{
+        text-align: center;
+
+        .Proyectos-Texto{
+            text-align: center;
+            padding: 2.5vw;
+
+            h1{
+                font-size: 4vw;
+                color: white;
+            }
+
+        }
+
+        .Proyectos-Información{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .Proyecto1-Información{
+                padding: 2.5vw;
+
+                img{
+                    height: 50vw;
+                    width: 50vw;
+                }
+
+                img:hover{
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+            }
+
+            .Proyecto2-Información{
+                padding: 2.5vw;
+
+                img{
+                    height: 50vw;
+                    width: 50vw;
+                }
+
+                img:hover{
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+            }
+
+            .Proyecto3-Información{
+                padding: 2.5vw;
+
+                img{
+                    height: 50vw;
+                    width: 50vw;
+                }
+
+                img:hover{
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+            }
+
+        }
+
+    }
+
+}

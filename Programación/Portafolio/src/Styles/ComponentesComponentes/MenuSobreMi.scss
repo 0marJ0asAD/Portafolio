@@ -1,0 +1,844 @@
+/* Responsive Design */
+
+@media(max-width: 575px){
+
+    .Menu-SobreMí{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .Foto-Redes-BotónContrátame{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 3vw;
+
+            .FotoDePerfil-SobreMí{
+
+                img{
+                    height: 50vw;
+                    width: 50vw;
+                    border-radius: 50vw;
+                    border: 1.2vw solid red;
+                }
+
+            }
+
+            .Redes-SobreMí{
+                text-align: center;
+
+                .Gmail-Redes{
+                    position: absolute;
+                    top: 18vw;
+                    left: 46vw;
+                    background-color: white;
+                    border: 1vw solid orange;
+                    border-radius: 50vw;
+                    padding: 1.5vw;
+
+                    img{
+                        height: 6vw;
+                        width: 7vw;
+                    }
+
+                    img:hover{
+                        transition: 2s;
+                        cursor: pointer;
+                    }
+
+                }
+
+                .Gmail-Redes:hover{
+                    background-color: orange;
+                    border: 1vw solid black;
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+                .AzcapotzalcoCDMX-Redes{
+                    position: absolute;
+                    top: 25vw;
+                    left: 26vw;
+                    background-color: white;
+                    border: 1vw solid black;
+                    border-radius: 50vw;
+                    padding: 1.5vw;
+
+                    img{
+                        height: 6vw;
+                        width: 6vw;
+                    }
+
+                    img:hover{
+                        transition: 2s;
+                        cursor: pointer;
+                    }
+
+                }
+
+                .AzcapotzalcoCDMX-Redes:hover{
+                    background-color: black;
+                    border: 1vw solid white;
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+                .CiudadDeMéxicoCDMX-Redes{
+                    position: absolute;
+                    top: 25vw;
+                    left: 64vw;
+                    background-color: white;
+                    border: 1vw solid black;
+                    border-radius: 50vw;
+                    padding: 1.5vw;
+
+                    img{
+                        height: 6vw;
+                        width: 6vw;
+                    }
+
+                    img:hover{
+                        transition: 2s;
+                        cursor: pointer;
+                    }
+
+                }
+
+                .CiudadDeMéxicoCDMX-Redes:hover{
+                    background-color: black;
+                    border: 1vw solid white;
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+                .Teléfono-Redes{
+                    position: absolute;
+                    top: 42vw;
+                    left: 20vw;
+                    background-color: white;
+                    border: 1vw solid green;
+                    border-radius: 50vw;
+                    padding: 1.5vw;
+
+                    img{
+                        height: 6vw;
+                        width: 6vw;
+                    }
+
+                    img:hover{
+                        transition: 2s;
+                        cursor: pointer;
+                    }
+
+                }
+
+                .Teléfono-Redes:hover{
+                    background-color: greenyellow;
+                    border: 1vw solid black;
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+                .Twitter-Redes{
+                    position: absolute;
+                    top: 42vw;
+                    left: 70vw;
+                    background-color: white;
+                    border: 1vw solid blue;
+                    border-radius: 50vw;
+                    padding: 1.5vw;
+
+                    img{
+                        height: 6vw;
+                        width: 6vw;
+                    }
+
+                    img:hover{
+                        transition: 2s;
+                        cursor: pointer;
+                    }
+
+                }
+
+                .Twitter-Redes:hover{
+                    background-color: blue;
+                    border: 1vw solid white;
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+                .GitHub-Redes{
+                    position: absolute;
+                    top: 60vw;
+                    left: 26vw;
+                    background-color: white;
+                    border: 1vw solid gray;
+                    border-radius: 50vw;
+                    padding: 1.5vw;
+
+                    img{
+                        height: 6vw;
+                        width: 6vw;
+                    }
+
+                    img:hover{
+                        transition: 2s;
+                        cursor: pointer;
+                    }
+
+                }
+
+                .GitHub-Redes:hover{
+                    background-color: gray;
+                    border: 1vw solid white;
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+                .LinkedIn-Redes{
+                    position: absolute;
+                    top: 60vw;
+                    left: 64vw;
+                    background-color: white;
+                    border: 1vw solid aqua;
+                    border-radius: 50vw;
+                    padding: 1.5vw;
+
+                    img{
+                        height: 6vw;
+                        width: 6vw;
+                    }
+
+                    img:hover{
+                        transition: 2s;
+                        cursor: pointer;
+                    }
+
+                }
+
+                .LinkedIn-Redes:hover{
+                    background-color: aqua;
+                    border: 1vw solid black;
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+                .BanderaMexicana-Redes{
+                    position: absolute;
+                    top: 70vw;
+                    left: 46vw;
+
+                    img{
+                        height: 6vw;
+                        width: 8vw;
+                    }
+
+                }
+
+            }
+
+            .BotónContrátame-SobreMí{
+                padding: 5vw;
+
+                button{
+                    font-size: 6vw;
+                    border-radius: 50vw;
+                    padding: 2.5vw;
+                    border: 1vw solid black;
+                }
+
+                button:hover{
+                    background-color: orange;
+                    color: white;
+                    border: 1vw solid black;
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+            }
+
+        }
+
+        .SobreMí-Información{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .SobreMí-Texto{
+                text-align: center;
+                padding: 2.5vw;
+
+                h1{
+                    font-size: 9vw;
+                    color: white;
+                }
+
+            }
+
+            .SobreMí-Descripción{
+                text-align: left;
+                padding: 2.5vw;
+
+                em{
+                    font-size: 5vw;
+                    color: white;
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+@media(min-width: 576px) and (max-width: 768px){
+
+    .Menu-SobreMí{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .Foto-Redes-BotónContrátame{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .FotoDePerfil-SobreMí{
+                padding: 5vw;
+
+                img{
+                    height: 25vw;
+                    width: 25vw;
+                    border: 0.6vw solid red;
+                    border-radius: 50vw;
+                }
+
+            }
+
+            .Redes-SobreMí{
+                text-align: center;
+
+                .Gmail-Redes{
+                    position: absolute;
+                    top: 13vw;
+                    left: 15vw;
+                    background-color: white;
+                    border: 0.6vw solid orange;
+                    border-radius: 50vw;
+                    padding: 1vw;
+
+                    img{
+                        height: 3vw;
+                        width: 4vw;
+                    }
+
+                }
+
+                .Gmail-Redes:hover{
+                    background-color: orange;
+                    border: 0.6vw solid white;
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+                .AzcapotzalcoCDMX-Redes{
+                    position: absolute;
+                    top: 16vw;
+                    left: 6.5vw;
+                    background-color: white;
+                    border: 0.6vw solid black;
+                    border-radius: 50vw;
+                    padding: 1vw;
+
+                    img{
+                        height: 3.5vw;
+                        width: 3.5vw;
+                    }
+
+                }
+
+                .AzcapotzalcoCDMX-Redes:hover{
+                    background-color: black;
+                    border: 0.6vw solid white;
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+                .CiudadDeMéxicoCDMX-Redes{
+                    position: absolute;
+                    top: 16vw;
+                    left: 23vw;
+                    background-color: white;
+                    border: 0.6vw solid black;
+                    border-radius: 50vw;
+                    padding: 1vw;
+
+                    img{
+                        height: 3.5vw;
+                        width: 3.5vw;
+                    }
+
+                }
+
+                .CiudadDeMéxicoCDMX-Redes:hover{
+                    background-color: black;
+                    border: 0.6vw solid white;
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+                .Teléfono-Redes{
+                    position: absolute;
+                    top: 25vw;
+                    left: 2.5vw;
+                    background-color: white;
+                    border: 0.6vw solid green;
+                    border-radius: 50vw;
+                    padding: 1vw;
+
+                    img{
+                        height: 3.5vw;
+                        width: 3.5vw;
+                    }
+
+                }
+
+                .Teléfono-Redes:hover{
+                    background-color: greenyellow;
+                    border: 0.6vw solid black;
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+                .Twitter-Redes{
+                    position: absolute;
+                    top: 25vw;
+                    left: 27vw;
+                    background-color: white;
+                    border: 0.6vw solid blue;
+                    border-radius: 50vw;
+                    padding: 1vw;
+
+                    img{
+                        height: 3.5vw;
+                        width: 3.5vw;
+                    }
+
+                }
+
+                .Twitter-Redes:hover{
+                    background-color: blue;
+                    border: 0.6vw solid white;
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+                .GitHub-Redes{
+                    position: absolute;
+                    top: 34vw;
+                    left: 6.5vw;
+                    background-color: white;
+                    border: 0.6vw solid gray;
+                    border-radius: 50vw;
+                    padding: 1vw;
+
+                    img{
+                        height: 3.5vw;
+                        width: 3.5vw;
+                    }
+
+                }
+
+                .GitHub-Redes:hover{
+                    background-color: gray;
+                    border: 0.6vw solid white;
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+                .LinkedIn-Redes{
+                    position: absolute;
+                    top: 34vw;
+                    left: 23vw;
+                    background-color: white;
+                    border: 0.6vw solid aqua;
+                    border-radius: 50vw;
+                    padding: 1vw;
+
+                    img{
+                        height: 3.5vw;
+                        width: 3.5vw;
+                    }
+
+                }
+
+                .LinkedIn-Redes:hover{
+                    background-color: aqua;
+                    border: 0.6vw solid black;
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+                .BanderaMexicana-Redes{
+                    position: absolute;
+                    top: 38vw;
+                    left: 15vw;
+                    background-color: white;
+                    border: 0.6vw solid green;
+                    border-radius: 50vw;
+                    padding: 1vw;
+
+                    img{
+                        height: 3vw;
+                        width: 4vw;
+                    }
+
+                }
+
+                .BanderaMexicana-Redes:hover{
+                    background-color: red;
+                    border: 0.6vw solid green;
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+            }
+
+            .BotónContrátame-SobreMí{
+
+                button{
+                    font-size: 3vw;
+                    padding: 1vw;
+                    border: 0.6vw solid black;
+                    border-radius: 50vw;
+                }
+
+                button:hover{
+                    background-color: orange;
+                    border: 0.6vw solid black;
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+            }
+
+        }
+
+        .SobreMí-Información{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .SobreMí-Texto{
+                padding: 1vw;
+
+                h1{
+                    font-size: 4vw;
+                    color: white;
+                }
+
+            }
+
+            .SobreMí-Descripción{
+                padding: 1vw;
+
+                em{
+                    font-size: 3vw;
+                    color: white;
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+@media(min-width: 769px){
+
+    .Menu-SobreMí{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .Foto-Redes-BotónContrátame{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .FotoDePerfil-SobreMí{
+                padding: 5vw;
+
+                img{
+                    height: 25vw;
+                    width: 25vw;
+                    border: 0.6vw solid red;
+                    border-radius: 50vw;
+                }
+
+            }
+
+            .Redes-SobreMí{
+                text-align: center;
+
+                .Gmail-Redes{
+                    position: absolute;
+                    top: 11vw;
+                    left: 15vw;
+                    background-color: white;
+                    border: 0.6vw solid orange;
+                    border-radius: 50vw;
+                    padding: 1vw;
+
+                    img{
+                        height: 3vw;
+                        width: 4vw;
+                    }
+
+                }
+
+                .Gmail-Redes:hover{
+                    background-color: orange;
+                    border: 0.6vw solid white;
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+                .AzcapotzalcoCDMX-Redes{
+                    position: absolute;
+                    top: 14vw;
+                    left: 6.5vw;
+                    background-color: white;
+                    border: 0.6vw solid black;
+                    border-radius: 50vw;
+                    padding: 1vw;
+
+                    img{
+                        height: 3.5vw;
+                        width: 3.5vw;
+                    }
+
+                }
+
+                .AzcapotzalcoCDMX-Redes:hover{
+                    background-color: black;
+                    border: 0.6vw solid white;
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+                .CiudadDeMéxicoCDMX-Redes{
+                    position: absolute;
+                    top: 14vw;
+                    left: 23vw;
+                    background-color: white;
+                    border: 0.6vw solid black;
+                    border-radius: 50vw;
+                    padding: 1vw;
+
+                    img{
+                        height: 3.5vw;
+                        width: 3.5vw;
+                    }
+
+                }
+
+                .CiudadDeMéxicoCDMX-Redes:hover{
+                    background-color: black;
+                    border: 0.6vw solid white;
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+                .Teléfono-Redes{
+                    position: absolute;
+                    top: 24vw;
+                    left: 2.5vw;
+                    background-color: white;
+                    border: 0.6vw solid green;
+                    border-radius: 50vw;
+                    padding: 1vw;
+
+                    img{
+                        height: 3.5vw;
+                        width: 3.5vw;
+                    }
+
+                }
+
+                .Teléfono-Redes:hover{
+                    background-color: greenyellow;
+                    border: 0.6vw solid black;
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+                .Twitter-Redes{
+                    position: absolute;
+                    top: 24vw;
+                    left: 27vw;
+                    background-color: white;
+                    border: 0.6vw solid blue;
+                    border-radius: 50vw;
+                    padding: 1vw;
+
+                    img{
+                        height: 3.5vw;
+                        width: 3.5vw;
+                    }
+
+                }
+
+                .Twitter-Redes:hover{
+                    background-color: blue;
+                    border: 0.6vw solid white;
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+                .GitHub-Redes{
+                    position: absolute;
+                    top: 32.5vw;
+                    left: 6.5vw;
+                    background-color: white;
+                    border: 0.6vw solid gray;
+                    border-radius: 50vw;
+                    padding: 1vw;
+
+                    img{
+                        height: 3.5vw;
+                        width: 3.5vw;
+                    }
+
+                }
+
+                .GitHub-Redes:hover{
+                    background-color: gray;
+                    border: 0.6vw solid white;
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+                .LinkedIn-Redes{
+                    position: absolute;
+                    top: 32vw;
+                    left: 23vw;
+                    background-color: white;
+                    border: 0.6vw solid aqua;
+                    border-radius: 50vw;
+                    padding: 1vw;
+
+                    img{
+                        height: 3.5vw;
+                        width: 3.5vw;
+                    }
+
+                }
+
+                .LinkedIn-Redes:hover{
+                    background-color: aqua;
+                    border: 0.6vw solid black;
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+                .BanderaMexicana-Redes{
+                    position: absolute;
+                    top: 36vw;
+                    left: 15vw;
+                    background-color: white;
+                    border: 0.6vw solid green;
+                    border-radius: 50vw;
+                    padding: 1vw;
+
+                    img{
+                        height: 3vw;
+                        width: 4vw;
+                    }
+
+                }
+
+                .BanderaMexicana-Redes:hover{
+                    background-color: red;
+                    border: 0.6vw solid green;
+                    transform: scale(1.1);
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+            }
+
+            .BotónContrátame-SobreMí{
+
+                button{
+                    font-size: 2.5vw;
+                    padding: 1vw;
+                    border: 0.6vw solid black;
+                    border-radius: 50vw;
+                }
+
+                button:hover{
+                    background-color: orange;
+                    border: 0.6vw solid black;
+                    transition: 2s;
+                    cursor: pointer;
+                }
+
+            }
+
+        }
+
+        .SobreMí-Información{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .SobreMí-Texto{
+                padding: 1vw;
+
+                h1{
+                    font-size: 4vw;
+                    color: white;
+                }
+
+            }
+
+            .SobreMí-Descripción{
+                padding: 1vw;
+
+                em{
+                    font-size: 2.5vw;
+                    color: white;
+                }
+
+            }
+
+        }
+
+    }
+
+}

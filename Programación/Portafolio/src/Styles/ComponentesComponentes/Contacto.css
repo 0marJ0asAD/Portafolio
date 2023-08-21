@@ -1,0 +1,270 @@
+@charset "UTF-8";
+/* Responsive Design */
+@media (max-width: 575px) {
+  .PieDePágina-Contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+  }
+  .PieDePágina-Contacto .RedesSociales-Texto {
+    padding: 1vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Texto small {
+    font-size: 9vw;
+    color: white;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .LinkedIn-RS {
+    background-color: white;
+    border: 1vw solid aqua;
+    border-radius: 50vw;
+    padding: 1vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .LinkedIn-RS img {
+    height: 8vw;
+    width: 8vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .LinkedIn-RS:hover {
+    background-color: aqua;
+    border: 1vw solid white;
+    transition: 2s;
+    cursor: pointer;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .GitHub-RS {
+    background-color: white;
+    border: 1vw solid gray;
+    border-radius: 50vw;
+    padding: 1vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .GitHub-RS img {
+    height: 8vw;
+    width: 8vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .GitHub-RS:hover {
+    background-color: gray;
+    border: 1vw solid white;
+    transition: 2s;
+    cursor: pointer;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .Twitter-RS {
+    background-color: white;
+    border: 1vw solid blue;
+    border-radius: 50vw;
+    padding: 1vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .Twitter-RS img {
+    height: 8vw;
+    width: 8vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .Twitter-RS:hover {
+    background-color: blue;
+    border: 1vw solid white;
+    transition: 2s;
+    cursor: pointer;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .Gmail-RS {
+    background-color: white;
+    border: 1vw solid orange;
+    border-radius: 50vw;
+    padding: 1vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .Gmail-RS img {
+    height: 8vw;
+    width: 8vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .Gmail-RS:hover {
+    background-color: orange;
+    border: 1vw solid white;
+    transition: 2s;
+    cursor: pointer;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .PieDePágina-Contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+  }
+  .PieDePágina-Contacto .RedesSociales-Texto {
+    padding: 2.5vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Texto small {
+    font-size: 4vw;
+    color: white;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .LinkedIn-RS {
+    background-color: white;
+    border: 0.6vw solid aqua;
+    border-radius: 50vw;
+    padding: 1vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .LinkedIn-RS img {
+    height: 6vw;
+    width: 6vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .LinkedIn-RS:hover {
+    background-color: aqua;
+    border: 0.6vw solid white;
+    transform: scale(1.1);
+    transition: 2s;
+    cursor: pointer;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .GitHub-RS {
+    background-color: white;
+    border: 0.6vw solid gray;
+    border-radius: 50vw;
+    padding: 1vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .GitHub-RS img {
+    height: 6vw;
+    width: 6vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .GitHub-RS:hover {
+    background-color: gray;
+    border: 0.6vw solid white;
+    transform: scale(1.1);
+    transition: 2s;
+    cursor: pointer;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .Twitter-RS {
+    background-color: white;
+    border: 0.6vw solid blue;
+    border-radius: 50vw;
+    padding: 1vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .Twitter-RS img {
+    height: 6vw;
+    width: 6vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .Twitter-RS:hover {
+    background-color: blue;
+    border: 0.6vw solid white;
+    transform: scale(1.1);
+    transition: 2s;
+    cursor: pointer;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .Gmail-RS {
+    background-color: white;
+    border: 0.6vw solid orange;
+    border-radius: 50vw;
+    padding: 1vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .Gmail-RS img {
+    height: 6vw;
+    width: 6vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .Gmail-RS:hover {
+    background-color: orange;
+    border: 0.6vw solid white;
+    transform: scale(1.1);
+    transition: 2s;
+    cursor: pointer;
+  }
+}
+@media (min-width: 769px) {
+  .PieDePágina-Contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+  }
+  .PieDePágina-Contacto .RedesSociales-Texto {
+    padding: 2.5vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Texto small {
+    font-size: 4vw;
+    color: white;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .LinkedIn-RS {
+    background-color: white;
+    border: 0.5vw solid aqua;
+    border-radius: 50vw;
+    padding: 1vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .LinkedIn-RS img {
+    height: 5vw;
+    width: 5vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .LinkedIn-RS:hover {
+    background-color: aqua;
+    border: 0.5vw solid white;
+    transform: scale(1.1);
+    transition: 2s;
+    cursor: pointer;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .GitHub-RS {
+    background-color: white;
+    border: 0.5vw solid gray;
+    border-radius: 50vw;
+    padding: 1vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .GitHub-RS img {
+    height: 5vw;
+    width: 5vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .GitHub-RS:hover {
+    background-color: gray;
+    border: 0.5vw solid white;
+    transform: scale(1.1);
+    transition: 2s;
+    cursor: pointer;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .Twitter-RS {
+    background-color: white;
+    border: 0.5vw solid blue;
+    border-radius: 50vw;
+    padding: 1vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .Twitter-RS img {
+    height: 5vw;
+    width: 5vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .Twitter-RS:hover {
+    background-color: blue;
+    border: 0.5vw solid white;
+    transform: scale(1.1);
+    transition: 2s;
+    cursor: pointer;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .Gmail-RS {
+    background-color: white;
+    border: 0.5vw solid orange;
+    border-radius: 50vw;
+    padding: 1vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .Gmail-RS img {
+    height: 5vw;
+    width: 5vw;
+  }
+  .PieDePágina-Contacto .RedesSociales-Imágenes .Gmail-RS:hover {
+    background-color: orange;
+    border: 0.5vw solid white;
+    transform: scale(1.1);
+    transition: 2s;
+    cursor: pointer;
+  }
+}
+
+/*# sourceMappingURL=Contacto.css.map */

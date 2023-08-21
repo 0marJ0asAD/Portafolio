@@ -1,0 +1,382 @@
+/* Responsive Design */
+
+@media(max-width: 575px){
+
+    .Menu-EducaciónyExperiencia{
+        text-align: left;
+
+        .Educación-Texto{
+            text-align: center;
+            padding: 2.5vw;
+
+            h1{
+                font-size: 9vw;
+                color: white;
+            }
+
+        }
+
+        .Educación-ConalepCMC{
+            text-align: center;
+
+            .ConalepCMC-Texto{
+                text-align: left;
+                padding: 2.5vw;
+
+                b{
+                    font-size: 4.2vw;
+                    color: white;
+                }
+
+                em{
+                    font-size: 4.2vw;
+                    color: white;
+                }
+
+            }
+
+            .ConalepCMC-Descripción{
+                text-align: left;
+                padding: 2.5vw;
+
+                p{
+                    font-size: 5vw;
+                    color: white;
+                }
+
+            }
+
+        }
+
+        .Educación-EdCPilares{
+            text-align: center;
+
+            .EdCPilares-Texto{
+                text-align: left;
+                padding: 2.5vw;
+
+                b{
+                    font-size: 6vw;
+                    color: white;
+                }
+
+                em{
+                    font-size: 6vw;
+                    color: white;
+                }
+
+            }
+
+            .EdCPilares-Descripción{
+                text-align: left;
+                padding: 2.5vw;
+
+                p{
+                    font-size: 5vw;
+                    color: white;
+                }
+
+            }
+
+        }
+
+        .Experiencia-Texto{
+            text-align: center;
+            padding: 2.5vw;
+
+            h1{
+                font-size: 9vw;
+                color: white;
+            }
+
+        }
+
+        .Servicio-Practicas{
+            text-align: center;
+
+            .ServicioPrácticas-Texto{
+                text-align: left;
+                padding: 2.5vw;
+
+                b{
+                    font-size: 4.3vw;
+                    color: white;
+                }
+
+                em{
+                    font-size: 4.3vw;
+                    color: white;
+                }
+
+            }
+
+            .ServicioPrácticas-Descripción{
+                text-align: left;
+                padding: 2.5vw;
+
+                p{
+                    font-size: 5vw;
+                    color: white;
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+@media(min-width: 576px) and (max-width: 768px){
+
+    .Menu-EducaciónyExperiencia{
+        text-align: center;
+
+        .Educación-Texto{
+            text-align: left;
+            padding: 2.5vw;
+
+            h1{
+                font-size: 4vw;
+                color: white;
+            }
+
+        }
+
+        .Educación-ConalepCMC{
+            text-align: center;
+
+            .ConalepCMC-Texto{
+                text-align: left;
+                padding: 2.5vw;
+
+                b{
+                    font-size: 2.5vw;
+                    color: white;
+                }
+    
+                em{
+                    font-size: 2.5vw;
+                    color: white;
+                }
+
+            }
+
+            .ConalepCMC-Descripción{
+                text-align: left;
+                padding: 2.5vw;
+
+                p{
+                    font-size: 2.5vw;
+                    color: white;
+                }
+
+            }
+
+        }
+
+        .Educación-EdCPilares{
+            text-align: center;
+
+            .EdCPilares-Texto{
+                text-align: left;
+                padding: 2.5vw;
+
+                b{
+                    font-size: 2.5vw;
+                    color: white;
+                }
+
+                em{
+                    font-size: 2.5vw;
+                    color: white;
+                }
+
+            }
+
+            .EdCPilares-Descripción{
+                text-align: left;
+                padding: 2.5vw;
+
+                p{
+                    font-size: 2.5vw;
+                    color: white;
+                }
+
+            }
+
+        }
+
+        .Experiencia-Texto{
+            text-align: left;
+            padding: 2.5vw;
+
+            h1{
+                font-size: 4vw;
+                color: white;
+            }
+
+        }
+
+        .Servicio-Practicas{
+            text-align: center;
+
+            .ServicioPrácticas-Texto{
+                text-align: left;
+                padding: 2.5vw;
+
+                b{
+                    font-size: 2.5vw;
+                    color: white;
+                }
+
+                em{
+                    font-size: 2.5vw;
+                    color: white;
+                }
+
+            }
+
+            .ServicioPrácticas-Descripción{
+                text-align: left;
+                padding: 2.5vw;
+
+                p{
+                    font-size: 2.5vw;
+                    color: white;
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+@media(min-width: 769px){
+
+    .Menu-EducaciónyExperiencia{
+        text-align: center;
+
+        .Educación-Texto{
+            text-align: left;
+            padding: 2.5vw;
+
+            h1{
+                font-size: 4vw;
+                color: white;
+            }
+
+        }
+
+        .Educación-ConalepCMC{
+            text-align: center;
+
+            .ConalepCMC-Texto{
+                text-align: left;
+                padding: 2.5vw;
+
+                b{
+                    font-size: 2.5vw;
+                    color: white;
+                }
+
+                em{
+                    font-size: 2.5vw;
+                    color: white;
+                }
+
+            }
+
+            .ConalepCMC-Descripción{
+                text-align: left;
+                padding: 2.5vw;
+
+                p{
+                    font-size: 2.5vw;
+                    color: white;
+                }
+
+            }
+
+        }
+
+        .Educación-EdCPilares{
+            text-align: center;
+
+            .EdCPilares-Texto{
+                text-align: left;
+                padding: 2.5vw;
+
+                b{
+                    font-size: 2.5vw;
+                    color: white;
+                }
+
+                em{
+                    font-size: 2.5vw;
+                    color: white;
+                }
+
+            }
+
+            .EdCPilares-Descripción{
+                text-align: left;
+                padding: 2.5vw;
+
+                p{
+                    font-size: 2.5vw;
+                    color: white;
+                }
+
+            }
+
+        }
+
+        .Experiencia-Texto{
+            text-align: left;
+            padding: 2.5vw;
+
+            h1{
+                font-size: 4vw;
+                color: white;
+            }
+
+        }
+
+        .Servicio-Practicas{
+            text-align: center;
+
+            .ServicioPrácticas-Texto{
+                text-align: left;
+                padding: 2.5vw;
+
+                b{
+                    font-size: 2.5vw;
+                    color: white;
+                }
+
+                em{
+                    font-size: 2.5vw;
+                    color: white;
+                }
+
+            }
+
+            .ServicioPrácticas-Descripción{
+                text-align: left;
+                padding: 2.5vw;
+
+                p{
+                    font-size: 2.5vw;
+                    color: white;
+                }
+
+            }
+
+        }
+
+    }
+
+}

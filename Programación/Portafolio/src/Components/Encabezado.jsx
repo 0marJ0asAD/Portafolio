@@ -1,25 +1,27 @@
 import React from "react";
-import '../Styles/Encabezado.css';
+import '../Styles/ComponentesComponentes/Encabezado.css';
 import Logotipo from '../Img/Primer Logotipo.png';
-import NavegaciónBotón from "./NavegacionBtn";
-import Navegación from "./Navegacion";
+import BtnHamburguesa from "./ComponentesComponentes/BtnHamburguesa";
+import Navegacion from "./ComponentesComponentes/Navegacion";
 
-export default function Encabezado(){
+function Encabezado(){
 
     return(
 
         <header className={'Encabezado'}>
 
             <div className={'Logotipo'}>
-                <a href={'/'}><img src={Logotipo} alt={"Logotipo"}/></a>
+                <a href={'/'}><img src={Logotipo} alt={'Logotipo'}/></a>
             </div>
 
-            <NavegaciónBotón/>
+            <BtnHamburguesa/>
 
-            <Navegación/>
+            <Navegacion/>
 
         </header>
 
     );
 
-};
+}
+
+export default Encabezado;

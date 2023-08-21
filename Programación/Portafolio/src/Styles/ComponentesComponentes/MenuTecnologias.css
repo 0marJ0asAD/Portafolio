@@ -1,0 +1,1375 @@
+@charset "UTF-8";
+/* Responsive Design */
+@media (max-width: 575px) {
+  .Menu-Habilidades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Menu-Habilidades .Tecnologías-Texto {
+    padding: 2.5vw;
+  }
+  .Menu-Habilidades .Tecnologías-Texto h1 {
+    font-size: 9vw;
+    color: white;
+  }
+  .Menu-Habilidades .Tecnologías-Información {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .HTML5 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 0.6vw solid orange;
+    background-color: white;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .HTML5 b {
+    font-size: 4vw;
+    color: orange;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .HTML5 img {
+    height: 20vw;
+    width: 20vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .HTML5:hover {
+    background-color: orange;
+    border: 0.6vw solid black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .HTML5:hover b {
+    color: black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .CSS3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.6vw solid blue;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .CSS3 b {
+    font-size: 4vw;
+    color: blue;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .CSS3 img {
+    height: 20vw;
+    width: 20vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .CSS3:hover {
+    background-color: blue;
+    border: 0.6vw solid white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .CSS3:hover b {
+    color: white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .SASS {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.6vw solid rgb(233, 66, 255);
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .SASS b {
+    font-size: 4vw;
+    color: rgb(233, 66, 255);
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .SASS img {
+    height: 20vw;
+    width: 20vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .SASS:hover {
+    background-color: rgb(233, 66, 255);
+    border: 0.6vw solid white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .SASS:hover b {
+    color: white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .JavaScript {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.6vw solid greenyellow;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .JavaScript b {
+    font-size: 4vw;
+    color: black;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .JavaScript img {
+    height: 20vw;
+    width: 20vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .JavaScript:hover {
+    background-color: greenyellow;
+    border: 0.6vw solid black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .JavaScript:hover b {
+    color: black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .GSAP {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.6vw solid greenyellow;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .GSAP b {
+    font-size: 4vw;
+    color: greenyellow;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .GSAP img {
+    height: 20vw;
+    width: 20vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .GSAP:hover {
+    background-color: greenyellow;
+    border: 0.6vw solid black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .GSAP:hover b {
+    color: black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .ReactJS {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 1vw solid aqua;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .ReactJS b {
+    font-size: 4vw;
+    color: aqua;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .ReactJS img {
+    height: 20vw;
+    width: 20vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .ReactJS:hover {
+    background-color: aqua;
+    border: 0.6vw solid black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .ReactJS:hover b {
+    color: black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .NodeJS {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.6vw solid green;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .NodeJS b {
+    font-size: 4vw;
+    color: green;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .NodeJS img {
+    height: 20vw;
+    width: 20vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .NodeJS:hover {
+    background-color: green;
+    border: 0.6vw solid white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .NodeJS:hover b {
+    color: white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .PHP {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.6vw solid purple;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .PHP b {
+    font-size: 4vw;
+    color: purple;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .PHP img {
+    height: 20vw;
+    width: 20vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .PHP:hover {
+    background-color: purple;
+    border: 0.6vw solid white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .PHP:hover b {
+    color: white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .SQL {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.6vw solid rgb(207, 51, 255);
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .SQL b {
+    font-size: 4vw;
+    color: rgb(207, 51, 255);
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .SQL img {
+    height: 20vw;
+    width: 20vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .SQL:hover {
+    background-color: rgb(207, 51, 255);
+    border: 0.6vw solid white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .SQL:hover b {
+    color: white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .Python {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.6vw solid aquamarine;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .Python b {
+    font-size: 4vw;
+    color: black;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .Python img {
+    height: 20vw;
+    width: 20vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .Python:hover {
+    background-color: aquamarine;
+    border: 0.6vw solid black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .Python:hover b {
+    color: black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .Git {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.6vw solid orangered;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .Git b {
+    font-size: 4vw;
+    color: orangered;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .Git img {
+    height: 20vw;
+    width: 20vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .Git:hover {
+    background-color: orangered;
+    border: 0.6vw solid white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .Git:hover b {
+    color: white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .GitHub {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.6vw solid gray;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .GitHub b {
+    font-size: 4vw;
+    color: gray;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .GitHub img {
+    height: 20vw;
+    width: 20vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .GitHub:hover {
+    background-color: gray;
+    border: 0.6vw solid white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .GitHub:hover b {
+    color: white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Word {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.6vw solid blue;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Word b {
+    font-size: 4vw;
+    color: blue;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Word img {
+    height: 20vw;
+    width: 20vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Word:hover {
+    background-color: blue;
+    border: 0.6vw solid white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Word:hover b {
+    color: white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Excel {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.6vw solid green;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Excel b {
+    font-size: 4vw;
+    color: green;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Excel img {
+    height: 20vw;
+    width: 20vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Excel:hover {
+    background-color: green;
+    border: 0.6vw solid white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Excel:hover b {
+    color: white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-PowerPoint {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.6vw solid orange;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-PowerPoint b {
+    font-size: 4vw;
+    color: orange;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-PowerPoint img {
+    height: 20vw;
+    width: 20vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-PowerPoint:hover {
+    background-color: orange;
+    border: 0.6vw solid black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-PowerPoint:hover b {
+    color: black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Access {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.6vw solid red;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Access b {
+    font-size: 4vw;
+    color: red;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Access img {
+    height: 20vw;
+    width: 20vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Access:hover {
+    background-color: red;
+    border: 0.6vw solid white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Access:hover b {
+    color: white;
+    transition: 2s;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .Menu-Habilidades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Menu-Habilidades .Tecnologías-Texto {
+    padding: 2.5vw;
+  }
+  .Menu-Habilidades .Tecnologías-Texto h1 {
+    font-size: 4vw;
+    color: white;
+  }
+  .Menu-Habilidades .Tecnologías-Información {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .HTML5 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 0.6vw solid orange;
+    background-color: white;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .HTML5 b {
+    font-size: 2.5vw;
+    color: orange;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .HTML5 img {
+    height: 14vw;
+    width: 14vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .HTML5:hover {
+    background-color: orange;
+    border: 0.6vw solid black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .HTML5:hover b {
+    color: black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .CSS3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.6vw solid blue;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .CSS3 b {
+    font-size: 2.5vw;
+    color: blue;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .CSS3 img {
+    height: 14vw;
+    width: 14vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .CSS3:hover {
+    background-color: blue;
+    border: 0.6vw solid white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .CSS3:hover b {
+    color: white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .SASS {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.6vw solid rgb(233, 66, 255);
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .SASS b {
+    font-size: 2.5vw;
+    color: rgb(233, 66, 255);
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .SASS img {
+    height: 14vw;
+    width: 14vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .SASS:hover {
+    background-color: rgb(233, 66, 255);
+    border: 0.6vw solid white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .SASS:hover b {
+    color: white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .JavaScript {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.6vw solid greenyellow;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .JavaScript b {
+    font-size: 2.5vw;
+    color: black;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .JavaScript img {
+    height: 14vw;
+    width: 14vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .JavaScript:hover {
+    background-color: greenyellow;
+    border: 0.6vw solid black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .JavaScript:hover b {
+    color: black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .GSAP {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.6vw solid greenyellow;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .GSAP b {
+    font-size: 2.5vw;
+    color: greenyellow;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .GSAP img {
+    height: 14vw;
+    width: 14vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .GSAP:hover {
+    background-color: greenyellow;
+    border: 0.6vw solid black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .GSAP:hover b {
+    color: black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .ReactJS {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.6vw solid aqua;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .ReactJS b {
+    font-size: 2.5vw;
+    color: aqua;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .ReactJS img {
+    height: 14vw;
+    width: 14vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .ReactJS:hover {
+    background-color: aqua;
+    border: 0.6vw solid black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .ReactJS:hover b {
+    color: black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .NodeJS {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.6vw solid green;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .NodeJS b {
+    font-size: 2.5vw;
+    color: green;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .NodeJS img {
+    height: 14vw;
+    width: 14vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .NodeJS:hover {
+    background-color: green;
+    border: 0.6vw solid white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .NodeJS:hover b {
+    color: white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .PHP {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.6vw solid purple;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .PHP b {
+    font-size: 2.5vw;
+    color: purple;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .PHP img {
+    height: 14vw;
+    width: 14vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .PHP:hover {
+    background-color: purple;
+    border: 0.6vw solid white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .PHP:hover b {
+    color: white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .SQL {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.6vw solid rgb(207, 51, 255);
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .SQL b {
+    font-size: 2.5vw;
+    color: rgb(207, 51, 255);
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .SQL img {
+    height: 14vw;
+    width: 14vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .SQL:hover {
+    background-color: rgb(207, 51, 255);
+    border: 0.6vw solid white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .SQL:hover b {
+    color: white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .Python {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.6vw solid aquamarine;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .Python b {
+    font-size: 2.5vw;
+    color: black;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .Python img {
+    height: 14vw;
+    width: 14vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .Python:hover {
+    background-color: aquamarine;
+    border: 0.6vw solid black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .Python:hover b {
+    color: black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .Git {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.6vw solid orangered;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .Git b {
+    font-size: 2.5vw;
+    color: orangered;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .Git img {
+    height: 14vw;
+    width: 14vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .Git:hover {
+    background-color: orangered;
+    border: 0.6vw solid white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .Git:hover b {
+    color: white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .GitHub {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.6vw solid gray;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .GitHub b {
+    font-size: 2.5vw;
+    color: gray;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .GitHub img {
+    height: 14vw;
+    width: 14vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .GitHub:hover {
+    background-color: gray;
+    border: 0.6vw solid white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .GitHub:hover b {
+    color: white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Word {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.6vw solid blue;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Word b {
+    font-size: 2.5vw;
+    color: blue;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Word img {
+    height: 14vw;
+    width: 14vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Word:hover {
+    background-color: blue;
+    border: 0.6vw solid white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Word:hover b {
+    color: white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Excel {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.6vw solid green;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Excel b {
+    font-size: 2.5vw;
+    color: green;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Excel img {
+    height: 14vw;
+    width: 14vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Excel:hover {
+    background-color: green;
+    border: 0.6vw solid white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Excel:hover b {
+    color: white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-PowerPoint {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.6vw solid orange;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-PowerPoint b {
+    font-size: 2.5vw;
+    color: orange;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-PowerPoint img {
+    height: 14vw;
+    width: 14vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-PowerPoint:hover {
+    background-color: orange;
+    border: 0.6vw solid black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-PowerPoint:hover b {
+    color: black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Access {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.6vw solid red;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Access b {
+    font-size: 2.5vw;
+    color: red;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Access img {
+    height: 14vw;
+    width: 14vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Access:hover {
+    background-color: red;
+    border: 0.6vw solid white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Access:hover b {
+    color: white;
+    transition: 2s;
+  }
+}
+@media (min-width: 769px) {
+  .Menu-Habilidades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Menu-Habilidades .Tecnologías-Texto {
+    padding: 2.5vw;
+  }
+  .Menu-Habilidades .Tecnologías-Texto h1 {
+    font-size: 4vw;
+    color: white;
+  }
+  .Menu-Habilidades .Tecnologías-Información {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .HTML5 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 0.5vw solid orange;
+    background-color: white;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .HTML5 b {
+    font-size: 2vw;
+    color: orange;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .HTML5 img {
+    height: 12vw;
+    width: 12vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .HTML5:hover {
+    background-color: orange;
+    border: 0.5vw solid black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .HTML5:hover b {
+    color: black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .CSS3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.5vw solid blue;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .CSS3 b {
+    font-size: 2vw;
+    color: blue;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .CSS3 img {
+    height: 12vw;
+    width: 12vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .CSS3:hover {
+    background-color: blue;
+    border: 0.5vw solid white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .CSS3:hover b {
+    color: white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .SASS {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.5vw solid rgb(233, 66, 255);
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .SASS b {
+    font-size: 2vw;
+    color: rgb(233, 66, 255);
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .SASS img {
+    height: 12vw;
+    width: 12vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .SASS:hover {
+    background-color: rgb(233, 66, 255);
+    border: 0.5vw solid white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .SASS:hover b {
+    color: white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .JavaScript {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.5vw solid greenyellow;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .JavaScript b {
+    font-size: 2vw;
+    color: black;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .JavaScript img {
+    height: 12vw;
+    width: 12vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .JavaScript:hover {
+    background-color: greenyellow;
+    border: 0.5vw solid black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte1 .JavaScript:hover b {
+    color: black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .GSAP {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.5vw solid greenyellow;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .GSAP b {
+    font-size: 2vw;
+    color: greenyellow;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .GSAP img {
+    height: 12vw;
+    width: 12vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .GSAP:hover {
+    background-color: greenyellow;
+    border: 0.5vw solid black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .GSAP:hover b {
+    color: black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .ReactJS {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.5vw solid aqua;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .ReactJS b {
+    font-size: 2vw;
+    color: aqua;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .ReactJS img {
+    height: 12vw;
+    width: 12vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .ReactJS:hover {
+    background-color: aqua;
+    border: 0.5vw solid black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .ReactJS:hover b {
+    color: black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .NodeJS {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.5vw solid green;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .NodeJS b {
+    font-size: 2vw;
+    color: green;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .NodeJS img {
+    height: 12vw;
+    width: 12vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .NodeJS:hover {
+    background-color: green;
+    border: 0.5vw solid white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .NodeJS:hover b {
+    color: white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .PHP {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.5vw solid purple;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .PHP b {
+    font-size: 2vw;
+    color: purple;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .PHP img {
+    height: 12vw;
+    width: 12vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .PHP:hover {
+    background-color: purple;
+    border: 0.5vw solid white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte2 .PHP:hover b {
+    color: white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .SQL {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.5vw solid rgb(207, 51, 255);
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .SQL b {
+    font-size: 2vw;
+    color: rgb(207, 51, 255);
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .SQL img {
+    height: 12vw;
+    width: 12vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .SQL:hover {
+    background-color: rgb(207, 51, 255);
+    border: 0.5vw solid white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .SQL:hover b {
+    color: white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .Python {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.5vw solid aquamarine;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .Python b {
+    font-size: 2vw;
+    color: black;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .Python img {
+    height: 12vw;
+    width: 12vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .Python:hover {
+    background-color: aquamarine;
+    border: 0.5vw solid black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .Python:hover b {
+    color: black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .Git {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.5vw solid orangered;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .Git b {
+    font-size: 2vw;
+    color: orangered;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .Git img {
+    height: 12vw;
+    width: 12vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .Git:hover {
+    background-color: orangered;
+    border: 0.5vw solid white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .Git:hover b {
+    color: white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .GitHub {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.5vw solid gray;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .GitHub b {
+    font-size: 2vw;
+    color: gray;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .GitHub img {
+    height: 12vw;
+    width: 12vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .GitHub:hover {
+    background-color: gray;
+    border: 0.5vw solid white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte3 .GitHub:hover b {
+    color: white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Word {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.5vw solid blue;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Word b {
+    font-size: 2vw;
+    color: blue;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Word img {
+    height: 12vw;
+    width: 12vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Word:hover {
+    background-color: blue;
+    border: 0.5vw solid white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Word:hover b {
+    color: white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Excel {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.5vw solid green;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Excel b {
+    font-size: 2vw;
+    color: green;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Excel img {
+    height: 12vw;
+    width: 12vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Excel:hover {
+    background-color: green;
+    border: 0.5vw solid white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Excel:hover b {
+    color: white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-PowerPoint {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.5vw solid orange;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-PowerPoint b {
+    font-size: 2vw;
+    color: orange;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-PowerPoint img {
+    height: 12vw;
+    width: 12vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-PowerPoint:hover {
+    background-color: orange;
+    border: 0.5vw solid black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-PowerPoint:hover b {
+    color: black;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Access {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 0.5vw solid red;
+    border-radius: 50vw;
+    padding: 1.7vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Access b {
+    font-size: 2vw;
+    color: red;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Access img {
+    height: 12vw;
+    width: 12vw;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Access:hover {
+    background-color: red;
+    border: 0.5vw solid white;
+    transition: 2s;
+  }
+  .Menu-Habilidades .Tecnologías-Información .Tecnologías-Parte4 .Microsoft-Access:hover b {
+    color: white;
+    transition: 2s;
+  }
+}
+
+/*# sourceMappingURL=MenuTecnologias.css.map */

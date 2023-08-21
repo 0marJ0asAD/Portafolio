@@ -1,0 +1,172 @@
+@charset "UTF-8";
+/* Responsive Design */
+@media (max-width: 575px) {
+  .Navegación {
+    display: none;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .Navegación {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Navegación .Listas-SobreMí li {
+    list-style: none;
+    padding: 1vw;
+  }
+  .Navegación .Listas-SobreMí li:hover {
+    transform: scale(1.1);
+    transition: 2s;
+    cursor: pointer;
+  }
+  .Navegación .Listas-SobreMí a {
+    font-size: 2.5vw;
+    color: white;
+    text-decoration: none;
+  }
+  .Navegación .Listas-SobreMí a:hover {
+    color: aqua;
+    transition: 2s;
+  }
+  .Navegación .Listas-Habilidades li {
+    list-style: none;
+    padding: 1vw;
+  }
+  .Navegación .Listas-Habilidades li:hover {
+    transform: scale(1.1);
+    transition: 2s;
+    cursor: pointer;
+  }
+  .Navegación .Listas-Habilidades a {
+    font-size: 2.5vw;
+    color: white;
+    text-decoration: none;
+  }
+  .Navegación .Listas-Habilidades a:hover {
+    color: aqua;
+    transition: 2s;
+  }
+  .Navegación .Listas-Proyectos li {
+    list-style: none;
+    padding: 1vw;
+  }
+  .Navegación .Listas-Proyectos li:hover {
+    transform: scale(1.1);
+    transition: 2s;
+    cursor: pointer;
+  }
+  .Navegación .Listas-Proyectos a {
+    font-size: 2.5vw;
+    color: white;
+    text-decoration: none;
+  }
+  .Navegación .Listas-Proyectos a:hover {
+    color: aqua;
+    transition: 2s;
+  }
+  .Navegación .Lista-Contacto li {
+    list-style: none;
+    padding: 1vw;
+  }
+  .Navegación .Lista-Contacto li:hover {
+    transform: scale(1.1);
+    transition: 2s;
+    cursor: pointer;
+  }
+  .Navegación .Lista-Contacto a {
+    font-size: 2.5vw;
+    color: white;
+    text-decoration: none;
+  }
+  .Navegación .Lista-Contacto a:hover {
+    color: aqua;
+    transition: 2s;
+  }
+}
+@media (min-width: 769px) {
+  .Navegación {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Navegación .Listas-SobreMí li {
+    list-style: none;
+  }
+  .Navegación .Listas-SobreMí li:hover {
+    transform: scale(1.2);
+    transition: 2s;
+    cursor: pointer;
+  }
+  .Navegación .Listas-SobreMí a {
+    font-size: 2.5vw;
+    color: white;
+    text-decoration: none;
+  }
+  .Navegación .Listas-SobreMí a:hover {
+    color: aqua;
+    transition: 2s;
+  }
+  .Navegación .Listas-Habilidades {
+    margin-left: 2.5vw;
+  }
+  .Navegación .Listas-Habilidades li {
+    list-style: none;
+  }
+  .Navegación .Listas-Habilidades li:hover {
+    transform: scale(1.2);
+    transition: 2s;
+    cursor: pointer;
+  }
+  .Navegación .Listas-Habilidades a {
+    font-size: 2.5vw;
+    color: white;
+    text-decoration: none;
+  }
+  .Navegación .Listas-Habilidades a:hover {
+    color: aqua;
+    transition: 2s;
+  }
+  .Navegación .Listas-Proyectos {
+    margin-left: 2.5vw;
+  }
+  .Navegación .Listas-Proyectos li {
+    list-style: none;
+  }
+  .Navegación .Listas-Proyectos li:hover {
+    transform: scale(1.2);
+    transition: 2s;
+    cursor: pointer;
+  }
+  .Navegación .Listas-Proyectos a {
+    font-size: 2.5vw;
+    color: white;
+    text-decoration: none;
+  }
+  .Navegación .Listas-Proyectos a:hover {
+    color: aqua;
+    transition: 2s;
+  }
+  .Navegación .Lista-Contacto {
+    margin-left: 2.5vw;
+  }
+  .Navegación .Lista-Contacto li {
+    list-style: none;
+  }
+  .Navegación .Lista-Contacto li:hover {
+    transform: scale(1.2);
+    transition: 2s;
+    cursor: pointer;
+  }
+  .Navegación .Lista-Contacto a {
+    font-size: 2.5vw;
+    color: white;
+    text-decoration: none;
+  }
+  .Navegación .Lista-Contacto a:hover {
+    color: aqua;
+    transition: 2s;
+  }
+}
+
+/*# sourceMappingURL=Navegacion.css.map */

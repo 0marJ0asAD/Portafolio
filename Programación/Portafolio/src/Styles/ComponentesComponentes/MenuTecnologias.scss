@@ -1,0 +1,1759 @@
+/* Responsive Design */
+
+@media(max-width: 575px){
+
+    .Menu-Habilidades{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .Tecnologías-Texto{
+            padding: 2.5vw;
+
+            h1{
+                font-size: 9vw;
+                color: white;
+            }
+
+        }
+
+        .Tecnologías-Información{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .Tecnologías-Parte1{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .HTML5{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    border: 0.6vw solid orange;
+                    background-color: white;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 4vw;
+                        color: orange;
+                    }
+
+                    img{
+                        height: 20vw;
+                        width: 20vw;
+                    }
+
+                }
+
+                .HTML5:hover{
+                    background-color: orange;
+                    border: 0.6vw solid black;
+                    transition: 2s;
+
+                    b{
+                        color: black;
+                        transition: 2s;
+                    }
+
+                }
+
+                .CSS3{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.6vw solid blue;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 4vw;
+                        color: blue;
+                    }
+
+                    img{
+                        height: 20vw;
+                        width: 20vw;
+                    }
+
+                }
+
+                .CSS3:hover{
+                    background-color: blue;
+                    border: 0.6vw solid white;
+                    transition: 2s;
+
+                    b{
+                        color: white;
+                        transition: 2s;
+                    }
+
+                }
+
+                .SASS{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.6vw solid rgb(233, 66, 255);
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 4vw;
+                        color: rgb(233, 66, 255);
+                    }
+
+                    img{
+                        height: 20vw;
+                        width: 20vw;
+                    }
+
+                }
+
+                .SASS:hover{
+                    background-color: rgb(233, 66, 255);
+                    border: 0.6vw solid white;
+                    transition: 2s;
+
+                    b{
+                        color: white;
+                        transition: 2s;
+                    }
+
+                }
+
+                .JavaScript{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.6vw solid greenyellow;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 4vw;
+                        color: black;
+                    }
+
+                    img{
+                        height: 20vw;
+                        width: 20vw;
+                    }
+
+                }
+
+                .JavaScript:hover{
+                    background-color: greenyellow;
+                    border: 0.6vw solid black;
+                    transition: 2s;
+
+                    b{
+                        color: black;
+                        transition: 2s;
+                    }
+
+                }
+
+            }
+
+            .Tecnologías-Parte2{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .GSAP{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.6vw solid greenyellow;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 4vw;
+                        color: greenyellow;
+                    }
+
+                    img{
+                        height: 20vw;
+                        width: 20vw;
+                    }
+
+                }
+
+                .GSAP:hover{
+                    background-color: greenyellow;
+                    border: 0.6vw solid black;
+                    transition: 2s;
+
+                    b{
+                        color: black;
+                        transition: 2s;
+                    }
+
+                }
+
+                .ReactJS{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 1vw solid aqua;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 4vw;
+                        color: aqua;
+                    }
+
+                    img{
+                        height: 20vw;
+                        width: 20vw;
+                    }
+
+                }
+
+                .ReactJS:hover{
+                    background-color: aqua;
+                    border: 0.6vw solid black;
+                    transition: 2s;
+
+                    b{
+                        color: black;
+                        transition: 2s;
+                    }
+
+                }
+
+                .NodeJS{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.6vw solid green;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 4vw;
+                        color: green;
+                    }
+
+                    img{
+                        height: 20vw;
+                        width: 20vw;
+                    }
+
+                }
+
+                .NodeJS:hover{
+                    background-color: green;
+                    border: 0.6vw solid white;
+                    transition: 2s;
+
+                    b{
+                        color: white;
+                        transition: 2s;
+                    }
+
+                }
+
+                .PHP{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.6vw solid purple;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 4vw;
+                        color: purple;
+                    }
+
+                    img{
+                        height: 20vw;
+                        width: 20vw;
+                    }
+
+                }
+
+                .PHP:hover{
+                    background-color: purple;
+                    border: 0.6vw solid white;
+                    transition: 2s;
+
+                    b{
+                        color: white;
+                        transition: 2s;
+                    }
+
+                }
+
+            }
+
+            .Tecnologías-Parte3{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .SQL{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.6vw solid rgb(207, 51, 255);
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 4vw;
+                        color: rgb(207, 51, 255);
+                    }
+
+                    img{
+                        height: 20vw;
+                        width: 20vw;
+                    }
+
+                }
+
+                .SQL:hover{
+                    background-color: rgb(207, 51, 255);
+                    border: 0.6vw solid white;
+                    transition: 2s;
+
+                    b{
+                        color: white;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Python{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.6vw solid aquamarine;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 4vw;
+                        color: black;
+                    }
+
+                    img{
+                        height: 20vw;
+                        width: 20vw;
+                    }
+
+                }
+
+                .Python:hover{
+                    background-color: aquamarine;
+                    border: 0.6vw solid black;
+                    transition: 2s;
+
+                    b{
+                        color: black;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Git{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.6vw solid orangered;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 4vw;
+                        color: orangered;
+                    }
+
+                    img{
+                        height: 20vw;
+                        width: 20vw;
+                    }
+
+                }
+
+                .Git:hover{
+                    background-color: orangered;
+                    border: 0.6vw solid white;
+                    transition: 2s;
+
+                    b{
+                        color: white;
+                        transition: 2s;
+                    }
+
+                }
+
+                .GitHub{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.6vw solid gray;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 4vw;
+                        color: gray;
+                    }
+
+                    img{
+                        height: 20vw;
+                        width: 20vw;
+                    }
+
+                }
+
+                .GitHub:hover{
+                    background-color: gray;
+                    border: 0.6vw solid white;
+                    transition: 2s;
+                    
+                    b{
+                        color: white;
+                        transition: 2s;
+                    }
+
+                }
+
+            }
+
+            .Tecnologías-Parte4{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .Microsoft-Word{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.6vw solid blue;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 4vw;
+                        color: blue;
+                    }
+
+                    img{
+                        height: 20vw;
+                        width: 20vw;
+                    }
+
+                }
+
+                .Microsoft-Word:hover{
+                    background-color: blue;
+                    border: 0.6vw solid white;
+                    transition: 2s;
+                    
+                    b{
+                        color: white;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Microsoft-Excel{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.6vw solid green;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 4vw;
+                        color: green;
+                    }
+
+                    img{
+                        height: 20vw;
+                        width: 20vw;
+                    }
+
+                }
+
+                .Microsoft-Excel:hover{
+                    background-color: green;
+                    border: 0.6vw solid white;
+                    transition: 2s;
+                    
+                    b{
+                        color: white;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Microsoft-PowerPoint{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.6vw solid orange;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 4vw;
+                        color: orange;
+                    }
+
+                    img{
+                        height: 20vw;
+                        width: 20vw;
+                    }
+
+                }
+
+                .Microsoft-PowerPoint:hover{
+                    background-color: orange;
+                    border: 0.6vw solid black;
+                    transition: 2s;
+                    
+                    b{
+                        color: black;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Microsoft-Access{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.6vw solid red;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 4vw;
+                        color: red;
+                    }
+
+                    img{
+                        height: 20vw;
+                        width: 20vw;
+                    }
+
+                }
+
+                .Microsoft-Access:hover{
+                    background-color: red;
+                    border: 0.6vw solid white;
+                    transition: 2s;
+
+                    b{
+                        color: white;
+                        transition: 2s;
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+@media(min-width: 576px) and (max-width: 768px){
+
+    .Menu-Habilidades{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .Tecnologías-Texto{
+            padding: 2.5vw;
+
+            h1{
+                font-size: 4vw;
+                color: white;
+            }
+
+        }
+
+        .Tecnologías-Información{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .Tecnologías-Parte1{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .HTML5{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    border: 0.6vw solid orange;
+                    background-color: white;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 2.5vw;
+                        color: orange;
+                    }
+
+                    img{
+                        height: 14vw;
+                        width: 14vw;
+                    }
+
+                }
+
+                .HTML5:hover{
+                    background-color: orange;
+                    border: 0.6vw solid black;
+                    transition: 2s;
+
+                    b{
+                        color: black;
+                        transition: 2s;
+                    }
+
+                }
+
+                .CSS3{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.6vw solid blue;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 2.5vw;
+                        color: blue;
+                    }
+
+                    img{
+                        height: 14vw;
+                        width: 14vw;
+                    }
+
+                }
+
+                .CSS3:hover{
+                    background-color: blue;
+                    border: 0.6vw solid white;
+                    transition: 2s;
+
+                    b{
+                        color: white;
+                        transition: 2s;
+                    }
+
+                }
+
+                .SASS{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.6vw solid rgb(233, 66, 255);
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 2.5vw;
+                        color: rgb(233, 66, 255);
+                    }
+
+                    img{
+                        height: 14vw;
+                        width: 14vw;
+                    }
+
+                }
+
+                .SASS:hover{
+                    background-color: rgb(233, 66, 255);
+                    border: 0.6vw solid white;
+                    transition: 2s;
+
+                    b{
+                        color: white;
+                        transition: 2s;
+                    }
+
+                }
+
+                .JavaScript{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.6vw solid greenyellow;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 2.5vw;
+                        color: black;
+                    }
+
+                    img{
+                        height: 14vw;
+                        width: 14vw;
+                    }
+
+                }
+
+                .JavaScript:hover{
+                    background-color: greenyellow;
+                    border: 0.6vw solid black;
+                    transition: 2s;
+
+                    b{
+                        color: black;
+                        transition: 2s;
+                    }
+
+                }
+
+            }
+
+            .Tecnologías-Parte2{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .GSAP{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.6vw solid greenyellow;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 2.5vw;
+                        color: greenyellow;
+                    }
+
+                    img{
+                        height: 14vw;
+                        width: 14vw;
+                    }
+
+                }
+
+                .GSAP:hover{
+                    background-color: greenyellow;
+                    border: 0.6vw solid black;
+                    transition: 2s;
+
+                    b{
+                        color: black;
+                        transition: 2s;
+                    }
+
+                }
+
+                .ReactJS{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.6vw solid aqua;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 2.5vw;
+                        color: aqua;
+                    }
+
+                    img{
+                        height: 14vw;
+                        width: 14vw;
+                    }
+
+                }
+
+                .ReactJS:hover{
+                    background-color: aqua;
+                    border: 0.6vw solid black;
+                    transition: 2s;
+
+                    b{
+                        color: black;
+                        transition: 2s;
+                    }
+
+                }
+
+                .NodeJS{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.6vw solid green;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 2.5vw;
+                        color: green;
+                    }
+
+                    img{
+                        height: 14vw;
+                        width: 14vw;
+                    }
+
+                }
+
+                .NodeJS:hover{
+                    background-color: green;
+                    border: 0.6vw solid white;
+                    transition: 2s;
+
+                    b{
+                        color: white;
+                        transition: 2s;
+                    }
+
+                }
+
+                .PHP{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.6vw solid purple;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 2.5vw;
+                        color: purple;
+                    }
+
+                    img{
+                        height: 14vw;
+                        width: 14vw;
+                    }
+
+                }
+
+                .PHP:hover{
+                    background-color: purple;
+                    border: 0.6vw solid white;
+                    transition: 2s;
+
+                    b{
+                        color: white;
+                        transition: 2s;
+                    }
+
+                }
+
+            }
+
+            .Tecnologías-Parte3{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .SQL{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.6vw solid rgb(207, 51, 255);
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 2.5vw;
+                        color: rgb(207, 51, 255);
+                    }
+
+                    img{
+                        height: 14vw;
+                        width: 14vw;
+                    }
+
+                }
+
+                .SQL:hover{
+                    background-color: rgb(207, 51, 255);
+                    border: 0.6vw solid white;
+                    transition: 2s;
+
+                    b{
+                        color: white;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Python{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.6vw solid aquamarine;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 2.5vw;
+                        color: black;
+                    }
+
+                    img{
+                        height: 14vw;
+                        width: 14vw;
+                    }
+
+                }
+
+                .Python:hover{
+                    background-color: aquamarine;
+                    border: 0.6vw solid black;
+                    transition: 2s;
+
+                    b{
+                        color: black;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Git{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.6vw solid orangered;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 2.5vw;
+                        color: orangered;
+                    }
+
+                    img{
+                        height: 14vw;
+                        width: 14vw;
+                    }
+
+                }
+
+                .Git:hover{
+                    background-color: orangered;
+                    border: 0.6vw solid white;
+                    transition: 2s;
+
+                    b{
+                        color: white;
+                        transition: 2s;
+                    }
+
+                }
+
+                .GitHub{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.6vw solid gray;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 2.5vw;
+                        color: gray;
+                    }
+
+                    img{
+                        height: 14vw;
+                        width: 14vw;
+                    }
+
+                }
+
+                .GitHub:hover{
+                    background-color: gray;
+                    border: 0.6vw solid white;
+                    transition: 2s;
+                    
+                    b{
+                        color: white;
+                        transition: 2s;
+                    }
+
+                }
+
+            }
+
+            .Tecnologías-Parte4{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .Microsoft-Word{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.6vw solid blue;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 2.5vw;
+                        color: blue;
+                    }
+
+                    img{
+                        height: 14vw;
+                        width: 14vw;
+                    }
+
+                }
+
+                .Microsoft-Word:hover{
+                    background-color: blue;
+                    border: 0.6vw solid white;
+                    transition: 2s;
+                    
+                    b{
+                        color: white;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Microsoft-Excel{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.6vw solid green;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 2.5vw;
+                        color: green;
+                    }
+
+                    img{
+                        height: 14vw;
+                        width: 14vw;
+                    }
+
+                }
+
+                .Microsoft-Excel:hover{
+                    background-color: green;
+                    border: 0.6vw solid white;
+                    transition: 2s;
+                    
+                    b{
+                        color: white;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Microsoft-PowerPoint{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.6vw solid orange;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 2.5vw;
+                        color: orange;
+                    }
+
+                    img{
+                        height: 14vw;
+                        width: 14vw;
+                    }
+
+                }
+
+                .Microsoft-PowerPoint:hover{
+                    background-color: orange;
+                    border: 0.6vw solid black;
+                    transition: 2s;
+                    
+                    b{
+                        color: black;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Microsoft-Access{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.6vw solid red;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 2.5vw;
+                        color: red;
+                    }
+
+                    img{
+                        height: 14vw;
+                        width: 14vw;
+                    }
+
+                }
+
+                .Microsoft-Access:hover{
+                    background-color: red;
+                    border: 0.6vw solid white;
+                    transition: 2s;
+
+                    b{
+                        color: white;
+                        transition: 2s;
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+@media(min-width: 769px){
+
+    .Menu-Habilidades{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .Tecnologías-Texto{
+            padding: 2.5vw;
+
+            h1{
+                font-size: 4vw;
+                color: white;
+            }
+
+        }
+
+        .Tecnologías-Información{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .Tecnologías-Parte1{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .HTML5{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    border: 0.5vw solid orange;
+                    background-color: white;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 2vw;
+                        color: orange;
+                    }
+
+                    img{
+                        height: 12vw;
+                        width: 12vw;
+                    }
+
+                }
+
+                .HTML5:hover{
+                    background-color: orange;
+                    border: 0.5vw solid black;
+                    transition: 2s;
+
+                    b{
+                        color: black;
+                        transition: 2s;
+                    }
+
+                }
+
+                .CSS3{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.5vw solid blue;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 2vw;
+                        color: blue;
+                    }
+
+                    img{
+                        height: 12vw;
+                        width: 12vw;
+                    }
+
+                }
+
+                .CSS3:hover{
+                    background-color: blue;
+                    border: 0.5vw solid white;
+                    transition: 2s;
+
+                    b{
+                        color: white;
+                        transition: 2s;
+                    }
+
+                }
+
+                .SASS{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.5vw solid rgb(233, 66, 255);
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 2vw;
+                        color: rgb(233, 66, 255);
+                    }
+
+                    img{
+                        height: 12vw;
+                        width: 12vw;
+                    }
+
+                }
+
+                .SASS:hover{
+                    background-color: rgb(233, 66, 255);
+                    border: 0.5vw solid white;
+                    transition: 2s;
+
+                    b{
+                        color: white;
+                        transition: 2s;
+                    }
+
+                }
+
+                .JavaScript{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.5vw solid greenyellow;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 2vw;
+                        color: black;
+                    }
+
+                    img{
+                        height: 12vw;
+                        width: 12vw;
+                    }
+
+                }
+
+                .JavaScript:hover{
+                    background-color: greenyellow;
+                    border: 0.5vw solid black;
+                    transition: 2s;
+
+                    b{
+                        color: black;
+                        transition: 2s;
+                    }
+
+                }
+
+            }
+
+            .Tecnologías-Parte2{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .GSAP{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.5vw solid greenyellow;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 2vw;
+                        color: greenyellow;
+                    }
+
+                    img{
+                        height: 12vw;
+                        width: 12vw;
+                    }
+
+                }
+
+                .GSAP:hover{
+                    background-color: greenyellow;
+                    border: 0.5vw solid black;
+                    transition: 2s;
+
+                    b{
+                        color: black;
+                        transition: 2s;
+                    }
+
+                }
+
+                .ReactJS{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.5vw solid aqua;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 2vw;
+                        color: aqua;
+                    }
+
+                    img{
+                        height: 12vw;
+                        width: 12vw;
+                    }
+
+                }
+
+                .ReactJS:hover{
+                    background-color: aqua;
+                    border: 0.5vw solid black;
+                    transition: 2s;
+
+                    b{
+                        color: black;
+                        transition: 2s;
+                    }
+
+                }
+
+                .NodeJS{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.5vw solid green;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 2vw;
+                        color: green;
+                    }
+
+                    img{
+                        height: 12vw;
+                        width: 12vw;
+                    }
+
+                }
+
+                .NodeJS:hover{
+                    background-color: green;
+                    border: 0.5vw solid white;
+                    transition: 2s;
+
+                    b{
+                        color: white;
+                        transition: 2s;
+                    }
+
+                }
+
+                .PHP{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.5vw solid purple;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 2vw;
+                        color: purple;
+                    }
+
+                    img{
+                        height: 12vw;
+                        width: 12vw;
+                    }
+
+                }
+
+                .PHP:hover{
+                    background-color: purple;
+                    border: 0.5vw solid white;
+                    transition: 2s;
+
+                    b{
+                        color: white;
+                        transition: 2s;
+                    }
+
+                }
+
+            }
+
+            .Tecnologías-Parte3{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .SQL{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.5vw solid rgb(207, 51, 255);
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 2vw;
+                        color: rgb(207, 51, 255);
+                    }
+
+                    img{
+                        height: 12vw;
+                        width: 12vw;
+                    }
+
+                }
+
+                .SQL:hover{
+                    background-color: rgb(207, 51, 255);
+                    border: 0.5vw solid white;
+                    transition: 2s;
+
+                    b{
+                        color: white;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Python{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.5vw solid aquamarine;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 2vw;
+                        color: black;
+                    }
+
+                    img{
+                        height: 12vw;
+                        width: 12vw;
+                    }
+
+                }
+
+                .Python:hover{
+                    background-color: aquamarine;
+                    border: 0.5vw solid black;
+                    transition: 2s;
+
+                    b{
+                        color: black;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Git{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.5vw solid orangered;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 2vw;
+                        color: orangered;
+                    }
+
+                    img{
+                        height: 12vw;
+                        width: 12vw;
+                    }
+
+                }
+
+                .Git:hover{
+                    background-color: orangered;
+                    border: 0.5vw solid white;
+                    transition: 2s;
+
+                    b{
+                        color: white;
+                        transition: 2s;
+                    }
+
+                }
+
+                .GitHub{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.5vw solid gray;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 2vw;
+                        color: gray;
+                    }
+
+                    img{
+                        height: 12vw;
+                        width: 12vw;
+                    }
+
+                }
+
+                .GitHub:hover{
+                    background-color: gray;
+                    border: 0.5vw solid white;
+                    transition: 2s;
+                    
+                    b{
+                        color: white;
+                        transition: 2s;
+                    }
+
+                }
+
+            }
+
+            .Tecnologías-Parte4{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .Microsoft-Word{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.5vw solid blue;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 2vw;
+                        color: blue;
+                    }
+
+                    img{
+                        height: 12vw;
+                        width: 12vw;
+                    }
+
+                }
+
+                .Microsoft-Word:hover{
+                    background-color: blue;
+                    border: 0.5vw solid white;
+                    transition: 2s;
+                    
+                    b{
+                        color: white;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Microsoft-Excel{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.5vw solid green;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 2vw;
+                        color: green;
+                    }
+
+                    img{
+                        height: 12vw;
+                        width: 12vw;
+                    }
+
+                }
+
+                .Microsoft-Excel:hover{
+                    background-color: green;
+                    border: 0.5vw solid white;
+                    transition: 2s;
+                    
+                    b{
+                        color: white;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Microsoft-PowerPoint{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.5vw solid orange;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 2vw;
+                        color: orange;
+                    }
+
+                    img{
+                        height: 12vw;
+                        width: 12vw;
+                    }
+
+                }
+
+                .Microsoft-PowerPoint:hover{
+                    background-color: orange;
+                    border: 0.5vw solid black;
+                    transition: 2s;
+                    
+                    b{
+                        color: black;
+                        transition: 2s;
+                    }
+
+                }
+
+                .Microsoft-Access{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: white;
+                    border: 0.5vw solid red;
+                    border-radius: 50vw;
+                    padding: 1.7vw;
+
+                    b{
+                        font-size: 2vw;
+                        color: red;
+                    }
+
+                    img{
+                        height: 12vw;
+                        width: 12vw;
+                    }
+
+                }
+
+                .Microsoft-Access:hover{
+                    background-color: red;
+                    border: 0.5vw solid white;
+                    transition: 2s;
+
+                    b{
+                        color: white;
+                        transition: 2s;
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+}

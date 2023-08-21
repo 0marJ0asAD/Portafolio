@@ -1,0 +1,238 @@
+/* Responsive Design */
+
+@media(max-width: 575px){
+
+    .Navegación{
+        display: none;
+    }
+
+}
+
+@media(min-width: 576px) and (max-width: 768px){
+
+    .Navegación{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .Listas-SobreMí{
+
+            li{
+                list-style: none;
+                padding: 1vw;
+            }
+
+            li:hover{
+                transform: scale(1.1);
+                transition: 2s;
+                cursor: pointer;
+            }
+
+            a{
+                font-size: 2.5vw;
+                color: white;
+                text-decoration: none;
+            }
+
+            a:hover{
+                color: aqua;
+                transition: 2s;
+            }
+
+        }
+
+        .Listas-Habilidades{
+
+            li{
+                list-style: none;
+                padding: 1vw;
+            }
+
+            li:hover{
+                transform: scale(1.1);
+                transition: 2s;
+                cursor: pointer;
+            }
+
+            a{
+                font-size: 2.5vw;
+                color: white;
+                text-decoration: none;
+            }
+
+            a:hover{
+                color: aqua;
+                transition: 2s;
+            }
+
+        }
+
+        .Listas-Proyectos{
+
+            li{
+                list-style: none;
+                padding: 1vw;
+            }
+
+            li:hover{
+                transform: scale(1.1);
+                transition: 2s;
+                cursor: pointer;
+            }
+
+            a{
+                font-size: 2.5vw;
+                color: white;
+                text-decoration: none;
+            }
+
+            a:hover{
+                color: aqua;
+                transition: 2s;
+            }
+
+        }
+
+        .Lista-Contacto{
+
+            li{
+                list-style: none;
+                padding: 1vw;
+            }
+
+            li:hover{
+                transform: scale(1.1);
+                transition: 2s;
+                cursor: pointer;
+            }
+
+            a{
+                font-size: 2.5vw;
+                color: white;
+                text-decoration: none;
+            }
+
+            a:hover{
+                color: aqua;
+                transition: 2s;
+            }
+
+        }
+
+    }
+
+}
+
+@media(min-width: 769px){
+
+    .Navegación{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .Listas-SobreMí{
+
+            li{
+                list-style: none;
+            }
+
+            li:hover{
+                transform: scale(1.2);
+                transition: 2s;
+                cursor: pointer;
+            }
+
+            a{
+                font-size: 2.5vw;
+                color: white;
+                text-decoration: none;
+            }
+
+            a:hover{
+                color: aqua;
+                transition: 2s;
+            }
+
+        }
+
+        .Listas-Habilidades{
+            margin-left: 2.5vw;
+
+            li{
+                list-style: none;
+            }
+
+            li:hover{
+                transform: scale(1.2);
+                transition: 2s;
+                cursor: pointer;
+            }
+
+            a{
+                font-size: 2.5vw;
+                color: white;
+                text-decoration: none;
+            }
+
+            a:hover{
+                color: aqua;
+                transition: 2s;
+            }
+
+        }
+
+        .Listas-Proyectos{
+            margin-left: 2.5vw;
+
+            li{
+                list-style: none;
+            }
+
+            li:hover{
+                transform: scale(1.2);
+                transition: 2s;
+                cursor: pointer;
+            }
+
+            a{
+                font-size: 2.5vw;
+                color: white;
+                text-decoration: none;
+            }
+
+            a:hover{
+                color: aqua;
+                transition: 2s;
+            }
+
+        }
+
+        .Lista-Contacto{
+            margin-left: 2.5vw;
+
+            li{
+                list-style: none;
+            }
+
+            li:hover{
+                transform: scale(1.2);
+                transition: 2s;
+                cursor: pointer;
+            }
+
+            a{
+                font-size: 2.5vw;
+                color: white;
+                text-decoration: none;
+            }
+
+            a:hover{
+                color: aqua;
+                transition: 2s;
+            }
+
+        }
+
+    }
+
+}
