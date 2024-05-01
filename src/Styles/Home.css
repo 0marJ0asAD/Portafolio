@@ -1,0 +1,84 @@
+:root{
+    --Color-Principal: #FFFFFF;
+    --Color-Secundario: #04B4E0;
+    --Color-BackGround: #F2F7F9;
+    --Color-Transparente: transparent;
+    --Color-Icono: #B5B6B7;
+    --Color-Texto: #555;
+    --Color-Titulos: #222222;
+    --Color-SubTitulo: #888;
+}
+
+/* ESTILOS GENERALES */
+
+@media(min-width: 970px){
+
+    /* Home Page - <main> */
+
+    #Home{
+        text-align: center;
+        background: var(--Color-Principal);
+        border-radius: 2rem;
+        padding: 9rem 2rem 9rem 2rem;
+        border: 3px solid var(--Color-Icono);
+    }
+
+    .Inicio .NombreCompleto-Home h1{
+        font-size: 32.5px;
+        color: var(--Color-Titulos);
+    }
+
+    .Inicio .Profesion-Home h2{
+        font-size: 22px;
+        color: var(--Color-SubTitulo);
+    }
+
+}
+
+@media(min-width: 510px) and (max-width: 969px){
+
+    /* Home Page - <main> */
+
+    #Home{
+        text-align: center;
+        background: var(--Color-Principal);
+        border: 2px solid var(--Color-Icono);
+        border-radius: 1.5rem;
+        padding: 3rem;
+    }
+
+    .Inicio .NombreCompleto-Home h1{
+        font-size: 25px;
+        color: var(--Color-Titulos);
+    }
+
+    .Inicio .Profesion-Home h2{
+        font-size: 17px;
+        color: var(--Color-SubTitulo);
+    }
+
+}
+
+@media(max-width: 509px){
+
+    /* Home Page - <main> */
+
+    #Home{
+        text-align: center;
+        background: var(--Color-Principal);
+        border: 2px solid var(--Color-Icono);
+        border-radius: 1.5rem;
+        padding: 2.5vw;
+    }
+
+    .Inicio .NombreCompleto-Home h1{
+        font-size: 5vw;
+        color: var(--Color-Titulos);
+    }
+
+    .Inicio .Profesion-Home h2{
+        font-size: 4vw;
+        color: var(--Color-SubTitulo);
+    }
+
+}

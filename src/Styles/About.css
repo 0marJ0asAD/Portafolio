@@ -1,0 +1,382 @@
+:root{
+    --Color-Principal: #FFFFFF;
+    --Color-Secundario: #04B4E0;
+    --Color-BackGround: #F2F7F9;
+    --Color-Transparente: transparent;
+    --Color-Icono: #B5B6B7;
+    --Color-Texto: #555;
+    --Color-Titulos: #222222;
+    --Color-SubTitulo: #888;
+}
+
+@media(min-width: 970px){
+
+    /* Sobre Mí (About) - <main> */
+
+    #About{
+        background: var(--Color-Principal);
+        height: 100%;
+        overflow: auto;
+        overflow-y: scroll;
+        min-height: 100%;
+        max-height: 367px;
+        max-width: 650px;
+        border-radius: 1.5rem;
+        border: 3px solid var(--Color-Icono);
+    }
+
+    .About__Title h1{
+        text-align: center;
+        font-size: 30px;
+        color: var(--Color-Titulos);
+    }
+
+    .About__Title .Color__Title{
+        color: var(--Color-Secundario);
+    }
+
+    .About__Description{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .About__Description .About__Description-MyDescription{
+        width: 50%;
+    }
+
+    .About__Description .About__Description-MyDescription em{
+        font-size: 15px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .About__Description .About__Description-MyInformation{
+        width: 50%;
+    }
+
+    .About__Description .About__Description-MyInformation{
+        display: flex;
+        justify-content: baseline;
+        align-items: baseline;
+        flex-direction: column;
+    }
+
+    .About__Description .About__Description-MyInformation .About__Description-MyOptions{
+        margin-top: 10px;
+        font-size: 17px;
+    }
+
+    .About__Description .About__Description-MyInformation .About__Description-MyOptions .Description__Title{
+        color: var(--Color-Secundario);
+    }
+
+    .About__Description .About__Description-MyInformation .About__Description-MyOptions .Description__SubTitle{
+        color: var(--Color-SubTitulo);
+    }
+
+    .About__Description .About__Description-MyInformation .About__Description-MyOptions .Description__SubTitle .Description__SubTitle-Enlaces a{
+        color: var(--Color-SubTitulo);
+    }
+
+    .About__Description .About__Description-MyInformation .About__Description-MyOptions .Description__SubTitle-Enlaces a:hover{
+        color: var(--Color-Secundario);
+        transition: 2s;
+    }
+
+    .WhatIDO__SubTitle{
+        margin-top: 10px;
+    }
+
+    .WhatIDO__SubTitle h2{
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .WhatIDO__SubTitle .Color__SubTitle{
+        color: var(--Color-Secundario);
+    }
+
+    .WhatIDO__Education{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .WhatIDO__Education .Education__WhatIDO .Education__Icon{
+        text-align: center;
+    }
+
+    .WhatIDO__Education .Education__WhatIDO .Education__Icon i{
+        font-size: 17px;
+        color: var(--Color-Secundario);
+    }
+
+    .WhatIDO__Education .Education__WhatIDO .Education__Title-And-Subtitle{
+        width: 100%;
+    }
+
+    .WhatIDO__Education .Education__WhatIDO .Education__Title-And-Subtitle h4 em{
+        text-align: center;
+        font-size: 15px;
+        color: var(--Color-Titulos);
+    }
+
+    .WhatIDO__Education .Education__WhatIDO .Education__Title-And-Subtitle h5{
+        font-size: 14px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .WhatIDO__Experience .Experience__WhatIDO .Experience__Icon{
+        text-align: center;
+    }
+
+    .WhatIDO__Experience .Experience__WhatIDO .Experience__Icon i{
+        font-size: 17px;
+        color: var(--Color-Secundario);
+    }
+
+    .WhatIDO__Experience .Experience__WhatIDO .Experience__Title-And-Subtitle{
+        width: 100%;
+    }
+
+    .WhatIDO__Experience .Experience__WhatIDO .Experience__Title-And-Subtitle h4 em{
+        text-align: center;
+        font-size: 15px;
+        color: var(--Color-Titulos);
+    }
+
+    .WhatIDO__Experience .Experience__WhatIDO .Experience__Title-And-Subtitle h5{
+        text-align: center;
+        font-size: 14px;
+        color: var(--Color-SubTitulo);
+    }
+
+}
+
+@media(min-width: 510px) and (max-width: 969px){
+
+    /* Sobre Mí (About) - <main> */
+
+    #About{
+        background: var(--Color-Principal);
+        height: 100%;
+        overflow: auto;
+        overflow-y: scroll;
+        min-height: 100%;
+        max-height: 202px;
+        max-width: 350px;
+        border-radius: 1.5rem;
+        border: 3px solid var(--Color-Icono);
+    }
+
+    .About__Title{
+        text-align: center;
+        font-size: 13px;
+        color: var(--Color-Titulos);
+    }
+
+    .About__Title .Color__Title{
+        color: var(--Color-Secundario);
+    }
+
+    .About__Description .About__Description-MyDescription{
+        text-align: left;
+    }
+
+    .About__Description .About__Description-MyDescription em{
+        font-size: 17px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .About__Description .About__Description-MyInformation{
+        text-align: left;
+    }
+
+    .About__Description .About__Description-MyInformation .About__Description-MyOptions{
+        margin-top: 10px;
+        font-size: 17px;
+    }
+
+    .About__Description .About__Description-MyInformation .About__Description-MyOptions .Description__Title{
+        color: var(--Color-Secundario);
+    }
+
+    .About__Description .About__Description-MyInformation .About__Description-MyOptions .Description__SubTitle{
+        color: var(--Color-SubTitulo);
+    }
+
+    .About__Description .About__Description-MyInformation .About__Description-MyOptions .Description__SubTitle-Enlaces a{
+        color: var(--Color-SubTitulo);
+    }
+
+    .About__Description .About__Description-MyInformation .About__Description-MyOptions .Description__SubTitle-Enlaces a:hover{
+        color: var(--Color-Secundario);
+        transition: 2s;
+    }
+
+    .WhatIDO__SubTitle{
+        margin-top: 10px;
+    }
+
+    .WhatIDO__SubTitle h2{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .WhatIDO__SubTitle .Color__SubTitle{
+        color: var(--Color-Secundario);
+    }
+
+    .WhatIDO__Education .Education__WhatIDO .Education__Icon{
+        text-align: center;
+    }
+
+    .WhatIDO__Education .Education__WhatIDO .Education__Icon i{
+        font-size: 17px;
+        color: var(--Color-Secundario);
+    }
+
+    .WhatIDO__Education .Education__WhatIDO .Education__Title-And-Subtitle h4 em{
+        text-align: center;
+        font-size: 13px;
+        color: var(--Color-Titulos);
+    }
+
+    .WhatIDO__Education .Education__WhatIDO .Education__Title-And-Subtitle h5{
+        text-align: center;
+        font-size: 12px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .WhatIDO__Experience .Experience__WhatIDO .Experience__Icon{
+        text-align: center;
+    }
+
+    .WhatIDO__Experience .Experience__WhatIDO .Experience__Icon i{
+        font-size: 17px;
+        color: var(--Color-Secundario);
+    }
+
+    .WhatIDO__Experience .Experience__WhatIDO .Experience__Title-And-Subtitle h4 em{
+        text-align: center;
+        font-size: 13px;
+        color: var(--Color-Titulos);
+    }
+
+    .WhatIDO__Experience .Experience__WhatIDO .Experience__Title-And-Subtitle h5{
+        text-align: center;
+        font-size: 12px;
+        color: var(--Color-SubTitulo);
+    }
+
+}
+
+@media(max-width: 509px){
+
+    /* Sobre Mí (About) - <main> */
+
+    #About{
+        background: var(--Color-Principal);
+        border-radius: 1.5rem;
+        border: 2px solid var(--Color-Icono);
+        overflow: auto;
+        overflow-y: scroll;
+        min-height: 200px;
+        min-width: 50px;
+    }
+
+    .SobreMi .About__Title{
+        text-align: center;
+    }
+
+    .SobreMi .About__Title h1{
+        font-size: 7vw;
+    }
+
+    .SobreMi .About__Title span{
+        color: var(--Color-Secundario);
+    }
+
+    .SobreMi .About__Description .About__Description-MyDescription em{
+        font-size: 6vw;
+        color: var(--Color-SubTitulo);
+    }
+
+    .About__Description-MyInformation .About__Description-MyOptions{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .About__Description-MyInformation .About__Description-MyOptions span{
+        font-size: 5vw;
+    }
+
+    .About__Description-MyInformation .About__Description-MyOptions .Description__Title{
+        color: var(--Color-Secundario);
+    }
+
+    .About__Description-MyInformation .About__Description-MyOptions .Description__SubTitle{
+        color: var(--Color-SubTitulo);
+    }
+
+    .About__Description-MyInformation .About__Description-MyOptions .Description__SubTitle-Enlaces{
+        color: var(--Color-SubTitulo);
+    }
+
+    .About__Description-MyInformation .About__Description-MyOptions a:hover{
+        color: var(--Color-Secundario);
+        transition: all 400ms ease-in-out;
+    }
+
+    .SobreMi .WhatIDO__SubTitle{
+        text-align: center;
+    }
+
+    .SobreMi .WhatIDO__SubTitle h2{
+        font-size: 6vw;
+    }
+
+    .SobreMi .WhatIDO__SubTitle span{
+        color: var(--Color-Secundario);
+    }
+
+    .WhatIDO__Education{
+        text-align: center;
+    }
+
+    .WhatIDO__Education .Education__WhatIDO .Education__Icon i{
+        font-size: 6vw;
+        color: var(--Color-Secundario);
+    }
+
+    .WhatIDO__Education .Education__WhatIDO .Education__Title-And-Subtitle h4 em{
+        font-size: 4vw;
+        color: var(--Color-Titulos);
+    }
+
+    .WhatIDO__Education .Education__WhatIDO .Education__Title-And-Subtitle h5{
+        font-size: 4vw;
+        color: var(--Color-SubTitulo);
+    }
+
+    .WhatIDO__Experience{
+        text-align: center;
+    }
+
+    .WhatIDO__Experience .Experience__WhatIDO .Experience__Icon i{
+        font-size: 6vw;
+        color: var(--Color-Secundario);
+    }
+
+    .WhatIDO__Experience .Experience__WhatIDO .Experience__Title-And-Subtitle h4 em{
+        font-size: 4vw;
+        color: var(--Color-Titulos);
+    }
+
+    .WhatIDO__Experience .Experience__WhatIDO .Experience__Title-And-Subtitle h5{
+        font-size: 4vw;
+        color: var(--Color-SubTitulo);
+    }
+
+}

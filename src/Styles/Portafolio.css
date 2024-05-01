@@ -1,0 +1,299 @@
+:root{
+    --Color-Principal: #FFFFFF;
+    --Color-Secundario: #04B4E0;
+    --Color-BackGround: #F2F7F9;
+    --Color-Transparente: transparent;
+    --Color-Icono: #B5B6B7;
+    --Color-Texto: #555;
+    --Color-Titulos: #222222;
+    --Color-SubTitulo: #888;
+}
+
+@media(min-width: 970px){
+
+    /* Briefcase (Portafolio) - <main> */
+
+    #Briefcase{
+        background: var(--Color-Principal);
+        height: 100%;
+        overflow: auto;
+        overflow-y: scroll;
+        min-height: 370px;
+        max-width: 663px;
+        border-radius: 1.5rem;
+        border: 3px solid var(--Color-Icono);
+    }
+
+    .Portafolio .Briefcase__Title{
+        text-align: center;
+    }
+    
+    .Portafolio .Briefcase__Title h1{
+        font-size: 30px;
+        color: var(--Color-Titulos);
+    }
+
+    .Portafolio .Briefcase__Images-Project{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .Briefcase__Images-Project .Briefcase__Image1-Project img{
+        height: 175px;
+        width: 175px;
+    }
+
+    .Briefcase__Images-Project .Briefcase__Image1-Project p{
+        font-size: 15px;
+        color: var(--Color-Icono);
+    }
+
+    .Briefcase__Images-Project .Briefcase__Image2-Project img{
+        height: 175px;
+        width: 175px;
+    }
+
+    .Briefcase__Images-Project .Briefcase__Image2-Project p{
+        font-size: 15px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Briefcase__Images-Project .Briefcase__Image3-Project img{
+        height: 175px;
+        width: 175px;
+    }
+
+    .Briefcase__Images-Project .Briefcase__Image3-Project p{
+        font-size: 15px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Briefcase__Images-Project .Briefcase__Image4-Project img{
+        height: 150px;
+        width: 150px;
+    }
+
+    .Briefcase__Images-Project .Briefcase__Image4-Project p{
+        font-size: 15px;
+        color: var(--Color-Icono);
+    }
+
+    .Briefcase__Images-Project .Briefcase__Image5-Project img{
+        height: 150px;
+        width: 150px;
+    }
+
+    .Briefcase__Images-Project .Briefcase__Image5-Project p{
+        font-size: 15px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Briefcase__Images-Project .Briefcase__Image6-Project img{
+        height: 150px;
+        width: 150px;
+    }
+
+    .Briefcase__Images-Project .Briefcase__Image6-Project p{
+        font-size: 15px;
+        color: var(--Color-SubTitulo);
+    }
+
+}
+
+@media(min-width: 510px) and (max-width: 969px){
+
+    /* Briefcase (Portafolio) - <main> */
+
+    #Briefcase{
+        background: var(--Color-Principal);
+        height: 100%;
+        overflow: auto;
+        overflow-y: scroll;
+        border-radius: 1.5rem;
+        border: 2px solid var(--Color-Icono);
+        min-height: 180px;
+        min-width: 350px;
+    }
+
+    .Portafolio .Briefcase__Title{
+        text-align: center;
+    }
+    
+    .Portafolio .Briefcase__Title h1{
+        font-size: 20px;
+        color: var(--Color-Titulos);
+    }
+
+    .Portafolio .Briefcase__Images-Project{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .Portafolio .Briefcase__Images-Project a{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Briefcase__Images-Project .Briefcase__Image1-Project p{
+        font-size: 12px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Briefcase__Images-Project .Briefcase__Image1-Project img{
+        height: 110px;
+        width: 110px;
+    }
+
+    .Briefcase__Images-Project .Briefcase__Image2-Project p{
+        font-size: 12px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Briefcase__Images-Project .Briefcase__Image2-Project img{
+        height: 110px;
+        width: 110px;
+    }
+
+    .Briefcase__Images-Project .Briefcase__Image3-Project p{
+        font-size: 12px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Briefcase__Images-Project .Briefcase__Image3-Project img{
+        height: 110px;
+        width: 110px;
+    }
+
+    .Briefcase__Images-Project .Briefcase__Image4-Project p{
+        font-size: 12px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Briefcase__Images-Project .Briefcase__Image4-Project img{
+        height: 110px;
+        width: 110px;
+    }
+
+    .Briefcase__Images-Project .Briefcase__Image5-Project p{
+        font-size: 12px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Briefcase__Images-Project .Briefcase__Image5-Project img{
+        height: 110px;
+        width: 110px;
+    }
+
+    .Briefcase__Images-Project .Briefcase__Image6-Project p{
+        font-size: 12px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Briefcase__Images-Project .Briefcase__Image6-Project img{
+        height: 110px;
+        width: 110px;
+    }
+
+}
+
+@media(max-width: 509px){
+
+    /* Briefcase (Portafolio) - <main> */
+
+    #Briefcase{
+        background-color: var(--Color-Principal);
+        overflow: auto;
+        overflow-y: scroll;
+        min-height: 100px;
+        min-width: 150px;
+        border-radius: 1.5rem;
+        border: 2px solid var(--Color-Icono);
+    }
+
+    .Portafolio .Briefcase__Title{
+        text-align: center;
+        margin-top: 2.5vw;
+    }
+
+    .Portafolio .Briefcase__Title h1{
+        font-size: 7vw;
+        color: var(--Color-Titulos);
+    }
+
+    .Briefcase__Images-Project{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Briefcase__Images-Project .Briefcase__Image1-Project a{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Briefcase__Images-Project .Briefcase__Image1-Project p{
+        font-size: 5vw;
+        color: var(--Color-Secundario);
+    }
+
+    .Briefcase__Images-Project .Briefcase__Image1-Project img{
+        height: 40vw;
+        width: 40vw;
+    }
+
+    .Briefcase__Images-Project .Briefcase__Image2-Project{
+        margin-top: 5vw;
+    }
+
+    .Briefcase__Images-Project .Briefcase__Image2-Project a{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Briefcase__Images-Project .Briefcase__Image2-Project p{
+        font-size: 4.5vw;
+        color: var(--Color-Secundario);
+    }
+
+    .Briefcase__Images-Project .Briefcase__Image2-Project img{
+        height: 40vw;
+        width: 40vw;
+    }
+
+    .Briefcase__Images-Project .Briefcase__Image3-Project{
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+
+    .Briefcase__Images-Project .Briefcase__Image3-Project a{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Briefcase__Images-Project .Briefcase__Image3-Project p{
+        font-size: 4.5vw;
+        color: var(--Color-Secundario);
+    }
+
+    .Briefcase__Images-Project .Briefcase__Image3-Project img{
+        height: 40vw;
+        width: 40vw;
+    }
+
+}

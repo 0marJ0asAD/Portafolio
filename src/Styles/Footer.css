@@ -1,0 +1,246 @@
+:root{
+    --Color-Principal: #FFFFFF;
+    --Color-Secundario: #04B4E0;
+    --Color-BackGround: rgba(214, 214, 214);
+    --Color-Transparente: transparent;
+    --Color-Icono: #B5B6B7;
+    --Color-Texto: #555;
+    --Color-Titulos: #222222;
+    --Color-SubTitulo: #888;
+}
+
+@media(min-width: 970px){
+
+    /* Barra Lateral (Pie de Página) - <aside> */
+
+    #Aside{
+        background: var(--Color-Principal);
+        padding: 1rem;
+        border-radius: 2rem;
+        margin-bottom: 11rem;
+        border: 3px solid var(--Color-Icono);
+    }
+
+    .Sections-Sitios{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Sections-Sitios .Inicio-SitioWeb{
+        margin-bottom: 0.5rem;
+    }
+
+    .Sections-Sitios .Inicio-SitioWeb i{
+        color: var(--Color-Icono);
+    }
+
+    .Sections-Sitios .Inicio-SitioWeb i:hover{
+        color: var(--Color-Secundario);
+        transition: 2s;
+    }
+
+    .Sections-Sitios .SobreMi-SitioWeb{
+        margin-bottom: 0.5rem;
+    }
+
+    .Sections-Sitios .SobreMi-SitioWeb i{
+        color: var(--Color-Icono);
+    }
+
+    .Sections-Sitios .SobreMi-SitioWeb i:hover{
+        color: var(--Color-Secundario);
+        transition: 2s;
+    }
+
+    .Sections-Sitios .Curriculum-SitioWeb{
+        margin-bottom: 0.5rem;
+    }
+
+    .Sections-Sitios .Curriculum-SitioWeb i{
+        color: var(--Color-Icono);
+    }
+
+    .Sections-Sitios .Curriculum-SitioWeb i:hover{
+        color: var(--Color-Secundario);
+        transition: 2s;
+    }
+
+    .Sections-Sitios .Portafolio-SitioWeb{
+        margin-bottom: 0.5rem;
+    }
+
+    .Sections-Sitios .Portafolio-SitioWeb i{
+        color: var(--Color-Icono);
+    }
+
+    .Sections-Sitios .Portafolio-SitioWeb i:hover{
+        color: var(--Color-Secundario);
+        transition: 2s;
+    }
+
+    .Sections-Sitios .Contacto-SitioWeb{
+        margin-bottom: 0.5rem;
+    }
+
+    .Sections-Sitios .Contacto-SitioWeb i{
+        color: var(--Color-Icono);
+    }
+
+    .Sections-Sitios .Contacto-SitioWeb i:hover{
+        color: var(--Color-Secundario);
+        transition: 2s;
+    }
+
+}
+
+@media(min-width: 510px) and (max-width: 969px){
+
+    /* Barra Lateral (Pie de Página) - <aside> */
+
+    #Aside{
+        background: var(--Color-Principal);
+        padding: 1rem;
+        border-radius: 4rem;
+        border: 2px solid var(--Color-Icono);
+    }
+
+    .Sections-Sitios{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Sections-Sitios .Inicio-SitioWeb i{
+        color: var(--Color-Icono);
+    }
+
+    .Sections-Sitios .Inicio-SitioWeb i:hover{
+        color: var(--Color-Secundario);
+        transition: 2s;
+    }
+
+    .Sections-Sitios .SobreMi-SitioWeb{
+        margin-left: 3.5rem;
+    }
+
+    .Sections-Sitios .SobreMi-SitioWeb i{
+        color: var(--Color-Icono);
+    }
+
+    .Sections-Sitios .SobreMi-SitioWeb i:hover{
+        color: var(--Color-Secundario);
+        transition: 2s;
+    }
+
+    .Sections-Sitios .Curriculum-SitioWeb{
+        margin-left: 3.5rem;
+    }
+
+    .Sections-Sitios .Curriculum-SitioWeb i{
+        color: var(--Color-Icono);
+    }
+
+    .Sections-Sitios .Curriculum-SitioWeb i:hover{
+        color: var(--Color-Secundario);
+        transition: 2s;
+    }
+
+    .Sections-Sitios .Portafolio-SitioWeb{
+        margin-left: 3.5rem;
+    }
+
+    .Sections-Sitios .Portafolio-SitioWeb i{
+        color: var(--Color-Icono);
+    }
+
+    .Sections-Sitios .Portafolio-SitioWeb i:hover{
+        color: var(--Color-Secundario);
+        transition: 2s;
+    }
+
+    .Sections-Sitios .Contacto-SitioWeb{
+        margin-left: 3.5rem;
+    }
+
+    .Sections-Sitios .Contacto-SitioWeb i{
+        color: var(--Color-Icono);
+    }
+
+    .Sections-Sitios .Contacto-SitioWeb i:hover{
+        color: var(--Color-Secundario);
+        transition: 2s;
+    }
+
+}
+
+@media(max-width: 509px){
+
+    /* Barra Lateral (Pie de Página) - <aside> */
+
+    #Aside{
+        background: var(--Color-Principal);
+        text-align: center;
+        border-radius: 4rem;
+        border: 2px solid var(--Color-Icono);
+    }
+
+    .Sections-Sitios{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2vw;
+    }
+
+    .Inicio-SitioWeb i{
+        font-size: 8vw;
+        color: var(--Color-Icono);
+    }
+
+    .Inicio-SitioWeb i:hover{
+        color: var(--Color-Secundario);
+        transition: 2s;
+    }
+
+    .SobreMi-SitioWeb i{
+        font-size: 8vw;
+        color: var(--Color-Icono);
+    }
+
+    .SobreMi-SitioWeb i:hover{
+        color: var(--Color-Secundario);
+        transition: 2s;
+    }
+
+    .Curriculum-SitioWeb i{
+        font-size: 8vw;
+        color: var(--Color-Icono);
+    }
+
+    .Curriculum-SitioWeb i:hover{
+        color: var(--Color-Secundario);
+        transition: 2s;
+    }
+
+    .Portafolio-SitioWeb i{
+        font-size: 8vw;
+        color: var(--Color-Icono);
+    }
+
+    .Portafolio-SitioWeb i:hover{
+        color: var(--Color-Secundario);
+        transition: 2s;
+    }
+
+    .Contacto-SitioWeb i{
+        font-size: 8vw;
+        color: var(--Color-Icono);
+    }
+
+    .Contacto-SitioWeb i:hover{
+        color: var(--Color-Secundario);
+        transition: 2s;
+    }
+
+}

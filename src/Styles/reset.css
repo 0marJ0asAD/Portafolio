@@ -1,0 +1,17 @@
+:root{
+  --Color-Principal: #FFFFFF;
+  --Color-Secundario: #04B4E0;
+  --Color-BackGround: rgba(214, 214, 214);
+  --Color-Transparente: transparent;
+  --Color-Icono: #B5B6B7;
+  --Color-Texto: #555;
+  --Color-Titulos: #222222;
+  --Color-SubTitulo: #888;
+}
+
+*{
+  margin: 0%;
+  padding: 0%;
+  vertical-align: auto;
+  font-family: "Poppins";
+}

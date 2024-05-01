@@ -1,0 +1,833 @@
+:root{
+    --Color-Principal: #FFFFFF;
+    --Color-Secundario: #04B4E0;
+    --Color-BackGround: #F2F7F9;
+    --Color-Transparente: transparent;
+    --Color-Icono: #B5B6B7;
+    --Color-Texto: #555;
+    --Color-Titulos: #222222;
+    --Color-SubTitulo: #888;
+}
+
+@media(min-width: 970px){
+
+    /* Curriculum - <main> */
+
+    #CurriculumVitae{
+        background: var(--Color-Principal);
+        height: 100%;
+        overflow: auto;
+        overflow-y: scroll;
+        min-height: 100%;
+        max-height: 367px;
+        max-width: 655px;
+        border-radius: 1.5rem;
+        border: 3px solid var(--Color-Icono);
+    }
+
+    .Curriculum .CurriculumVitae-Title h1{
+        text-align: center;
+        font-size: 30px;
+        color: var(--Color-Titulos);
+    }
+
+    .Formacion-Y-Habilidades .Formacion__Title h2{
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .Formacion-Y-Habilidades{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .Formacion-Y-Habilidades .Formación{
+        width: 60%;
+    }
+
+    .Formacion-Y-Habilidades .Habilidades{
+        text-align: center;
+        width: 40%;
+    }
+
+    .Habilidades .Habilidades__Title h2{
+        font-size: 20px;
+    }
+
+    .Habilidades .Habilidades__Title span{
+        color: var(--Color-Secundario);
+    }
+
+    .Habilidades__Content .Habilidades__HTML{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Habilidades__Content .Habilidades__HTML p{
+        font-size: 15px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Habilidades__Content .Habilidades__HTML i{
+        font-size: 20px;
+        color: var(--Color-Secundario);
+        margin-right: -1.3rem;
+    }
+
+    .Habilidades__Content .Habilidades__CSS{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Habilidades__Content .Habilidades__CSS p{
+        font-size: 15px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Habilidades__Content .Habilidades__CSS i{
+        font-size: 20px;
+        color: var(--Color-Secundario);
+        margin-right: -1.5rem;
+    }
+
+    .Habilidades__Content .Habilidades__JavaScript{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Habilidades__Content .Habilidades__JavaScript p{
+        font-size: 15px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Habilidades__Content .Habilidades__JavaScript i{
+        font-size: 20px;
+        color: var(--Color-Secundario);
+    }
+
+    .Habilidades__Content .Habilidades__Node{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Habilidades__Content .Habilidades__Node p{
+        font-size: 15px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Habilidades__Content .Habilidades__Node i{
+        font-size: 20px;
+        color: var(--Color-Secundario);
+        margin-right: -0.7rem;
+    }
+
+    .Habilidades__Content .Habilidades__React{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Habilidades__Content .Habilidades__React p{
+        font-size: 15px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Habilidades__Content .Habilidades__React i{
+        font-size: 20px;
+        color: var(--Color-Secundario);
+        margin-right: -1.1rem;
+    }
+
+    .Habilidades__Content .Habilidades__Angular{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Habilidades__Content .Habilidades__Angular p{
+        font-size: 15px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Habilidades__Content .Habilidades__Angular i{
+        font-size: 20px;
+        color: var(--Color-Secundario);
+        margin-right: -0.6rem;
+    }
+
+    .Habilidades__Content .Habilidades__PHP{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Habilidades__Content .Habilidades__PHP p{
+        font-size: 15px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Habilidades__Content .Habilidades__PHP i{
+        font-size: 20px;
+        color: var(--Color-Secundario);
+        margin-right: -1.7rem;
+    }
+
+    .Habilidades__Content .Habilidades__SQL{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Habilidades__Content .Habilidades__SQL p{
+        font-size: 15px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Habilidades__Content .Habilidades__SQL i{
+        font-size: 20px;
+        color: var(--Color-Secundario);
+        margin-right: -1.5rem;
+    }
+
+    .Habilidades__Content .Habilidades__Python{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Habilidades__Content .Habilidades__Python p{
+        font-size: 15px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Habilidades__Content .Habilidades__Python i{
+        font-size: 20px;
+        color: var(--Color-Secundario);
+        margin-right: -0.7rem;
+    }
+
+    .Formación .Formacion__Content{
+        display: flex;
+    }
+
+    .Formacion__Content .Formacion__Año{
+        text-align: right;
+    }
+
+    .Formacion__Content .Formacion__Año b{
+        font-size: 12px;
+        color: var(--Color-Texto);
+    }
+
+    .Formacion__Content .Formacion__Año p{
+        font-size: 15px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Formacion__Content .Formacion__Separador i{
+        font-size: 12px;
+        color: var(--Color-Secundario);
+    }
+
+    .Formacion__Content .Formacion__Descripcion{
+        text-align: left;
+    }
+
+    .Formacion__Content .Formacion__Descripcion b{
+        font-size: 12px;
+        color: var(--Color-Texto);
+    }
+
+    .Formacion__Content .Formacion__Descripcion p{
+        font-size: 15px;
+        color: var(--Color-SubTitulo);
+    }
+
+    #SegundaFormacion{
+        display: flex;
+    }
+
+    #Formacion__SegundoAño b{
+        font-size: 15px;
+        color: var(--Color-Texto);
+    }
+
+    #Formacion__SegundoAño p{
+        font-size: 15px;
+        color: var(--Color-SubTitulo);
+    }
+
+    #SegundaFormacion__Separador i{
+        font-size: 13.5px;
+        color: var(--Color-Secundario);
+    }
+
+    #SegundaFormacion__Descripcion b{
+        font-size: 15px;
+        color: var(--Color-Texto);
+    }
+
+    #SegundaFormacion__Descripcion p{
+        font-size: 15px;
+        color: var(--Color-SubTitulo);
+    }
+
+}
+
+@media(min-width: 510px) and (max-width: 969px){
+
+    /* Curriculum - <main> */
+
+    #CurriculumVitae{
+        background: var(--Color-Principal);
+        height: 100%;
+        overflow: auto;
+        overflow-y: scroll;
+        min-height: 100%;
+        max-height: 202px;
+        max-width: 350px;
+        border-radius: 1.5rem;
+        border: 2px solid var(--Color-Icono);
+    }
+
+    .Curriculum .CurriculumVitae-Title h1{
+        text-align: center;
+        font-size: 25px;
+        color: var(--Color-Titulos);
+    }
+
+    .Formacion-Y-Habilidades{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Formacion-Y-Habilidades .Formación .Formacion__Title{
+        text-align: center;
+    }
+
+    .Formacion-Y-Habilidades .Formación .Formacion__Title h2{
+        font-size: 20px;
+        color: var(--Color-Titulos);
+    }
+
+    .Formación .Formacion__Content{
+        display: flex;
+        justify-content: center;
+    }
+
+    .Formacion__Content .Formacion__Año{
+        text-align: right;
+    }
+
+    .Formacion__Content .Formacion__Año b{
+        font-size: 13px;
+        color: var(--Color-Texto);
+    }
+
+    .Formacion__Content .Formacion__Año p{
+        font-size: 16px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Formacion__Content .Formacion__Separador i{
+        font-size: 13px;
+        color: var(--Color-Secundario);
+    }
+
+    .Formacion__Content .Formacion__Descripcion b{
+        font-size: 13px;
+        color: var(--Color-Texto);
+    }
+
+    .Formacion__Content .Formacion__Descripcion p{
+        font-size: 16px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Formacion-Y-Habilidades .Habilidades .Habilidades__Title h2{
+        font-size: 20px;
+        color: var(--Color-Titulos);
+    }
+
+    .Formacion-Y-Habilidades .Habilidades .Habilidades__Title span{
+        color: var(--Color-Secundario);
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__HTML{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__HTML p{
+        font-size: 16px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__HTML i{
+        font-size: 16px;
+        color: var(--Color-Secundario);
+        margin-right: -1.5rem;
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__CSS{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__CSS p{
+        font-size: 16px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__CSS i{
+        font-size: 16px;
+        color: var(--Color-Secundario);
+        margin-right: -1.7rem;
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__JavaScript{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__JavaScript p{
+        font-size: 16px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__JavaScript i{
+        font-size: 16px;
+        color: var(--Color-Secundario);
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__Node{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__Node p{
+        font-size: 16px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__Node i{
+        font-size: 16px;
+        color: var(--Color-Secundario);
+        margin-right: -0.7rem;
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__React{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__React p{
+        font-size: 16px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__React i{
+        font-size: 16px;
+        color: var(--Color-Secundario);
+        margin-right: -1.2rem;
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__Angular{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__Angular p{
+        font-size: 16px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__Angular i{
+        font-size: 16px;
+        color: var(--Color-Secundario);
+        margin-right: -0.6rem;
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__PHP{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__PHP p{
+        font-size: 16px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__PHP i{
+        font-size: 16px;
+        color: var(--Color-Secundario);
+        margin-right: -1.7rem;
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__SQL{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__SQL p{
+        font-size: 16px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__SQL i{
+        font-size: 16px;
+        color: var(--Color-Secundario);
+        margin-right: -1.5rem;
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__Python{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__Python p{
+        font-size: 16px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__Python i{
+        font-size: 16px;
+        color: var(--Color-Secundario);
+        margin-right: -0.7rem;
+    }
+
+    #SegundaFormacion{
+        display: flex;
+        justify-content: center;
+    }
+
+    #Formacion__SegundoAño{
+        text-align: right;
+    }
+
+    #Formacion__SegundoAño b{
+        font-size: 13px;
+        color: var(--Color-Texto);
+    }
+
+    #Formacion__SegundoAño p{
+        font-size: 16px;
+        color: var(--Color-SubTitulo);
+    }
+
+    #SegundaFormacion__Separador i{
+        font-size: 13px;
+        color: var(--Color-Secundario);
+    }
+
+    #SegundaFormacion__Descripcion{
+        text-align: left;
+    }
+
+    #SegundaFormacion__Descripcion b{
+        font-size: 13px;
+        color: var(--Color-Texto);
+    }
+
+    #SegundaFormacion__Descripcion p{
+        font-size: 16px;
+        color: var(--Color-SubTitulo);
+    }
+
+}
+
+@media(max-width: 509px){
+
+    /* Curriculum - <main> */
+
+    #CurriculumVitae{
+        background: var(--Color-Principal);
+        min-width: 100px;
+        min-height: 100px;
+        overflow: auto;
+        overflow-y: scroll;
+        border-radius: 1.5rem;
+        border: 2px solid var(--Color-Icono);
+    }
+
+    .Curriculum .CurriculumVitae-Title{
+        text-align: center;
+        margin-top: 2.5vw;
+    }
+
+    .Curriculum .CurriculumVitae-Title h1{
+        font-size: 7vw;
+        color: var(--Color-Titulos);
+    }
+
+    .Formacion-Y-Habilidades{
+        text-align: center;
+    }
+
+    .Formacion-Y-Habilidades .Formación .Formacion__Title h2{
+        font-size: 6vw;
+        color: var(--Color-Titulos);
+    }
+
+    .Formacion-Y-Habilidades .Formación .Formacion__Content{
+        display: flex;
+        justify-content: center;
+    }
+
+    .Formacion-Y-Habilidades .Formación .Formacion__Content .Formacion__Año{
+        text-align: right;
+    }
+
+    .Formacion-Y-Habilidades .Formación .Formacion__Content .Formacion__Año b{
+        font-size: 4vw;
+        color: var(--Color-Titulos);
+    }
+
+    .Formacion-Y-Habilidades .Formación .Formacion__Content .Formacion__Año p{
+        font-size: 5vw;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Formacion-Y-Habilidades .Formación .Formacion__Content .Formacion__Separador{
+        text-align: center;
+    }
+
+    .Formacion-Y-Habilidades .Formación .Formacion__Content .Formacion__Separador i{
+        font-size: 5vw;
+        color: var(--Color-Secundario);
+    }
+
+    .Formacion-Y-Habilidades .Formación .Formacion__Content .Formacion__Descripcion{
+        text-align: left;
+    }
+
+    .Formacion-Y-Habilidades .Formación .Formacion__Content .Formacion__Descripcion b{
+        font-size: 4vw;
+        color: var(--Color-Titulos);
+    }
+
+    .Formacion-Y-Habilidades .Formación .Formacion__Content .Formacion__Descripcion p em{
+        font-size: 5vw;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Habilidades{
+        text-align: center;
+    }
+
+    .Habilidades .Habilidades__Title{
+        margin-top: 5vw;
+    }
+
+    .Habilidades .Habilidades__Title h2{
+        font-size: 6vw;
+    }
+
+    .Habilidades .Habilidades__Title span{
+        color: var(--Color-Secundario);
+    }
+
+    .Habilidades .Habilidades__Content{
+        text-align: center;
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__HTML{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__HTML p{
+        font-size: 6vw;
+        color: var(--Color-Titulos);
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__HTML i{
+        font-size: 6vw;
+        color: var(--Color-Secundario);
+        margin-right: -5vw;
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__CSS{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__CSS p{
+        font-size: 6vw;
+        color: var(--Color-Titulos);
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__CSS i{
+        font-size: 6vw;
+        color: var(--Color-Secundario);
+        margin-right: -6.5vw;
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__JavaScript{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__JavaScript p{
+        font-size: 6vw;
+        color: var(--Color-Titulos);
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__JavaScript i{
+        font-size: 6vw;
+        color: var(--Color-Secundario);
+        margin-right: 0vw;
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__Node{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__Node p{
+        font-size: 6vw;
+        color: var(--Color-Titulos);
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__Node i{
+        font-size: 6vw;
+        color: var(--Color-Secundario);
+        margin-right: -3.5vw;
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__React{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__React p{
+        font-size: 6vw;
+        color: var(--Color-Titulos);
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__React i{
+        font-size: 6vw;
+        color: var(--Color-Secundario);
+        margin-right: -5vw;
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__Angular{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__Angular p{
+        font-size: 6vw;
+        color: var(--Color-Titulos);
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__Angular i{
+        font-size: 6vw;
+        color: var(--Color-Secundario);
+        margin-right: -2.5vw;
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__PHP{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__PHP p{
+        font-size: 6vw;
+        color: var(--Color-Titulos);
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__PHP i{
+        font-size: 6vw;
+        color: var(--Color-Secundario);
+        margin-right: -6.5vw;
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__SQL{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__SQL p{
+        font-size: 6vw;
+        color: var(--Color-Titulos);
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__SQL i{
+        font-size: 6vw;
+        color: var(--Color-Secundario);
+        margin-right: -6.5vw;
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__Python{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__Python p{
+        font-size: 6vw;
+        color: var(--Color-Titulos);
+    }
+
+    .Habilidades .Habilidades__Content .Habilidades__Python i{
+        font-size: 6vw;
+        color: var(--Color-Secundario);
+        margin-right: -3vw;
+    }
+
+    .Formacion__Content{
+        display: flex;
+        justify-content: center;
+    }
+
+    .Formacion__Content .Formacion__Año b{
+        font-size: 5vw;
+        color: var(--Color-Titulos);
+    }
+
+    .Formacion__Content .Formacion__Año p{
+        font-size: 5vw;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Formacion__Content .Formacion__Separador i{
+        font-size: 5vw;
+        color: var(--Color-Secundario);
+    }
+
+    .Formacion__Content .Formacion__Descripcion b{
+        font-size: 5vw;
+        color: var(--Color-Titulos);
+    }
+
+    .Formacion__Content .Formacion__Descripcion p{
+        font-size: 5vw;
+        color: var(--Color-SubTitulo);
+    }
+
+}

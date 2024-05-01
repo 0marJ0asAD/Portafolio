@@ -1,0 +1,713 @@
+:root{
+    --Color-Principal: #FFFFFF;
+    --Color-Secundario: #04B4E0;
+    --Color-BackGround: #F2F7F9;
+    --Color-Transparente: transparent;
+    --Color-Icono: #B5B6B7;
+    --Color-Texto: #555;
+    --Color-Titulos: #222222;
+    --Color-SubTitulo: #888;
+}
+
+@media(min-width: 970px){
+
+    /* Contact (Contacto) - <main> */
+
+    #Contact{
+        background: var(--Color-Principal);
+        height: 100%;
+        overflow: auto;
+        overflow-y: scroll;
+        max-height: 365px;
+        max-width: 663px;
+        width: 100%;
+        border-radius: 1.5rem;
+        border: 3px solid var(--Color-Icono);
+    }
+
+    .Contact__Title{
+        text-align: center;
+    }
+
+    .Contact__Title h1{
+        font-size: 30px;
+        color: var(--Color-Titulos);
+    }
+
+    .Contact__Content{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Contact__Content .Contact__List{
+        text-align: center;
+        width: 35%;
+    }
+
+    .Contact__List .Contact__Location a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .Contact__List .Contact__Location a i{
+        color: var(--Color-Secundario);
+    }
+
+    .Contact__List .Contact__Location a p{
+        color: var(--Color-SubTitulo);
+    }
+
+    .Contact__List .Contact__Location a i p{
+        font-size: 15px;
+    }
+
+    .Contact__List .Contact__Telephone a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    
+    .Contact__List .Contact__Telephone a i{
+        color: var(--Color-Secundario);
+    }
+
+    .Contact__List .Contact__Telephone a p{
+        color: var(--Color-SubTitulo);
+    }
+
+    .Contact__List .Contact__Telephone a i p{
+        font-size: 15px;
+    }
+
+    .Contact__List .Contact__Mail a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .Contact__List .Contact__Mail a i{
+        color: var(--Color-Secundario);
+    }
+
+    .Contact__List .Contact__Mail a p{
+        color: var(--Color-SubTitulo);
+    }
+
+    .Contact__List .Contact__Mail a i p{
+        font-size: 15px;
+    }
+
+    .Contact__List .Contact__Developer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .Contact__List .Contact__Developer i{
+        color: var(--Color-Secundario);
+    }
+
+    .Contact__List .Contact__Developer p{
+        color: var(--Color-SubTitulo);
+    }
+
+    .Contact__List .Contact__Developer i p{
+        font-size: 15px;
+    }
+
+    .Map-And-Form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 65%;
+    }
+
+    .Map-And-Form .Contact__Map-GoogleMaps img{
+        height: 200px;
+        width: 350px;
+    }
+
+    .Map-And-Form .Contact__FormContact{
+        text-align: center;
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Help h3{
+        font-size: 15px;
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Help span{
+        color: var(--Color-Secundario);
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Name{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Name p{
+        color: var(--Color-Secundario);
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Name input{
+        margin-left: 15px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Name p input{
+        font-size: 15px;
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Email{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Email p{
+        color: var(--Color-Secundario);
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Email input{
+        margin-left: 25px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Email p input{
+        font-size: 15px;
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Asunt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Asunt P{
+        color: var(--Color-Secundario);
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Asunt textarea{
+        padding-right: 40px;
+        margin-left: 25px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Asunt p textarea{
+        font-size: 15px;
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Message{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Message p{
+        color: var(--Color-Secundario);
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Message textarea{
+        padding-right: 40px;
+        margin-left: 12px;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Message p textarea{
+        font-size: 15px;
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Send{
+        text-align: center;
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Send button{
+        padding: 7px;
+        color: var(--Color-Principal);
+        background: var(--Color-Secundario);
+        font-size: 15px;
+        border: 2px solid var(--Color-SubTitulo);
+        border-radius: 1.5rem;
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Send button:hover{
+        background: var(--Color-SubTitulo);
+        color: var(--Color-Principal);
+        border: 2px solid var(--Color-Secundario);
+        transition: all 400ms ease-in-out;
+        cursor: pointer;
+    }
+
+}
+
+@media(min-width: 510px) and (max-width: 969px){
+
+    /* Contact (Contacto) - <main> */
+
+    #Contact{
+        background: var(--Color-Principal);
+        height: 100%;
+        overflow: auto;
+        overflow-y: scroll;
+        max-height: 205px;
+        min-width: 350px;
+        border-radius: 1.5rem;
+        border: 2px solid var(--Color-Icono);
+    }
+
+    .Contact__Title{
+        text-align: center;
+    }
+
+    .Contact__Title h1{
+        font-size: 20px;
+        color: var(--Color-Titulos);
+    }
+
+    .Contact__Content{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Contact__Content .Contact__List{
+        text-align: center;
+    }
+
+    .Contact__List .Contact__Location a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .Contact__List .Contact__Location a i{
+        color: var(--Color-Secundario);
+    }
+
+    .Contact__List .Contact__Location a p{
+        color: var(--Color-SubTitulo);
+    }
+
+    .Contact__List .Contact__Location a i p{
+        font-size: 15px;
+    }
+
+    .Contact__List .Contact__Telephone a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .Contact__List .Contact__Telephone a i{
+        color: var(--Color-Secundario);
+    }
+
+    .Contact__List .Contact__Telephone a p{
+        color: var(--Color-SubTitulo);
+    }
+
+    .Contact__List .Contact__Telephone a i p{
+        font-size: 15px;
+    }
+
+    .Contact__List .Contact__Mail a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .Contact__List .Contact__Mail a i{
+        color: var(--Color-Secundario);
+    }
+
+    .Contact__List .Contact__Mail a p{
+        color: var(--Color-SubTitulo);
+    }
+
+    .Contact__List .Contact__Mail a i p{
+        font-size: 15px;
+    }
+
+    .Contact__List .Contact__Developer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .Contact__List .Contact__Developer i{
+        color: var(--Color-Secundario);
+    }
+
+    .Contact__List .Contact__Developer p{
+        color: var(--Color-SubTitulo);
+    }
+
+    .Contact__List .Contact__Developer i p{
+        font-size: 15px;
+    }
+
+    .Map-And-Form{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .Map-And-Form .Contact__Map-GoogleMaps img{
+        height: 100px;
+        width: 190px;
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Help h3{
+        font-size: 13px;
+        color: var(--Color-Titulos);
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Help span{
+        color: var(--Color-Secundario);
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Name{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Name P{
+        font-size: 13px;
+        color: var(--Color-Secundario);
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Name input{
+        font-size: 13px;
+        color: var(--Color-SubTitulo);
+        margin-left: 10px;
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Email{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Email p{
+        font-size: 13px;
+        color: var(--Color-Secundario);
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Email input{
+        font-size: 13px;
+        color: var(--Color-SubTitulo);
+        margin-left: 15px;
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Asunt{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Asunt p{
+        font-size: 13px;
+        color: var(--Color-Secundario);
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Asunt textarea{
+        font-size: 13px;
+        color: var(--Color-SubTitulo);
+        width: 72%;
+        margin-left: 15px;
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Message{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Message p{
+        font-size: 13px;
+        color: var(--Color-Secundario);
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Message textarea{
+        font-size: 13px;
+        color: var(--Color-SubTitulo);
+        width: 72%;
+        margin-left: 5px;
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Send{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Send button{
+        padding: 5px;
+        color: var(--Color-Principal);
+        background: var(--Color-Secundario);
+        border: 2px solid var(--Color-SubTitulo);
+        border-radius: 1.5rem;
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Send button:hover{
+        background: var(--Color-SubTitulo);
+        color: var(--Color-Principal);
+        border: 2px solid var(--Color-Secundario);
+        transition: all 400ms ease-in-out;
+        cursor: pointer;
+    }
+
+}
+
+@media(max-width: 509px){
+
+    /* Contact (Contacto) - <main> */
+
+    #Contact{
+        background: var(--Color-Principal);
+        border-radius: 1.5rem;
+        border: 2px solid var(--Color-Icono);
+        min-height: 100px;
+        min-width: 100px;
+        overflow: auto;
+        overflow-y: scroll;
+    }
+
+    .Contact__Title{
+        text-align: center;
+    }
+
+    .Contact__Title h1{
+        font-size: 6vw;
+        color: var(--Color-Titulos);
+    }
+
+    .Contact__Content .Contact__List{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .Contact__List .Contact__Location a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Contact__List .Contact__Location i{
+        font-size: 5vw;
+        color: var(--Color-Secundario);
+    }
+
+    .Contact__List .Contact__Location p{
+        font-size: 3.5vw;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Contact__List .Contact__Telephone{
+        margin-top: 10px;
+    }
+
+    .Contact__List .Contact__Telephone a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Contact__List .Contact__Telephone i{
+        font-size: 5vw;
+        color: var(--Color-Secundario);
+    }
+
+    .Contact__List .Contact__Telephone p{
+        font-size: 3.5vw;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Contact__List .Contact__Mail{
+        margin-top: 10px;
+    }
+
+    .Contact__List .Contact__Mail a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Contact__List .Contact__Mail i{
+        font-size: 5vw;
+        color: var(--Color-Secundario);
+    }
+
+    .Contact__List .Contact__Mail p{
+        font-size: 3.5vw;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Contact__List .Contact__Developer{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .Contact__List .Contact__Developer i{
+        font-size: 5vw;
+        color: var(--Color-Secundario);
+    }
+
+    .Contact__List .Contact__Developer p{
+        font-size: 3.5vw;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Contact__Content .Map-And-Form{
+        text-align: center;
+    }
+
+    .Contact__Content .Map-And-Form .Contact__Map-GoogleMaps{
+        margin-top: 10px;
+    }
+
+    .Contact__Content .Map-And-Form .Contact__Map-GoogleMaps img{
+        height: 35vw;
+        width: 55vw;
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Help h3{
+        font-size: 4vw;
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Help span{
+        color: var(--Color-Secundario);
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Name{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Name p{
+        font-size: 3.5vw;
+        color: var(--Color-Secundario);
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Name input{
+        font-size: 3.5vw;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Email{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Email p{
+        font-size: 3.5vw;
+        color: var(--Color-Secundario);
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Email input{
+        font-size: 3.5vw;
+        color: var(--Color-SubTitulo);
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Asunt {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Asunt p{
+        font-size: 3.5vw;
+        color: var(--Color-Secundario);
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Asunt textarea{
+        font-size: 3.5vw;
+        color: var(--Color-SubTitulo);
+        width: 43.5VW;
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Message {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Message p{
+        font-size: 3.5vw;
+        color: var(--Color-Secundario);
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Message textarea{
+        font-size: 3.5vw;
+        color: var(--Color-SubTitulo);
+        width: 43.5VW;
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Send{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Send button{
+        background: var(--Color-Secundario);
+        font-size: 3.5vw;
+        color: var(--Color-Principal);
+        padding: 5px;
+        border: 2px solid var(--Color-SubTitulo);
+        border-radius: 1.5rem;
+    }
+
+    .Map-And-Form .Contact__FormContact .Contact__Label-Send button:hover{
+        background: var(--Color-SubTitulo);
+        color: var(--Color-Principal);
+        border: 2px solid var(--Color-Secundario);
+        transition: all 400ms ease-in-out;
+        cursor: pointer;
+    }
+
+}

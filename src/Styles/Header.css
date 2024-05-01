@@ -1,0 +1,357 @@
+:root{
+    --Color-Principal: #FFFFFF;
+    --Color-Secundario: #04B4E0;
+    --Color-BackGround: #F2F7F9;
+    --Color-Transparente: transparent;
+    --Color-Icono: #B5B6B7;
+    --Color-Texto: #555;
+    --Color-Titulos: #222222;
+    --Color-SubTitulo: #888;
+}
+
+/* ESTILOS GENERALES */
+
+@media(min-width: 970px){
+
+    /* Encabezado - <header> */
+
+    #Header{
+        text-align: center;
+        background: var(--Color-Secundario);
+        border-radius: 1.5rem;
+        border: 3px solid var(--Color-Icono);
+        padding: 20px;
+    }
+
+    .Foto-De-Perfil{
+        margin-top: 10px;
+    }
+
+    .Foto-De-Perfil img{
+        height: 85px;
+        width: 85px;
+        border-radius: 4rem;
+        border: 3px solid white;
+    }
+
+    .NombreCompleto h2{
+        font-size: 20px;
+        color: var(--Color-Principal);
+    }
+
+    .Profesión{
+        margin-top: 7px;
+    }
+
+    .Profesión h4 em{
+        font-size: 15px;
+        color: var(--Color-Principal);
+    }
+
+    .Links-Social{
+        margin-top: 7px;
+    }
+
+    .Navegacion-LinksSocial{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Navegacion-LinksSocial .Option-LinksSocial a, i{
+        font-size: 17px;
+        color: var(--Color-Principal);
+    }
+
+    .Navegacion-LinksSocial .Option-LinksSocial #Correo-LinksSocial__Option:hover{
+        color: orange;
+        transition: 2s;
+    }
+
+    .Navegacion-LinksSocial .Option-LinksSocial #Teléfono-Social__Option:hover{
+        color: green;
+        transition: 2s;
+    }
+
+    .Navegacion-LinksSocial .Option-LinksSocial #WhatsApp-Social__Option:hover{
+        color: greenyellow;
+        transition: 2s;
+    }
+
+    .Navegacion-LinksSocial .Option-LinksSocial #TwitterX-Social__Option:hover{
+        color: blue;
+        transition: 2s;
+    }
+
+    .Navegacion-LinksSocial .Option-LinksSocial #GitHub-Social__Option:hover{
+        color: black;
+        transition: 2s;
+    }
+
+    .Navegacion-LinksSocial .Option-LinksSocial #LinkedIn-Social__Option:hover{
+        color: blue;
+        transition: 2s;
+    }
+
+    .Boton-DescargarCV{
+        margin-top: 1.5rem;
+    }
+
+    .Boton-DescargarCV button{
+        font-size: 15px;
+        color: var(--Color-Principal);
+        padding: 7px;
+        background: var(--Color-Secundario);
+        border: 3px solid var(--Color-Principal);
+        border-radius: 4rem;
+        box-shadow: 0 0 100px -5px rgba(0, 0, 0, 0.25);
+    }
+
+    .Boton-DescargarCV button:hover{
+        background: var(--Color-Principal);
+        color: var(--Color-Secundario);
+        border: 3px solid var(--Color-Secundario);
+        transition: 2s;
+        cursor: pointer;
+    }
+
+    .PieDePágina{
+        margin-top: 2.5rem;
+    }
+
+    .PieDePágina small{
+        font-size: 12px;
+        color: var(--Color-Principal);
+    }
+
+}
+
+@media(min-width: 510px) and (max-width: 969px){
+
+    /* Encabezado - <header> */
+
+    #Header{
+        text-align: center;
+        background: var(--Color-Secundario);
+        border-radius: 1.5rem;
+        border: 2px solid var(--Color-Icono);
+        padding: 3rem;
+    }
+
+    .Foto-De-Perfil{
+        margin-top: 10px;
+    }
+
+    .Foto-De-Perfil img{
+        height: 100px;
+        width: 100px;
+        border-radius: 4rem;
+        border: 2px solid var(--Color-Principal);
+    }
+
+    .NombreCompleto h2{
+        font-size: 25px;
+        color: var(--Color-Principal);
+    }
+
+    .Profesión{
+        margin-top: 7px;
+    }
+
+    .Profesión h4 em{
+        font-size: 17px;
+        color: var(--Color-Principal);
+    }
+
+    .Links-Social{
+        margin-top: 1.5rem;
+    }
+
+    .Links-Social .Navegacion-LinksSocial{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Navegacion-LinksSocial .Option-LinksSocial a, i{
+        font-size: 17px;
+        color: var(--Color-Principal);
+    }
+
+    .Navegacion-LinksSocial .Option-LinksSocial #Correo-LinksSocial__Option:hover{
+        color: orange;
+        transition: 2s;
+    }
+
+    .Navegacion-LinksSocial .Option-LinksSocial #Teléfono-Social__Option:hover{
+        color: green;
+        transition: 2s;
+    }
+
+    .Navegacion-LinksSocial .Option-LinksSocial #WhatsApp-Social__Option:hover{
+        color: greenyellow;
+        transition: 2s;
+    }
+
+    .Navegacion-LinksSocial .Option-LinksSocial #TwitterX-Social__Option:hover{
+        color: blue;
+        transition: 2s;
+    }
+
+    .Navegacion-LinksSocial .Option-LinksSocial #GitHub-Social__Option:hover{
+        color: black;
+        transition: 2s;
+    }
+
+    .Navegacion-LinksSocial .Option-LinksSocial #LinkedIn-Social__Option:hover{
+        color: blue;
+        transition: 2s;
+    }
+
+    .Boton-DescargarCV{
+        margin-top: 2rem;
+    }
+
+    .Boton-DescargarCV button{
+        font-size: 15px;
+        padding: 12px;
+        background: var(--Color-Secundario);
+        color: var(--Color-Principal);
+        border-radius: 4rem;
+        border: 2px solid var(--Color-Principal);
+    }
+
+    .Boton-DescargarCV button:hover{
+        background: var(--Color-Principal);
+        color: var(--Color-Secundario);
+        border: 2px solid var(--Color-Secundario);
+        cursor: pointer;
+        transition: 2s;
+    }
+
+    .PieDePágina{
+        margin-top: 3rem;
+    }
+
+    .PieDePágina small{
+        font-size: 15px;
+        color: var(--Color-Principal);
+    }
+
+}
+
+@media(max-width: 509px){
+
+    /* Encabezado - <header> */
+
+    #Header{
+        background: var(--Color-Secundario);
+        border-radius: 1.5rem;
+        border: 2px solid var(--Color-Icono);
+        width: 50.50%;
+        height: 100%;
+        position: fixed;
+        z-index: 2;
+    }
+
+    .Encabezado .Foto-De-Perfil{
+        margin-top: 1.5rem;
+    }
+
+    .Encabezado .Foto-De-Perfil img{
+        height: 25vw;
+        width: 25vw;
+        border-radius: 5rem;
+        border: 2px solid var(--Color-Principal);
+    }
+
+    .Encabezado .NombreCompleto h2{
+        font-size: 4vw;
+        color: var(--Color-Principal);
+    }
+
+    .Encabezado .Profesión{
+        margin-top: 0.5rem;
+    }
+
+    .Encabezado .Profesión h4 em{
+        font-size: 3vw;
+        color: var(--Color-Principal);
+    }
+
+    .Encabezado .Links-Social{
+        margin-top: 0.5rem;
+    }
+
+    .Encabezado .Links-Social .Navegacion-LinksSocial{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Encabezado .Links-Social .Navegacion-LinksSocial .Option-LinksSocial i{
+        font-size: 3vw;
+        color: var(--Color-Principal);
+    }
+
+    .Encabezado .Links-Social .Navegacion-LinksSocial .Option-LinksSocial #Correo-LinksSocial__Option:hover{
+        color: orange;
+        transition: 2s;
+    }
+
+    .Encabezado .Links-Social .Navegacion-LinksSocial .Option-LinksSocial #Teléfono-Social__Option:hover{
+        color: green;
+        transition: 2s;
+    }
+
+    .Encabezado .Links-Social .Navegacion-LinksSocial .Option-LinksSocial #WhatsApp-Social__Option:hover{
+        color: greenyellow;
+        transition: 2s;
+    }
+
+    .Encabezado .Links-Social .Navegacion-LinksSocial .Option-LinksSocial #TwitterX-Social__Option:hover{
+        color: blue;
+        transition: 2s;
+    }
+
+    .Encabezado .Links-Social .Navegacion-LinksSocial .Option-LinksSocial #GitHub-Social__Option:hover{
+        color: black;
+        transition: 2s;
+    }
+
+    .Encabezado .Links-Social .Navegacion-LinksSocial .Option-LinksSocial #LinkedIn-Social__Option:hover{
+        color: blue;
+        transition: 2s;
+    }
+
+    .Boton-DescargarCV{
+        margin-top: 0.5rem;
+    }
+
+    .Boton-DescargarCV button{
+        font-size: 3vw;
+        color: var(--Color-Principal);
+        border-radius: 4rem;
+        border: 2px solid var(--Color-Principal);
+        background: var(--Color-Secundario);
+        padding: 1vw;
+    }
+
+    .Boton-DescargarCV button:hover{
+        background: var(--Color-Principal);
+        color: var(--Color-Secundario);
+        border: 2px solid var(--Color-Secundario);
+        transition: 2s;
+        cursor: pointer;
+    }
+
+    .PieDePágina{
+        margin-top: 0.5rem;
+    }
+
+    .PieDePágina small{
+        font-size: 2.5vw;
+        color: var(--Color-Principal);
+    }
+
+}

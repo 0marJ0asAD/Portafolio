@@ -1,0 +1,16 @@
+:root{
+    --Color-Principal: #FFFFFF;
+    --Color-Secundario: #04B4E0;
+    --Color-BackGround: #F2F7F9;
+    --Color-Transparente: transparent;
+    --Color-Icono: #B5B6B7;
+    --Color-Texto: #555;
+    --Color-Titulos: #222222;
+    --Color-SubTitulo: #888;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: var(--Color-Titulos);
+}
+
+/* ESTILOS GENERALES */
